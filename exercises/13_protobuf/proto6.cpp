@@ -1,0 +1,19 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <algorithm>
+
+// Repeated Fields
+// Add repeated.
+// I AM NOT DONE
+
+void solve() {
+    // TODO: implementation
+    std::cout << "Exercise proto6 not implemented!" << std::endl;
+    // exit(1);
+}
+
+int main() {
+    solve();
+    return 0;
+}
