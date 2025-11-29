@@ -1,15 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <print>
 
-// Print
-// Use std::print.
+// Print - simpler output
+// Use std::print instead of std::cout
 
 int main() {
-    // TODO: Implement the Print feature
-    // Hint: Use std::print.
+    std::string name = "Alice";
+    int age = 30;
 
-    std::cout << "Exercise print: Implement Print" << std::endl;
+    // TODO: Use std::print instead of cout
+    std::cout << "Name: " << name << ", Age: " << age << std::endl;
+
+    // TODO: Use std::println for automatic newline
+    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }

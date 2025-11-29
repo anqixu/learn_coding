@@ -1,15 +1,19 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <concepts>
 
-// Concepts
-// Define a simple concept.
+// Concepts - constrain template parameters
+// Define a concept and use it
+
+// TODO: Define a concept that requires T to be integral
+template<typename T>
+void print_number(T value) {
+    std::cout << value << std::endl;
+}
 
 int main() {
-    // TODO: Implement the Concepts feature
-    // Hint: Define a simple concept.
+    print_number(42);        // Should work
+    print_number(3.14);      // Should work but maybe we want to prevent this?
+    // print_number("hello");  // Should not compile
 
-    std::cout << "Exercise concepts1: Implement Concepts" << std::endl;
     return 0;
 }

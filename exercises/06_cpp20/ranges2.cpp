@@ -1,15 +1,21 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
+#include <ranges>
 
-// Ranges2
-// Use views::transform.
+// Range Views - lazy transformations
+// Use views::transform and views::filter
 
 int main() {
-    // TODO: Implement the Ranges2 feature
-    // Hint: Use views::transform.
+    std::vector<int> vec = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    std::cout << "Exercise ranges2: Implement Ranges2" << std::endl;
+    // TODO: Use views to filter even numbers and double them
+    // Instead of manual loops
+    for (int v : vec) {
+        if (v % 2 == 0) {
+            std::cout << (v * 2) << " ";
+        }
+    }
+    std::cout << std::endl;
+
     return 0;
 }

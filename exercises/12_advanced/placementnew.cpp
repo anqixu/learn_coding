@@ -1,15 +1,23 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <new>
 
-// Placementnew
-// Construct at address.
+// Placement New - construct object at specific address
+// Use placement new to construct in pre-allocated memory
 
 int main() {
-    // TODO: Implement the Placementnew feature
-    // Hint: Construct at address.
+    // Pre-allocated buffer
+    alignas(int) char buffer[sizeof(int)];
 
-    std::cout << "Exercise placementnew: Implement Placementnew" << std::endl;
+    // TODO: Use placement new to construct int in buffer
+    // int* ptr = new (buffer) int(42);
+
+    int* ptr = reinterpret_cast<int*>(buffer);
+    *ptr = 42;  // Undefined behavior! No object constructed
+
+    std::cout << "Value: " << *ptr << std::endl;
+
+    // TODO: Manually call destructor
+    // ptr->~int();
+
     return 0;
 }

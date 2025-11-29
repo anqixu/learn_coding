@@ -1,15 +1,21 @@
 #include <iostream>
-#include <vector>
+#include <format>
 #include <string>
-#include <algorithm>
 
-// Format
-// Use std::format.
+// Format - type-safe string formatting
+// Use std::format instead of printf
 
 int main() {
-    // TODO: Implement the Format feature
-    // Hint: Use std::format.
+    std::string name = "Alice";
+    int age = 30;
 
-    std::cout << "Exercise format: Implement Format" << std::endl;
+    // TODO: Use std::format instead of manual concatenation
+    std::string message = "Name: " + name + ", Age: " + std::to_string(age);
+    std::cout << message << std::endl;
+
+    // TODO: Format with precision, padding, etc.
+    double pi = 3.14159265;
+    std::cout << "Pi: " << pi << std::endl;  // Use format for 2 decimal places
+
     return 0;
 }

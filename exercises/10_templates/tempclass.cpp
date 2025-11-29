@@ -1,15 +1,23 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Tempclass
-// Generic class.
+// Template Class - generic class
+// Create a simple container template
+
+// TODO: Make this a template class
+class Box {
+    int value;
+public:
+    Box(int v) : value(v) {}
+    int get() const { return value; }
+};
 
 int main() {
-    // TODO: Implement the Tempclass feature
-    // Hint: Generic class.
+    Box intBox(42);
+    std::cout << intBox.get() << std::endl;
 
-    std::cout << "Exercise tempclass: Implement Tempclass" << std::endl;
+    // TODO: Make this work with different types
+    // Box<double> doubleBox(3.14);
+    // Box<std::string> stringBox("hello");
+
     return 0;
 }

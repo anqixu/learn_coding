@@ -1,15 +1,33 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <typeinfo>
 
-// Rtti
-// dynamic_cast and typeid.
+// RTTI - Runtime Type Information
+// Use dynamic_cast and typeid
+
+class Base {
+public:
+    virtual ~Base() = default;
+    virtual void foo() { std::cout << "Base::foo" << std::endl; }
+};
+
+class Derived : public Base {
+public:
+    void foo() override { std::cout << "Derived::foo" << std::endl; }
+    void bar() { std::cout << "Derived::bar" << std::endl; }
+};
 
 int main() {
-    // TODO: Implement the Rtti feature
-    // Hint: dynamic_cast and typeid.
+    Base* ptr = new Derived();
 
-    std::cout << "Exercise rtti: Implement Rtti" << std::endl;
+    // TODO: Use dynamic_cast to safely downcast
+    // Derived* derived = ???;
+    // if (derived) {
+    //     derived->bar();
+    // }
+
+    // TODO: Use typeid to get type information
+    std::cout << "Type: " << typeid(*ptr).name() << std::endl;
+
+    delete ptr;
     return 0;
 }

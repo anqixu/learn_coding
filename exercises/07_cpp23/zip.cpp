@@ -1,15 +1,18 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
+#include <ranges>
 
-// Zip
-// std::views::zip.
+// Zip - iterate multiple ranges together
+// Use std::views::zip
 
 int main() {
-    // TODO: Implement the Zip feature
-    // Hint: std::views::zip.
+    std::vector<std::string> names = {"Alice", "Bob", "Charlie"};
+    std::vector<int> ages = {30, 25, 35};
 
-    std::cout << "Exercise zip: Implement Zip" << std::endl;
+    // TODO: Use views::zip instead of indexed loop
+    for (size_t i = 0; i < names.size(); ++i) {
+        std::cout << names[i] << ": " << ages[i] << std::endl;
+    }
+
     return 0;
 }

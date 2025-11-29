@@ -1,15 +1,22 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
+#include <string_view>
 
-// Stringview
-// Use std::string_view.
+// String View - non-owning string reference
+// Avoid unnecessary copies
+
+// TODO: Change parameter to std::string_view
+void print_string(const std::string& str) {
+    std::cout << str << std::endl;
+}
 
 int main() {
-    // TODO: Implement the Stringview feature
-    // Hint: Use std::string_view.
+    std::string s = "Hello, World!";
+    print_string(s);  // Creates copy!
 
-    std::cout << "Exercise stringview: Implement Stringview" << std::endl;
+    const char* cstr = "C-style string";
+    // TODO: This creates a temporary std::string - use string_view to avoid
+    print_string(cstr);
+
     return 0;
 }

@@ -1,15 +1,22 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <type_traits>
 
-// Constexpr If
-// Compile time branch.
+// Constexpr If - compile-time conditional
+// Use if constexpr for compile-time branching
+
+template<typename T>
+void process(T value) {
+    // TODO: Use if constexpr instead of runtime if
+    if (std::is_integral_v<T>) {
+        std::cout << "Processing integer: " << value << std::endl;
+    } else {
+        std::cout << "Processing other: " << value << std::endl;
+    }
+}
 
 int main() {
-    // TODO: Implement the Constexpr If feature
-    // Hint: Compile time branch.
+    process(42);
+    process(3.14);
 
-    std::cout << "Exercise constexpr_if: Implement Constexpr If" << std::endl;
     return 0;
 }

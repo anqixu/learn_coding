@@ -1,15 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <map>
 
-// Ifinit
-// If statement with initializer.
+// If with Initializer - declare variable in if statement
+// Limit variable scope
 
 int main() {
-    // TODO: Implement the Ifinit feature
-    // Hint: If statement with initializer.
+    std::map<std::string, int> ages = {{"Alice", 30}, {"Bob", 25}};
 
-    std::cout << "Exercise ifinit: Implement Ifinit" << std::endl;
+    // TODO: Move the iterator declaration into the if statement
+    auto it = ages.find("Alice");
+    if (it != ages.end()) {
+        std::cout << "Alice's age: " << it->second << std::endl;
+    }
+    // it is still in scope here - not ideal!
+
     return 0;
 }
