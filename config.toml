@@ -4,7 +4,7 @@
 name = "intro1"
 path = "exercises/01_intro/intro1.cpp"
 mode = "run"
-hint = "Make the code compile and run."
+hint = "Make the code compile and print Hello, World!"
 
 [[exercises]]
 name = "intro2"
@@ -59,667 +59,6 @@ name = "intro10"
 path = "exercises/01_intro/intro10.cpp"
 mode = "run"
 hint = "Use a reference to modify variable."
-
-[[exercises]]
-name = "vec1"
-path = "exercises/02_containers_algorithms/vec1.cpp"
-mode = "run"
-hint = "Create a vector and push elements."
-
-[[exercises]]
-name = "vec2"
-path = "exercises/02_containers_algorithms/vec2.cpp"
-mode = "run"
-hint = "Access elements."
-
-[[exercises]]
-name = "map1"
-path = "exercises/02_containers_algorithms/map1.cpp"
-mode = "run"
-hint = "Insert into map."
-
-[[exercises]]
-name = "set1"
-path = "exercises/02_containers_algorithms/set1.cpp"
-mode = "run"
-hint = "Insert into set."
-
-[[exercises]]
-name = "algo1"
-path = "exercises/02_containers_algorithms/algo1.cpp"
-mode = "run"
-hint = "Sort a vector."
-
-[[exercises]]
-name = "algo2"
-path = "exercises/02_containers_algorithms/algo2.cpp"
-mode = "run"
-hint = "Find an element."
-
-[[exercises]]
-name = "algo3"
-path = "exercises/02_containers_algorithms/algo3.cpp"
-mode = "run"
-hint = "Use std::transform."
-
-[[exercises]]
-name = "algo4"
-path = "exercises/02_containers_algorithms/algo4.cpp"
-mode = "run"
-hint = "Sum elements."
-
-[[exercises]]
-name = "iter1"
-path = "exercises/02_containers_algorithms/iter1.cpp"
-mode = "run"
-hint = "Use iterators."
-
-[[exercises]]
-name = "string1"
-path = "exercises/02_containers_algorithms/string1.cpp"
-mode = "run"
-hint = "Concat strings."
-
-[[exercises]]
-name = "auto1"
-path = "exercises/03_cpp11/auto1.cpp"
-mode = "run"
-hint = "Use auto."
-
-[[exercises]]
-name = "lambda1"
-path = "exercises/03_cpp11/lambda1.cpp"
-mode = "run"
-hint = "Create a lambda."
-
-[[exercises]]
-name = "smart1"
-path = "exercises/03_cpp11/smart1.cpp"
-mode = "run"
-hint = "Use std::unique_ptr."
-
-[[exercises]]
-name = "smart2"
-path = "exercises/03_cpp11/smart2.cpp"
-mode = "run"
-hint = "Use std::shared_ptr."
-
-[[exercises]]
-name = "move1"
-path = "exercises/03_cpp11/move1.cpp"
-mode = "run"
-hint = "Implement move constructor."
-
-[[exercises]]
-name = "enum1"
-path = "exercises/03_cpp11/enum1.cpp"
-mode = "run"
-hint = "Use enum class."
-
-[[exercises]]
-name = "nullptr1"
-path = "exercises/03_cpp11/nullptr1.cpp"
-mode = "run"
-hint = "Use nullptr."
-
-[[exercises]]
-name = "rangefor"
-path = "exercises/03_cpp11/rangefor.cpp"
-mode = "run"
-hint = "Iterate over collection."
-
-[[exercises]]
-name = "constexpr1"
-path = "exercises/03_cpp11/constexpr1.cpp"
-mode = "run"
-hint = "Make function constexpr."
-
-[[exercises]]
-name = "tuple1"
-path = "exercises/03_cpp11/tuple1.cpp"
-mode = "run"
-hint = "Create and unpack tuple."
-
-[[exercises]]
-name = "genlambda"
-path = "exercises/04_cpp14/genlambda.cpp"
-mode = "run"
-hint = "Use auto in lambda args."
-
-[[exercises]]
-name = "makeunique"
-path = "exercises/04_cpp14/makeunique.cpp"
-mode = "run"
-hint = "Use std::make_unique."
-
-[[exercises]]
-name = "deprecate"
-path = "exercises/04_cpp14/deprecate.cpp"
-mode = "run"
-hint = "Mark function deprecated."
-
-[[exercises]]
-name = "digitsep"
-path = "exercises/04_cpp14/digitsep.cpp"
-mode = "run"
-hint = "Use digit separators."
-
-[[exercises]]
-name = "binlit"
-path = "exercises/04_cpp14/binlit.cpp"
-mode = "run"
-hint = "Use binary literals."
-
-[[exercises]]
-name = "returntype"
-path = "exercises/04_cpp14/returntype.cpp"
-mode = "run"
-hint = "Function auto return."
-
-[[exercises]]
-name = "varemplate"
-path = "exercises/04_cpp14/varemplate.cpp"
-mode = "run"
-hint = "Create variable template."
-
-[[exercises]]
-name = "relaxconst"
-path = "exercises/04_cpp14/relaxconst.cpp"
-mode = "run"
-hint = "More complex constexpr."
-
-[[exercises]]
-name = "quoted"
-path = "exercises/04_cpp14/quoted.cpp"
-mode = "run"
-hint = "Use quoted IO."
-
-[[exercises]]
-name = "exchange"
-path = "exercises/04_cpp14/exchange.cpp"
-mode = "run"
-hint = "Use std::exchange."
-
-[[exercises]]
-name = "stringview"
-path = "exercises/05_cpp17/stringview.cpp"
-mode = "run"
-hint = "Use std::string_view."
-
-[[exercises]]
-name = "optional"
-path = "exercises/05_cpp17/optional.cpp"
-mode = "run"
-hint = "Use std::optional."
-
-[[exercises]]
-name = "variant"
-path = "exercises/05_cpp17/variant.cpp"
-mode = "run"
-hint = "Use std::variant."
-
-[[exercises]]
-name = "any"
-path = "exercises/05_cpp17/any.cpp"
-mode = "run"
-hint = "Use std::any."
-
-[[exercises]]
-name = "structbind"
-path = "exercises/05_cpp17/structbind.cpp"
-mode = "run"
-hint = "Unpack pair/tuple."
-
-[[exercises]]
-name = "ifinit"
-path = "exercises/05_cpp17/ifinit.cpp"
-mode = "run"
-hint = "If statement with initializer."
-
-[[exercises]]
-name = "fold"
-path = "exercises/05_cpp17/fold.cpp"
-mode = "run"
-hint = "Use fold expression."
-
-[[exercises]]
-name = "filesystem"
-path = "exercises/05_cpp17/filesystem.cpp"
-mode = "run"
-hint = "Check file existence."
-
-[[exercises]]
-name = "clamp"
-path = "exercises/05_cpp17/clamp.cpp"
-mode = "run"
-hint = "Clamp a value."
-
-[[exercises]]
-name = "nodiscard"
-path = "exercises/05_cpp17/nodiscard.cpp"
-mode = "run"
-hint = "Mark function nodiscard."
-
-[[exercises]]
-name = "concepts1"
-path = "exercises/06_cpp20/concepts1.cpp"
-mode = "run"
-hint = "Define a simple concept."
-
-[[exercises]]
-name = "requires"
-path = "exercises/06_cpp20/requires.cpp"
-mode = "run"
-hint = "Use requires."
-
-[[exercises]]
-name = "span"
-path = "exercises/06_cpp20/span.cpp"
-mode = "run"
-hint = "Use std::span."
-
-[[exercises]]
-name = "ranges1"
-path = "exercises/06_cpp20/ranges1.cpp"
-mode = "run"
-hint = "Use ranges::sort."
-
-[[exercises]]
-name = "ranges2"
-path = "exercises/06_cpp20/ranges2.cpp"
-mode = "run"
-hint = "Use views::transform."
-
-[[exercises]]
-name = "coroutines"
-path = "exercises/06_cpp20/coroutines.cpp"
-mode = "run"
-hint = "Basic coroutine handle."
-
-[[exercises]]
-name = "format"
-path = "exercises/06_cpp20/format.cpp"
-mode = "run"
-hint = "Use std::format."
-
-[[exercises]]
-name = "spaceship"
-path = "exercises/06_cpp20/spaceship.cpp"
-mode = "run"
-hint = "Implement <=>."
-
-[[exercises]]
-name = "consteval"
-path = "exercises/06_cpp20/consteval.cpp"
-mode = "run"
-hint = "Immediate function."
-
-[[exercises]]
-name = "jthread"
-path = "exercises/06_cpp20/jthread.cpp"
-mode = "run"
-hint = "Use std::jthread."
-
-[[exercises]]
-name = "expected"
-path = "exercises/07_cpp23/expected.cpp"
-mode = "run"
-hint = "Use std::expected."
-
-[[exercises]]
-name = "print"
-path = "exercises/07_cpp23/print.cpp"
-mode = "run"
-hint = "Use std::print."
-
-[[exercises]]
-name = "mdspan"
-path = "exercises/07_cpp23/mdspan.cpp"
-mode = "run"
-hint = "Use std::mdspan."
-
-[[exercises]]
-name = "unreachable"
-path = "exercises/07_cpp23/unreachable.cpp"
-mode = "run"
-hint = "Mark unreachable."
-
-[[exercises]]
-name = "deducethis"
-path = "exercises/07_cpp23/deducethis.cpp"
-mode = "run"
-hint = "Explicit object parameter."
-
-[[exercises]]
-name = "flatmap"
-path = "exercises/07_cpp23/flatmap.cpp"
-mode = "run"
-hint = "Use std::flat_map."
-
-[[exercises]]
-name = "moveonly"
-path = "exercises/07_cpp23/moveonly.cpp"
-mode = "run"
-hint = "std::move_only_function."
-
-[[exercises]]
-name = "byteswap"
-path = "exercises/07_cpp23/byteswap.cpp"
-mode = "run"
-hint = "std::byteswap."
-
-[[exercises]]
-name = "forward_like"
-path = "exercises/07_cpp23/forward_like.cpp"
-mode = "run"
-hint = "std::forward_like."
-
-[[exercises]]
-name = "zip"
-path = "exercises/07_cpp23/zip.cpp"
-mode = "run"
-hint = "std::views::zip."
-
-[[exercises]]
-name = "singleton"
-path = "exercises/08_design_patterns/singleton.cpp"
-mode = "run"
-hint = "Implement Singleton."
-
-[[exercises]]
-name = "factory"
-path = "exercises/08_design_patterns/factory.cpp"
-mode = "run"
-hint = "Implement Factory Method."
-
-[[exercises]]
-name = "observer"
-path = "exercises/08_design_patterns/observer.cpp"
-mode = "run"
-hint = "Implement Observer."
-
-[[exercises]]
-name = "strategy"
-path = "exercises/08_design_patterns/strategy.cpp"
-mode = "run"
-hint = "Implement Strategy."
-
-[[exercises]]
-name = "decorator"
-path = "exercises/08_design_patterns/decorator.cpp"
-mode = "run"
-hint = "Implement Decorator."
-
-[[exercises]]
-name = "adapter"
-path = "exercises/08_design_patterns/adapter.cpp"
-mode = "run"
-hint = "Implement Adapter."
-
-[[exercises]]
-name = "command"
-path = "exercises/08_design_patterns/command.cpp"
-mode = "run"
-hint = "Implement Command."
-
-[[exercises]]
-name = "composite"
-path = "exercises/08_design_patterns/composite.cpp"
-mode = "run"
-hint = "Implement Composite."
-
-[[exercises]]
-name = "proxy"
-path = "exercises/08_design_patterns/proxy.cpp"
-mode = "run"
-hint = "Implement Proxy."
-
-[[exercises]]
-name = "builder"
-path = "exercises/08_design_patterns/builder.cpp"
-mode = "run"
-hint = "Implement Builder."
-
-[[exercises]]
-name = "thread1"
-path = "exercises/09_threading/thread1.cpp"
-mode = "run"
-hint = "Start a thread."
-
-[[exercises]]
-name = "mutex1"
-path = "exercises/09_threading/mutex1.cpp"
-mode = "run"
-hint = "Protect shared data."
-
-[[exercises]]
-name = "lockguard"
-path = "exercises/09_threading/lockguard.cpp"
-mode = "run"
-hint = "Use std::lock_guard."
-
-[[exercises]]
-name = "condition"
-path = "exercises/09_threading/condition.cpp"
-mode = "run"
-hint = "Wait for condition."
-
-[[exercises]]
-name = "future"
-path = "exercises/09_threading/future.cpp"
-mode = "run"
-hint = "Use std::future."
-
-[[exercises]]
-name = "async"
-path = "exercises/09_threading/async.cpp"
-mode = "run"
-hint = "Use std::async."
-
-[[exercises]]
-name = "atomic"
-path = "exercises/09_threading/atomic.cpp"
-mode = "run"
-hint = "Use std::atomic."
-
-[[exercises]]
-name = "once"
-path = "exercises/09_threading/once.cpp"
-mode = "run"
-hint = "std::call_once."
-
-[[exercises]]
-name = "scopedlock"
-path = "exercises/09_threading/scopedlock.cpp"
-mode = "run"
-hint = "std::scoped_lock."
-
-[[exercises]]
-name = "barrier"
-path = "exercises/09_threading/barrier.cpp"
-mode = "run"
-hint = "Use std::barrier."
-
-[[exercises]]
-name = "tempfunc"
-path = "exercises/10_templates/tempfunc.cpp"
-mode = "run"
-hint = "Generic function."
-
-[[exercises]]
-name = "tempclass"
-path = "exercises/10_templates/tempclass.cpp"
-mode = "run"
-hint = "Generic class."
-
-[[exercises]]
-name = "specialization"
-path = "exercises/10_templates/specialization.cpp"
-mode = "run"
-hint = "Template specialization."
-
-[[exercises]]
-name = "partial"
-path = "exercises/10_templates/partial.cpp"
-mode = "run"
-hint = "Partial specialization."
-
-[[exercises]]
-name = "nontype"
-path = "exercises/10_templates/nontype.cpp"
-mode = "run"
-hint = "Int template param."
-
-[[exercises]]
-name = "variadic"
-path = "exercises/10_templates/variadic.cpp"
-mode = "run"
-hint = "Variadic args."
-
-[[exercises]]
-name = "alias"
-path = "exercises/10_templates/alias.cpp"
-mode = "run"
-hint = "Using template."
-
-[[exercises]]
-name = "default"
-path = "exercises/10_templates/default.cpp"
-mode = "run"
-hint = "Default template args."
-
-[[exercises]]
-name = "friend"
-path = "exercises/10_templates/friend.cpp"
-mode = "run"
-hint = "Friend declarations."
-
-[[exercises]]
-name = "member"
-path = "exercises/10_templates/member.cpp"
-mode = "run"
-hint = "Template inside class."
-
-[[exercises]]
-name = "typetraits"
-path = "exercises/11_metaprogramming/typetraits.cpp"
-mode = "run"
-hint = "Use std::is_same."
-
-[[exercises]]
-name = "enableif"
-path = "exercises/11_metaprogramming/enableif.cpp"
-mode = "run"
-hint = "SFINAE with enable_if."
-
-[[exercises]]
-name = "voidt"
-path = "exercises/11_metaprogramming/voidt.cpp"
-mode = "run"
-hint = "Detection idiom."
-
-[[exercises]]
-name = "conditional"
-path = "exercises/11_metaprogramming/conditional.cpp"
-mode = "run"
-hint = "std::conditional."
-
-[[exercises]]
-name = "integral"
-path = "exercises/11_metaprogramming/integral.cpp"
-mode = "run"
-hint = "std::integral_constant."
-
-[[exercises]]
-name = "crtp"
-path = "exercises/11_metaprogramming/crtp.cpp"
-mode = "run"
-hint = "Curiously Recurring Template Pattern."
-
-[[exercises]]
-name = "tagdispatch"
-path = "exercises/11_metaprogramming/tagdispatch.cpp"
-mode = "run"
-hint = "Dispatch based on tag."
-
-[[exercises]]
-name = "typeliest"
-path = "exercises/11_metaprogramming/typeliest.cpp"
-mode = "run"
-hint = "Simple type list."
-
-[[exercises]]
-name = "constexpr_if"
-path = "exercises/11_metaprogramming/constexpr_if.cpp"
-mode = "run"
-hint = "Compile time branch."
-
-[[exercises]]
-name = "concepts_meta"
-path = "exercises/11_metaprogramming/concepts_meta.cpp"
-mode = "run"
-hint = "Constraint based meta."
-
-[[exercises]]
-name = "placementnew"
-path = "exercises/12_advanced/placementnew.cpp"
-mode = "run"
-hint = "Construct at address."
-
-[[exercises]]
-name = "alignas"
-path = "exercises/12_advanced/alignas.cpp"
-mode = "run"
-hint = "Use alignas."
-
-[[exercises]]
-name = "bitfields"
-path = "exercises/12_advanced/bitfields.cpp"
-mode = "run"
-hint = "Use bit fields."
-
-[[exercises]]
-name = "union"
-path = "exercises/12_advanced/union.cpp"
-mode = "run"
-hint = "Use union."
-
-[[exercises]]
-name = "volatile"
-path = "exercises/12_advanced/volatile.cpp"
-mode = "run"
-hint = "Volatile keyword."
-
-[[exercises]]
-name = "asm"
-path = "exercises/12_advanced/asm.cpp"
-mode = "run"
-hint = "Basic asm block."
-
-[[exercises]]
-name = "attributes"
-path = "exercises/12_advanced/attributes.cpp"
-mode = "run"
-hint = "[[nodiscard]], [[maybe_unused]]."
-
-[[exercises]]
-name = "allocator"
-path = "exercises/12_advanced/allocator.cpp"
-mode = "run"
-hint = "Custom allocator basics."
-
-[[exercises]]
-name = "rtti"
-path = "exercises/12_advanced/rtti.cpp"
-mode = "run"
-hint = "dynamic_cast and typeid."
-
-[[exercises]]
-name = "exception"
-path = "exercises/12_advanced/exception.cpp"
-mode = "run"
-hint = "Custom exception."
-
 
 [[exercises]]
 name = "intro11"
@@ -782,6 +121,66 @@ mode = "run"
 hint = "Read argc/argv."
 
 [[exercises]]
+name = "vec1"
+path = "exercises/02_containers_algorithms/vec1.cpp"
+mode = "run"
+hint = "Create a vector and push elements."
+
+[[exercises]]
+name = "vec2"
+path = "exercises/02_containers_algorithms/vec2.cpp"
+mode = "run"
+hint = "Access elements."
+
+[[exercises]]
+name = "map1"
+path = "exercises/02_containers_algorithms/map1.cpp"
+mode = "run"
+hint = "Insert into map."
+
+[[exercises]]
+name = "set1"
+path = "exercises/02_containers_algorithms/set1.cpp"
+mode = "run"
+hint = "Insert into set."
+
+[[exercises]]
+name = "algo1"
+path = "exercises/02_containers_algorithms/algo1.cpp"
+mode = "run"
+hint = "Sort a vector."
+
+[[exercises]]
+name = "algo2"
+path = "exercises/02_containers_algorithms/algo2.cpp"
+mode = "run"
+hint = "Find an element."
+
+[[exercises]]
+name = "algo3"
+path = "exercises/02_containers_algorithms/algo3.cpp"
+mode = "run"
+hint = "Use std::transform."
+
+[[exercises]]
+name = "algo4"
+path = "exercises/02_containers_algorithms/algo4.cpp"
+mode = "run"
+hint = "Sum elements."
+
+[[exercises]]
+name = "iter1"
+path = "exercises/02_containers_algorithms/iter1.cpp"
+mode = "run"
+hint = "Use iterators."
+
+[[exercises]]
+name = "string1"
+path = "exercises/02_containers_algorithms/string1.cpp"
+mode = "run"
+hint = "Concat strings."
+
+[[exercises]]
 name = "deque1"
 path = "exercises/02_containers_algorithms/deque1.cpp"
 mode = "run"
@@ -842,10 +241,70 @@ mode = "run"
 hint = "Use std::unordered_set."
 
 [[exercises]]
+name = "auto1"
+path = "exercises/03_cpp11/auto1.cpp"
+mode = "run"
+hint = "Use auto."
+
+[[exercises]]
+name = "lambda1"
+path = "exercises/03_cpp11/lambda1.cpp"
+mode = "run"
+hint = "Create a lambda."
+
+[[exercises]]
+name = "smart1"
+path = "exercises/03_cpp11/smart1.cpp"
+mode = "run"
+hint = "Use std::unique_ptr."
+
+[[exercises]]
+name = "smart2"
+path = "exercises/03_cpp11/smart2.cpp"
+mode = "run"
+hint = "Use std::shared_ptr."
+
+[[exercises]]
+name = "move1"
+path = "exercises/03_cpp11/move1.cpp"
+mode = "run"
+hint = "Implement move constructor."
+
+[[exercises]]
+name = "enum1"
+path = "exercises/03_cpp11/enum1.cpp"
+mode = "run"
+hint = "Use enum class."
+
+[[exercises]]
+name = "nullptr1"
+path = "exercises/03_cpp11/nullptr1.cpp"
+mode = "run"
+hint = "Use nullptr."
+
+[[exercises]]
+name = "rangefor"
+path = "exercises/03_cpp11/rangefor.cpp"
+mode = "run"
+hint = "Iterate over collection."
+
+[[exercises]]
+name = "constexpr1"
+path = "exercises/03_cpp11/constexpr1.cpp"
+mode = "run"
+hint = "Make function constexpr."
+
+[[exercises]]
+name = "tuple1"
+path = "exercises/03_cpp11/tuple1.cpp"
+mode = "run"
+hint = "Create and unpack tuple."
+
+[[exercises]]
 name = "rawstr"
 path = "exercises/03_cpp11/rawstr.cpp"
 mode = "run"
-hint = "Use R\"(...)\"."
+hint = "Use raw string literals."
 
 [[exercises]]
 name = "u8str"
@@ -902,6 +361,66 @@ mode = "run"
 hint = "= default; = delete;"
 
 [[exercises]]
+name = "genlambda"
+path = "exercises/04_cpp14/genlambda.cpp"
+mode = "run"
+hint = "Use auto in lambda args."
+
+[[exercises]]
+name = "makeunique"
+path = "exercises/04_cpp14/makeunique.cpp"
+mode = "run"
+hint = "Use std::make_unique."
+
+[[exercises]]
+name = "deprecate"
+path = "exercises/04_cpp14/deprecate.cpp"
+mode = "run"
+hint = "Mark function deprecated."
+
+[[exercises]]
+name = "digitsep"
+path = "exercises/04_cpp14/digitsep.cpp"
+mode = "run"
+hint = "Use digit separators."
+
+[[exercises]]
+name = "binlit"
+path = "exercises/04_cpp14/binlit.cpp"
+mode = "run"
+hint = "Use binary literals."
+
+[[exercises]]
+name = "returntype"
+path = "exercises/04_cpp14/returntype.cpp"
+mode = "run"
+hint = "Function auto return."
+
+[[exercises]]
+name = "varemplate"
+path = "exercises/04_cpp14/varemplate.cpp"
+mode = "run"
+hint = "Create variable template."
+
+[[exercises]]
+name = "relaxconst"
+path = "exercises/04_cpp14/relaxconst.cpp"
+mode = "run"
+hint = "More complex constexpr."
+
+[[exercises]]
+name = "quoted"
+path = "exercises/04_cpp14/quoted.cpp"
+mode = "run"
+hint = "Use quoted IO."
+
+[[exercises]]
+name = "exchange"
+path = "exercises/04_cpp14/exchange.cpp"
+mode = "run"
+hint = "Use std::exchange."
+
+[[exercises]]
 name = "vartmpl_complex"
 path = "exercises/04_cpp14/vartmpl_complex.cpp"
 mode = "run"
@@ -923,7 +442,7 @@ hint = "Struct init."
 name = "udl"
 path = "exercises/04_cpp14/udl.cpp"
 mode = "run"
-hint = "operator\"\"_km."
+hint = "User-defined literals."
 
 [[exercises]]
 name = "shared_lock"
@@ -953,13 +472,73 @@ hint = "std::less<>."
 name = "deprecated_msg"
 path = "exercises/04_cpp14/deprecated_msg.cpp"
 mode = "run"
-hint = "[[deprecated(\"msg\")]]"
+hint = "Deprecated attribute with message."
 
 [[exercises]]
 name = "aligned_new"
 path = "exercises/04_cpp14/aligned_new.cpp"
 mode = "run"
 hint = "operator new w/ alignment."
+
+[[exercises]]
+name = "stringview"
+path = "exercises/05_cpp17/stringview.cpp"
+mode = "run"
+hint = "Use std::string_view."
+
+[[exercises]]
+name = "optional"
+path = "exercises/05_cpp17/optional.cpp"
+mode = "run"
+hint = "Use std::optional."
+
+[[exercises]]
+name = "variant"
+path = "exercises/05_cpp17/variant.cpp"
+mode = "run"
+hint = "Use std::variant."
+
+[[exercises]]
+name = "any"
+path = "exercises/05_cpp17/any.cpp"
+mode = "run"
+hint = "Use std::any."
+
+[[exercises]]
+name = "structbind"
+path = "exercises/05_cpp17/structbind.cpp"
+mode = "run"
+hint = "Unpack pair/tuple."
+
+[[exercises]]
+name = "ifinit"
+path = "exercises/05_cpp17/ifinit.cpp"
+mode = "run"
+hint = "If statement with initializer."
+
+[[exercises]]
+name = "fold"
+path = "exercises/05_cpp17/fold.cpp"
+mode = "run"
+hint = "Use fold expression."
+
+[[exercises]]
+name = "filesystem"
+path = "exercises/05_cpp17/filesystem.cpp"
+mode = "run"
+hint = "Check file existence."
+
+[[exercises]]
+name = "clamp"
+path = "exercises/05_cpp17/clamp.cpp"
+mode = "run"
+hint = "Clamp a value."
+
+[[exercises]]
+name = "nodiscard"
+path = "exercises/05_cpp17/nodiscard.cpp"
+mode = "run"
+hint = "Mark function nodiscard."
 
 [[exercises]]
 name = "inline_var"
@@ -1013,13 +592,73 @@ hint = "std::make_from_tuple."
 name = "string_view_literals"
 path = "exercises/05_cpp17/string_view_literals.cpp"
 mode = "run"
-hint = "\"sv\"sv"
+hint = "String view literals."
 
 [[exercises]]
 name = "gcd_lcm"
 path = "exercises/05_cpp17/gcd_lcm.cpp"
 mode = "run"
 hint = "std::numeric::gcd."
+
+[[exercises]]
+name = "concepts1"
+path = "exercises/06_cpp20/concepts1.cpp"
+mode = "run"
+hint = "Define a simple concept."
+
+[[exercises]]
+name = "requires"
+path = "exercises/06_cpp20/requires.cpp"
+mode = "run"
+hint = "Use requires."
+
+[[exercises]]
+name = "span"
+path = "exercises/06_cpp20/span.cpp"
+mode = "run"
+hint = "Use std::span."
+
+[[exercises]]
+name = "ranges1"
+path = "exercises/06_cpp20/ranges1.cpp"
+mode = "run"
+hint = "Use ranges::sort."
+
+[[exercises]]
+name = "ranges2"
+path = "exercises/06_cpp20/ranges2.cpp"
+mode = "run"
+hint = "Use views::transform."
+
+[[exercises]]
+name = "coroutines"
+path = "exercises/06_cpp20/coroutines.cpp"
+mode = "run"
+hint = "Basic coroutine handle."
+
+[[exercises]]
+name = "format"
+path = "exercises/06_cpp20/format.cpp"
+mode = "run"
+hint = "Use std::format."
+
+[[exercises]]
+name = "spaceship"
+path = "exercises/06_cpp20/spaceship.cpp"
+mode = "run"
+hint = "Implement <=>."
+
+[[exercises]]
+name = "consteval"
+path = "exercises/06_cpp20/consteval.cpp"
+mode = "run"
+hint = "Immediate function."
+
+[[exercises]]
+name = "jthread"
+path = "exercises/06_cpp20/jthread.cpp"
+mode = "run"
+hint = "Use std::jthread."
 
 [[exercises]]
 name = "constinit"
@@ -1082,6 +721,66 @@ mode = "run"
 hint = "std::numbers::pi."
 
 [[exercises]]
+name = "expected"
+path = "exercises/07_cpp23/expected.cpp"
+mode = "run"
+hint = "Use std::expected."
+
+[[exercises]]
+name = "print"
+path = "exercises/07_cpp23/print.cpp"
+mode = "run"
+hint = "Use std::print."
+
+[[exercises]]
+name = "mdspan"
+path = "exercises/07_cpp23/mdspan.cpp"
+mode = "run"
+hint = "Use std::mdspan."
+
+[[exercises]]
+name = "unreachable"
+path = "exercises/07_cpp23/unreachable.cpp"
+mode = "run"
+hint = "Mark unreachable."
+
+[[exercises]]
+name = "deducethis"
+path = "exercises/07_cpp23/deducethis.cpp"
+mode = "run"
+hint = "Explicit object parameter."
+
+[[exercises]]
+name = "flatmap"
+path = "exercises/07_cpp23/flatmap.cpp"
+mode = "run"
+hint = "Use std::flat_map."
+
+[[exercises]]
+name = "moveonly"
+path = "exercises/07_cpp23/moveonly.cpp"
+mode = "run"
+hint = "std::move_only_function."
+
+[[exercises]]
+name = "byteswap"
+path = "exercises/07_cpp23/byteswap.cpp"
+mode = "run"
+hint = "std::byteswap."
+
+[[exercises]]
+name = "forward_like"
+path = "exercises/07_cpp23/forward_like.cpp"
+mode = "run"
+hint = "std::forward_like."
+
+[[exercises]]
+name = "zip"
+path = "exercises/07_cpp23/zip.cpp"
+mode = "run"
+hint = "std::views::zip."
+
+[[exercises]]
 name = "stacktrace"
 path = "exercises/07_cpp23/stacktrace.cpp"
 mode = "run"
@@ -1140,6 +839,66 @@ name = "join_with"
 path = "exercises/07_cpp23/join_with.cpp"
 mode = "run"
 hint = "views::join_with."
+
+[[exercises]]
+name = "singleton"
+path = "exercises/08_design_patterns/singleton.cpp"
+mode = "run"
+hint = "Implement Singleton."
+
+[[exercises]]
+name = "factory"
+path = "exercises/08_design_patterns/factory.cpp"
+mode = "run"
+hint = "Implement Factory Method."
+
+[[exercises]]
+name = "observer"
+path = "exercises/08_design_patterns/observer.cpp"
+mode = "run"
+hint = "Implement Observer."
+
+[[exercises]]
+name = "strategy"
+path = "exercises/08_design_patterns/strategy.cpp"
+mode = "run"
+hint = "Implement Strategy."
+
+[[exercises]]
+name = "decorator"
+path = "exercises/08_design_patterns/decorator.cpp"
+mode = "run"
+hint = "Implement Decorator."
+
+[[exercises]]
+name = "adapter"
+path = "exercises/08_design_patterns/adapter.cpp"
+mode = "run"
+hint = "Implement Adapter."
+
+[[exercises]]
+name = "command"
+path = "exercises/08_design_patterns/command.cpp"
+mode = "run"
+hint = "Implement Command."
+
+[[exercises]]
+name = "composite"
+path = "exercises/08_design_patterns/composite.cpp"
+mode = "run"
+hint = "Implement Composite."
+
+[[exercises]]
+name = "proxy"
+path = "exercises/08_design_patterns/proxy.cpp"
+mode = "run"
+hint = "Implement Proxy."
+
+[[exercises]]
+name = "builder"
+path = "exercises/08_design_patterns/builder.cpp"
+mode = "run"
+hint = "Implement Builder."
 
 [[exercises]]
 name = "facade"
@@ -1202,6 +961,66 @@ mode = "run"
 hint = "Implement Interpreter."
 
 [[exercises]]
+name = "thread1"
+path = "exercises/09_threading/thread1.cpp"
+mode = "run"
+hint = "Start a thread."
+
+[[exercises]]
+name = "mutex1"
+path = "exercises/09_threading/mutex1.cpp"
+mode = "run"
+hint = "Protect shared data."
+
+[[exercises]]
+name = "lockguard"
+path = "exercises/09_threading/lockguard.cpp"
+mode = "run"
+hint = "Use std::lock_guard."
+
+[[exercises]]
+name = "condition"
+path = "exercises/09_threading/condition.cpp"
+mode = "run"
+hint = "Wait for condition."
+
+[[exercises]]
+name = "future"
+path = "exercises/09_threading/future.cpp"
+mode = "run"
+hint = "Use std::future."
+
+[[exercises]]
+name = "async"
+path = "exercises/09_threading/async.cpp"
+mode = "run"
+hint = "Use std::async."
+
+[[exercises]]
+name = "atomic"
+path = "exercises/09_threading/atomic.cpp"
+mode = "run"
+hint = "Use std::atomic."
+
+[[exercises]]
+name = "once"
+path = "exercises/09_threading/once.cpp"
+mode = "run"
+hint = "std::call_once."
+
+[[exercises]]
+name = "scopedlock"
+path = "exercises/09_threading/scopedlock.cpp"
+mode = "run"
+hint = "std::scoped_lock."
+
+[[exercises]]
+name = "barrier"
+path = "exercises/09_threading/barrier.cpp"
+mode = "run"
+hint = "Use std::barrier."
+
+[[exercises]]
 name = "semaphore"
 path = "exercises/09_threading/semaphore.cpp"
 mode = "run"
@@ -1260,6 +1079,66 @@ name = "recursive_mutex"
 path = "exercises/09_threading/recursive_mutex.cpp"
 mode = "run"
 hint = "std::recursive_mutex."
+
+[[exercises]]
+name = "tempfunc"
+path = "exercises/10_templates/tempfunc.cpp"
+mode = "run"
+hint = "Generic function."
+
+[[exercises]]
+name = "tempclass"
+path = "exercises/10_templates/tempclass.cpp"
+mode = "run"
+hint = "Generic class."
+
+[[exercises]]
+name = "specialization"
+path = "exercises/10_templates/specialization.cpp"
+mode = "run"
+hint = "Template specialization."
+
+[[exercises]]
+name = "partial"
+path = "exercises/10_templates/partial.cpp"
+mode = "run"
+hint = "Partial specialization."
+
+[[exercises]]
+name = "nontype"
+path = "exercises/10_templates/nontype.cpp"
+mode = "run"
+hint = "Int template param."
+
+[[exercises]]
+name = "variadic"
+path = "exercises/10_templates/variadic.cpp"
+mode = "run"
+hint = "Variadic args."
+
+[[exercises]]
+name = "alias"
+path = "exercises/10_templates/alias.cpp"
+mode = "run"
+hint = "Using template."
+
+[[exercises]]
+name = "default"
+path = "exercises/10_templates/default.cpp"
+mode = "run"
+hint = "Default template args."
+
+[[exercises]]
+name = "friend"
+path = "exercises/10_templates/friend.cpp"
+mode = "run"
+hint = "Friend declarations."
+
+[[exercises]]
+name = "member"
+path = "exercises/10_templates/member.cpp"
+mode = "run"
+hint = "Template inside class."
 
 [[exercises]]
 name = "fold_unary"
@@ -1322,6 +1201,66 @@ mode = "run"
 hint = "requires clause."
 
 [[exercises]]
+name = "typetraits"
+path = "exercises/11_metaprogramming/typetraits.cpp"
+mode = "run"
+hint = "Use std::is_same."
+
+[[exercises]]
+name = "enableif"
+path = "exercises/11_metaprogramming/enableif.cpp"
+mode = "run"
+hint = "SFINAE with enable_if."
+
+[[exercises]]
+name = "voidt"
+path = "exercises/11_metaprogramming/voidt.cpp"
+mode = "run"
+hint = "Detection idiom."
+
+[[exercises]]
+name = "conditional"
+path = "exercises/11_metaprogramming/conditional.cpp"
+mode = "run"
+hint = "std::conditional."
+
+[[exercises]]
+name = "integral"
+path = "exercises/11_metaprogramming/integral.cpp"
+mode = "run"
+hint = "std::integral_constant."
+
+[[exercises]]
+name = "crtp"
+path = "exercises/11_metaprogramming/crtp.cpp"
+mode = "run"
+hint = "Curiously Recurring Template Pattern."
+
+[[exercises]]
+name = "tagdispatch"
+path = "exercises/11_metaprogramming/tagdispatch.cpp"
+mode = "run"
+hint = "Dispatch based on tag."
+
+[[exercises]]
+name = "typeliest"
+path = "exercises/11_metaprogramming/typeliest.cpp"
+mode = "run"
+hint = "Simple type list."
+
+[[exercises]]
+name = "constexpr_if"
+path = "exercises/11_metaprogramming/constexpr_if.cpp"
+mode = "run"
+hint = "Compile time branch."
+
+[[exercises]]
+name = "concepts_meta"
+path = "exercises/11_metaprogramming/concepts_meta.cpp"
+mode = "run"
+hint = "Constraint based meta."
+
+[[exercises]]
 name = "typelist_ops"
 path = "exercises/11_metaprogramming/typelist_ops.cpp"
 mode = "run"
@@ -1380,6 +1319,66 @@ name = "is_detected"
 path = "exercises/11_metaprogramming/is_detected.cpp"
 mode = "run"
 hint = "Detection idiom."
+
+[[exercises]]
+name = "placementnew"
+path = "exercises/12_advanced/placementnew.cpp"
+mode = "run"
+hint = "Construct at address."
+
+[[exercises]]
+name = "alignas"
+path = "exercises/12_advanced/alignas.cpp"
+mode = "run"
+hint = "Use alignas."
+
+[[exercises]]
+name = "bitfields"
+path = "exercises/12_advanced/bitfields.cpp"
+mode = "run"
+hint = "Use bit fields."
+
+[[exercises]]
+name = "union"
+path = "exercises/12_advanced/union.cpp"
+mode = "run"
+hint = "Use union."
+
+[[exercises]]
+name = "volatile"
+path = "exercises/12_advanced/volatile.cpp"
+mode = "run"
+hint = "Volatile keyword."
+
+[[exercises]]
+name = "asm"
+path = "exercises/12_advanced/asm.cpp"
+mode = "run"
+hint = "Basic asm block."
+
+[[exercises]]
+name = "attributes"
+path = "exercises/12_advanced/attributes.cpp"
+mode = "run"
+hint = "[[nodiscard]], [[maybe_unused]]."
+
+[[exercises]]
+name = "allocator"
+path = "exercises/12_advanced/allocator.cpp"
+mode = "run"
+hint = "Custom allocator basics."
+
+[[exercises]]
+name = "rtti"
+path = "exercises/12_advanced/rtti.cpp"
+mode = "run"
+hint = "dynamic_cast and typeid."
+
+[[exercises]]
+name = "exception"
+path = "exercises/12_advanced/exception.cpp"
+mode = "run"
+hint = "Custom exception."
 
 [[exercises]]
 name = "pmr"
@@ -1446,62 +1445,6 @@ name = "proto1"
 path = "exercises/13_protobuf/proto1.cpp"
 mode = "run"
 hint = "Define message."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto2"
-path = "exercises/13_protobuf/proto2.cpp"
-mode = "run"
-hint = "Compile .proto."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto3"
-path = "exercises/13_protobuf/proto3.cpp"
-mode = "run"
-hint = "SerializeToString."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto4"
-path = "exercises/13_protobuf/proto4.cpp"
-mode = "run"
-hint = "ParseFromString."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto5"
-path = "exercises/13_protobuf/proto5.cpp"
-mode = "run"
-hint = "Check initialized."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto6"
-path = "exercises/13_protobuf/proto6.cpp"
-mode = "run"
-hint = "Add repeated."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto7"
-path = "exercises/13_protobuf/proto7.cpp"
-mode = "run"
-hint = "Map field."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto8"
-path = "exercises/13_protobuf/proto8.cpp"
-mode = "run"
-hint = "Oneof field."
-libs = ['-lprotobuf']
-
-[[exercises]]
-name = "proto9"
-path = "exercises/13_protobuf/proto9.cpp"
-mode = "run"
-hint = "Enum field."
 libs = ['-lprotobuf']
 
 [[exercises]]
@@ -1575,6 +1518,13 @@ hint = "JsonToBinary."
 libs = ['-lprotobuf']
 
 [[exercises]]
+name = "proto2"
+path = "exercises/13_protobuf/proto2.cpp"
+mode = "run"
+hint = "Compile .proto."
+libs = ['-lprotobuf']
+
+[[exercises]]
 name = "proto20"
 path = "exercises/13_protobuf/proto20.cpp"
 mode = "run"
@@ -1582,66 +1532,59 @@ hint = "Use reflection."
 libs = ['-lprotobuf']
 
 [[exercises]]
+name = "proto3"
+path = "exercises/13_protobuf/proto3.cpp"
+mode = "run"
+hint = "SerializeToString."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto4"
+path = "exercises/13_protobuf/proto4.cpp"
+mode = "run"
+hint = "ParseFromString."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto5"
+path = "exercises/13_protobuf/proto5.cpp"
+mode = "run"
+hint = "Check initialized."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto6"
+path = "exercises/13_protobuf/proto6.cpp"
+mode = "run"
+hint = "Add repeated."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto7"
+path = "exercises/13_protobuf/proto7.cpp"
+mode = "run"
+hint = "Map field."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto8"
+path = "exercises/13_protobuf/proto8.cpp"
+mode = "run"
+hint = "Oneof field."
+libs = ['-lprotobuf']
+
+[[exercises]]
+name = "proto9"
+path = "exercises/13_protobuf/proto9.cpp"
+mode = "run"
+hint = "Enum field."
+libs = ['-lprotobuf']
+
+[[exercises]]
 name = "grpc1"
 path = "exercises/14_grpc/grpc1.cpp"
 mode = "run"
 hint = "Define service."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc2"
-path = "exercises/14_grpc/grpc2.cpp"
-mode = "run"
-hint = "Create stub."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc3"
-path = "exercises/14_grpc/grpc3.cpp"
-mode = "run"
-hint = "Unary call."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc4"
-path = "exercises/14_grpc/grpc4.cpp"
-mode = "run"
-hint = "Async call."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc5"
-path = "exercises/14_grpc/grpc5.cpp"
-mode = "run"
-hint = "Start server."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc6"
-path = "exercises/14_grpc/grpc6.cpp"
-mode = "run"
-hint = "Implement service."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc7"
-path = "exercises/14_grpc/grpc7.cpp"
-mode = "run"
-hint = "Return status."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc8"
-path = "exercises/14_grpc/grpc8.cpp"
-mode = "run"
-hint = "Client context."
-libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
-
-[[exercises]]
-name = "grpc9"
-path = "exercises/14_grpc/grpc9.cpp"
-mode = "run"
-hint = "Client streaming."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
@@ -1715,8 +1658,65 @@ hint = "Set compression."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
+name = "grpc2"
+path = "exercises/14_grpc/grpc2.cpp"
+mode = "run"
+hint = "Create stub."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
 name = "grpc20"
 path = "exercises/14_grpc/grpc20.cpp"
 mode = "run"
 hint = "Keepalive params."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc3"
+path = "exercises/14_grpc/grpc3.cpp"
+mode = "run"
+hint = "Unary call."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc4"
+path = "exercises/14_grpc/grpc4.cpp"
+mode = "run"
+hint = "Async call."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc5"
+path = "exercises/14_grpc/grpc5.cpp"
+mode = "run"
+hint = "Start server."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc6"
+path = "exercises/14_grpc/grpc6.cpp"
+mode = "run"
+hint = "Implement service."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc7"
+path = "exercises/14_grpc/grpc7.cpp"
+mode = "run"
+hint = "Return status."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc8"
+path = "exercises/14_grpc/grpc8.cpp"
+mode = "run"
+hint = "Client context."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
+[[exercises]]
+name = "grpc9"
+path = "exercises/14_grpc/grpc9.cpp"
+mode = "run"
+hint = "Client streaming."
+libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
+
