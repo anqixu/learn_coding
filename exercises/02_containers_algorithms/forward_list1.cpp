@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <forward_list>
 
-// Forward List
-// Use std::forward_list.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise forward_list1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Forward List - singly linked list
+// Use push_front (no push_back!)
 
 int main() {
-    solve();
+    std::forward_list<int> flist;
+
+    // TODO: push_front 3, 2, 1 (will be reversed)
+
+    for (int v : flist) {
+        std::cout << v << " ";  // Should print: 1 2 3
+    }
+    std::cout << std::endl;
     return 0;
 }

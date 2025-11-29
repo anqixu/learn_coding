@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <unordered_map>
 
-// Unordered Map
-// Use std::unordered_map.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise unordered_map1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Unordered Map - hash table
+// Fast lookup, no ordering
 
 int main() {
-    solve();
+    std::unordered_map<std::string, int> umap;
+
+    // TODO: Insert ("cat", 3), ("dog", 3), ("bird", 4)
+
+    std::cout << "dog has " << umap["dog"] << " letters" << std::endl;
     return 0;
 }

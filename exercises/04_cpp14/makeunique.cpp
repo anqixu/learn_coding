@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <memory>
 
 // Make Unique
-// Use std::make_unique
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::make_unique.
-    std::cout << "Exercise makeunique not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::make_unique instead of new
 
 int main() {
-    solve();
+    // TODO: Use std::make_unique
+    std::unique_ptr<int> ptr(new int(42));
+
+    std::cout << "*ptr = " << *ptr << std::endl;
     return 0;
 }

@@ -5,15 +5,11 @@
 
 // Iterator Pattern
 // Implement Iterator.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise iterator_pattern not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Iterator Pattern feature
+    // Hint: Implement Iterator.
+
+    std::cout << "Exercise iterator_pattern: Implement Iterator Pattern" << std::endl;
     return 0;
 }

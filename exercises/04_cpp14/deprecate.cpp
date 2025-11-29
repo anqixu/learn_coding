@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Deprecated Attribute
-// Mark functions deprecated
-// I AM NOT DONE
+// Mark function as deprecated
 
-void solve() {
-    // TODO: Mark function deprecated.
-    std::cout << "Exercise deprecate not implemented!" << std::endl;
-    // exit(1);
+// TODO: Add [[deprecated]] attribute
+void old_function() {
+    std::cout << "Old function" << std::endl;
 }
 
 int main() {
-    solve();
+    old_function();  // Should show warning
     return 0;
 }

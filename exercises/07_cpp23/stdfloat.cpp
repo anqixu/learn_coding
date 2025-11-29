@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Extended Floats
+// Stdfloat
 // std::float16_t.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise stdfloat not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Stdfloat feature
+    // Hint: std::float16_t.
+
+    std::cout << "Exercise stdfloat: Implement Stdfloat" << std::endl;
     return 0;
 }

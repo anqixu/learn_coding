@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Span
-// Use std::span
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::span.
-    std::cout << "Exercise span not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::span.
 
 int main() {
-    solve();
+    // TODO: Implement the Span feature
+    // Hint: Use std::span.
+
+    std::cout << "Exercise span: Implement Span" << std::endl;
     return 0;
 }

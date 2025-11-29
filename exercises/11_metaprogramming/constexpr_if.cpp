@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Constexpr If
-// Compile-time branching
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Compile time branch.
-    std::cout << "Exercise constexpr_if not implemented!" << std::endl;
-    // exit(1);
-}
+// Compile time branch.
 
 int main() {
-    solve();
+    // TODO: Implement the Constexpr If feature
+    // Hint: Compile time branch.
+
+    std::cout << "Exercise constexpr_if: Implement Constexpr If" << std::endl;
     return 0;
 }

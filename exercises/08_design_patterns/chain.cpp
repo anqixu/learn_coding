@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Chain of Responsibility
+// Chain
 // Implement Chain.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise chain not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Chain feature
+    // Hint: Implement Chain.
+
+    std::cout << "Exercise chain: Implement Chain" << std::endl;
     return 0;
 }

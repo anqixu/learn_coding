@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Async
-// Use std::async
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::async.
-    std::cout << "Exercise async not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::async.
 
 int main() {
-    solve();
+    // TODO: Implement the Async feature
+    // Hint: Use std::async.
+
+    std::cout << "Exercise async: Implement Async" << std::endl;
     return 0;
 }

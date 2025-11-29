@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Inline Variables
+// Inline Var
 // inline static member.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise inline_var not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Inline Var feature
+    // Hint: inline static member.
+
+    std::cout << "Exercise inline_var: Implement Inline Var" << std::endl;
     return 0;
 }

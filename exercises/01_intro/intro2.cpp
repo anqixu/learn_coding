@@ -1,19 +1,11 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Variables
-// Declare and initialize variables
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Initialize the variable 'x' to 10.
-    std::cout << "Exercise intro2 not implemented!" << std::endl;
-    // exit(1);
-}
+// Initialize the variable x to 10
 
 int main() {
-    solve();
+    // TODO: Initialize x to 10
+    int x;
+    std::cout << "x = " << x << std::endl;
     return 0;
 }

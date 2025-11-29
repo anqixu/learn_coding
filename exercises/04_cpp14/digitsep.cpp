@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Digit Separators
-// Use digit separators
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use digit separators.
-    std::cout << "Exercise digitsep not implemented!" << std::endl;
-    // exit(1);
-}
+// Use ' for readability
 
 int main() {
-    solve();
+    // TODO: Add digit separators
+    long million = 1000000;
+    long billion = 1000000000;
+
+    std::cout << "Million: " << million << std::endl;
     return 0;
 }

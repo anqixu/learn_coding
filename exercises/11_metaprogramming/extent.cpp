@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Extent Trait
+// Extent
 // std::extent.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise extent not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Extent feature
+    // Hint: std::extent.
+
+    std::cout << "Exercise extent: Implement Extent" << std::endl;
     return 0;
 }

@@ -5,15 +5,11 @@
 
 // Nested Namespace
 // namespace A::B {}
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise nested_namespace not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Nested Namespace feature
+    // Hint: namespace A::B {}
+
+    std::cout << "Exercise nested_namespace: Implement Nested Namespace" << std::endl;
     return 0;
 }

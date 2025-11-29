@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Aligned New
-// operator new w/ alignment.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise aligned_new not implemented!" << std::endl;
-    // exit(1);
-}
+// operator new w/ alignment
 
 int main() {
-    solve();
+    // TODO: Implement the aligned new feature
+    // Hint: operator new w/ alignment
+
+    std::cout << "Exercise aligned_new: Implement aligned new" << std::endl;
     return 0;
 }

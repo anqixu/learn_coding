@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Remove CV
+// Remove Cv
 // std::remove_cv.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise remove_cv not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Remove Cv feature
+    // Hint: std::remove_cv.
+
+    std::cout << "Exercise remove_cv: Implement Remove Cv" << std::endl;
     return 0;
 }

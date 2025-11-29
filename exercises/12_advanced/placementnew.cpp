@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Placement New
-// Construct at specific address
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Construct at address.
-    std::cout << "Exercise placementnew not implemented!" << std::endl;
-    // exit(1);
-}
+// Placementnew
+// Construct at address.
 
 int main() {
-    solve();
+    // TODO: Implement the Placementnew feature
+    // Hint: Construct at address.
+
+    std::cout << "Exercise placementnew: Implement Placementnew" << std::endl;
     return 0;
 }

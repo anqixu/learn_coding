@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Oneof
+// Proto8
 // Oneof field.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto8 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto8 feature
+    // Hint: Oneof field.
+
+    std::cout << "Exercise proto8: Implement Proto8" << std::endl;
     return 0;
 }

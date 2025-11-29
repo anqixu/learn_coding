@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// GCD LCM
+// Gcd Lcm
 // std::numeric::gcd.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise gcd_lcm not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Gcd Lcm feature
+    // Hint: std::numeric::gcd.
+
+    std::cout << "Exercise gcd_lcm: Implement Gcd Lcm" << std::endl;
     return 0;
 }

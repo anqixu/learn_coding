@@ -5,15 +5,11 @@
 
 // Semaphore
 // std::counting_semaphore.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise semaphore not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Semaphore feature
+    // Hint: std::counting_semaphore.
+
+    std::cout << "Exercise semaphore: Implement Semaphore" << std::endl;
     return 0;
 }

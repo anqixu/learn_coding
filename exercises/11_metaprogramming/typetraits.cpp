@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Type Traits
-// Use type traits
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::is_same.
-    std::cout << "Exercise typetraits not implemented!" << std::endl;
-    // exit(1);
-}
+// Typetraits
+// Use std::is_same.
 
 int main() {
-    solve();
+    // TODO: Implement the Typetraits feature
+    // Hint: Use std::is_same.
+
+    std::cout << "Exercise typetraits: Implement Typetraits" << std::endl;
     return 0;
 }

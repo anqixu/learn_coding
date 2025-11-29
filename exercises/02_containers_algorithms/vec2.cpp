@@ -1,19 +1,17 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
 // Vector Access
-// Access vector elements
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Access elements safely.
-    std::cout << "Exercise vec2 not implemented!" << std::endl;
-    // exit(1);
-}
+// Access vector elements safely
 
 int main() {
-    solve();
+    std::vector<int> vec = {10, 20, 30, 40};
+
+    // TODO: Access the 3rd element (index 2)
+    std::cout << "Third element: " << vec[/* index */] << std::endl;
+
+    // TODO: Use at() for safe access
+    std::cout << "Last element: " << vec.at(/* index */) << std::endl;
+
     return 0;
 }

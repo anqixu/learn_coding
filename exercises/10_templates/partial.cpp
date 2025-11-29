@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Partial Specialization
-// Partial template specialization
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Partial specialization.
-    std::cout << "Exercise partial not implemented!" << std::endl;
-    // exit(1);
-}
+// Partial
+// Partial specialization.
 
 int main() {
-    solve();
+    // TODO: Implement the Partial feature
+    // Hint: Partial specialization.
+
+    std::cout << "Exercise partial: Implement Partial" << std::endl;
     return 0;
 }

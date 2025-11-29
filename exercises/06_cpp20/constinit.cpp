@@ -5,15 +5,11 @@
 
 // Constinit
 // constinit int x.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise constinit not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Constinit feature
+    // Hint: constinit int x.
+
+    std::cout << "Exercise constinit: Implement Constinit" << std::endl;
     return 0;
 }

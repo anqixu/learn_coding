@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// String View
-// Use std::string_view
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::string_view.
-    std::cout << "Exercise stringview not implemented!" << std::endl;
-    // exit(1);
-}
+// Stringview
+// Use std::string_view.
 
 int main() {
-    solve();
+    // TODO: Implement the Stringview feature
+    // Hint: Use std::string_view.
+
+    std::cout << "Exercise stringview: Implement Stringview" << std::endl;
     return 0;
 }

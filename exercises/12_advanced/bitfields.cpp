@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Bit Fields
-// Use bit fields
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use bit fields.
-    std::cout << "Exercise bitfields not implemented!" << std::endl;
-    // exit(1);
-}
+// Bitfields
+// Use bit fields.
 
 int main() {
-    solve();
+    // TODO: Implement the Bitfields feature
+    // Hint: Use bit fields.
+
+    std::cout << "Exercise bitfields: Implement Bitfields" << std::endl;
     return 0;
 }

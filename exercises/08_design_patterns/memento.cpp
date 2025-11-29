@@ -5,15 +5,11 @@
 
 // Memento
 // Implement Memento.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise memento not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Memento feature
+    // Hint: Implement Memento.
+
+    std::cout << "Exercise memento: Implement Memento" << std::endl;
     return 0;
 }

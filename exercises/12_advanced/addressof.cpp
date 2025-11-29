@@ -5,15 +5,11 @@
 
 // Addressof
 // std::addressof.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise addressof not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Addressof feature
+    // Hint: std::addressof.
+
+    std::cout << "Exercise addressof: Implement Addressof" << std::endl;
     return 0;
 }

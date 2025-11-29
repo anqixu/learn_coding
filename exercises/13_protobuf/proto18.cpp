@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// File Input
+// Proto8
 // Read from file.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto18 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto8 feature
+    // Hint: Read from file.
+
+    std::cout << "Exercise proto18: Implement Proto8" << std::endl;
     return 0;
 }

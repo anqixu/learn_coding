@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <memory>
 
-// Unique Pointer
-// Use std::unique_ptr
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::unique_ptr.
-    std::cout << "Exercise smart1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Unique Pointer - exclusive ownership
+// Use std::unique_ptr instead of raw pointer
 
 int main() {
-    solve();
+    // TODO: Create unique_ptr instead of raw pointer
+    int* ptr = new int(42);
+
+    std::cout << "Value: " << *ptr << std::endl;
+
+    // TODO: Remove manual delete when using unique_ptr
+    delete ptr;
     return 0;
 }

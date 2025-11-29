@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Required Fields
+// Proto5
 // Check initialized.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto5 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto5 feature
+    // Hint: Check initialized.
+
+    std::cout << "Exercise proto5: Implement Proto5" << std::endl;
     return 0;
 }

@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Integer Sequence
-// std::integer_sequence.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise integer_sequence not implemented!" << std::endl;
-    // exit(1);
-}
+// std::integer_sequence
 
 int main() {
-    solve();
+    // TODO: Implement the integer_sequence feature
+    // Hint: std::integer_sequence
+
+    std::cout << "Exercise integer_sequence: Implement integer_sequence" << std::endl;
     return 0;
 }

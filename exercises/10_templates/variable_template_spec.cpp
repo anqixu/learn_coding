@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Var Template Spec
+// Variable Template Spec
 // Specialization of variable.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise variable_template_spec not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Variable Template Spec feature
+    // Hint: Specialization of variable.
+
+    std::cout << "Exercise variable_template_spec: Implement Variable Template Spec" << std::endl;
     return 0;
 }

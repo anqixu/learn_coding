@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Rank Trait
+// Rank
 // std::rank.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise rank not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Rank feature
+    // Hint: std::rank.
+
+    std::cout << "Exercise rank: Implement Rank" << std::endl;
     return 0;
 }

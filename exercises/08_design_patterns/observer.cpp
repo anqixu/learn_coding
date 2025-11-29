@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Observer
-// Implement Observer pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Observer.
-    std::cout << "Exercise observer not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Observer.
 
 int main() {
-    solve();
+    // TODO: Implement the Observer feature
+    // Hint: Implement Observer.
+
+    std::cout << "Exercise observer: Implement Observer" << std::endl;
     return 0;
 }

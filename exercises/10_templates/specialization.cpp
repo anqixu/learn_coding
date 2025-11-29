@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Template Specialization
-// Specialize templates
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Template specialization.
-    std::cout << "Exercise specialization not implemented!" << std::endl;
-    // exit(1);
-}
+// Specialization
+// Template specialization.
 
 int main() {
-    solve();
+    // TODO: Implement the Specialization feature
+    // Hint: Template specialization.
+
+    std::cout << "Exercise specialization: Implement Specialization" << std::endl;
     return 0;
 }

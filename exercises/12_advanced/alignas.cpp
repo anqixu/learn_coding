@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Alignas
-// Control alignment
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use alignas.
-    std::cout << "Exercise alignas not implemented!" << std::endl;
-    // exit(1);
-}
+// Use alignas.
 
 int main() {
-    solve();
+    // TODO: Implement the Alignas feature
+    // Hint: Use alignas.
+
+    std::cout << "Exercise alignas: Implement Alignas" << std::endl;
     return 0;
 }

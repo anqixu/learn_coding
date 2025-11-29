@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Condition Variable
-// Use condition_variable
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Wait for condition.
-    std::cout << "Exercise condition not implemented!" << std::endl;
-    // exit(1);
-}
+// Condition
+// Wait for condition.
 
 int main() {
-    solve();
+    // TODO: Implement the Condition feature
+    // Hint: Wait for condition.
+
+    std::cout << "Exercise condition: Implement Condition" << std::endl;
     return 0;
 }

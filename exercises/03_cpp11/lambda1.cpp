@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <string>
 #include <algorithm>
+#include <vector>
 
-// Lambda Basics
-// Create lambda functions
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Create a lambda.
-    std::cout << "Exercise lambda1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Lambda - anonymous functions
+// Create a lambda to double numbers
 
 int main() {
-    solve();
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+
+    // TODO: Create lambda that prints each element
+    std::for_each(vec.begin(), vec.end(), /* lambda here */);
+
+    std::cout << std::endl;
     return 0;
 }

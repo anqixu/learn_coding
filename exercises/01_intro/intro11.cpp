@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Switch Statement
-// Use switch/case.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro11 not implemented!" << std::endl;
-    // exit(1);
-}
+// Use switch to handle different cases
 
 int main() {
-    solve();
+    int day = 3;
+    // TODO: Use switch statement to print day name
+    // 1=Monday, 2=Tuesday, 3=Wednesday, etc.
+    if (day == 1) {
+        std::cout << "Monday" << std::endl;
+    }
     return 0;
 }

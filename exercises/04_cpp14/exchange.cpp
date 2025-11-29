@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <utility>
 
 // Exchange
 // Use std::exchange
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::exchange.
-    std::cout << "Exercise exchange not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    int x = 5;
+
+    // TODO: Use std::exchange to replace x with 10 and get old value
+    int old = x;
+    x = 10;
+
+    std::cout << "Old: " << old << ", New: " << x << std::endl;
     return 0;
 }

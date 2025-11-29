@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Metadata
+// Grpc3
 // Send metadata.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc13 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc3 feature
+    // Hint: Send metadata.
+
+    std::cout << "Exercise grpc13: Implement Grpc3" << std::endl;
     return 0;
 }

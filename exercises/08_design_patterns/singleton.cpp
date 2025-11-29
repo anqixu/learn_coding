@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Singleton
-// Implement Singleton pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Singleton.
-    std::cout << "Exercise singleton not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Singleton.
 
 int main() {
-    solve();
+    // TODO: Implement the Singleton feature
+    // Hint: Implement Singleton.
+
+    std::cout << "Exercise singleton: Implement Singleton" << std::endl;
     return 0;
 }

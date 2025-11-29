@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Print
-// Use std::print
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::print.
-    std::cout << "Exercise print not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::print.
 
 int main() {
-    solve();
+    // TODO: Implement the Print feature
+    // Hint: Use std::print.
+
+    std::cout << "Exercise print: Implement Print" << std::endl;
     return 0;
 }

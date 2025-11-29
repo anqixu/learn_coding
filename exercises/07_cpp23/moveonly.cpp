@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Move Only Function
-// Use std::move_only_function
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::move_only_function.
-    std::cout << "Exercise moveonly not implemented!" << std::endl;
-    // exit(1);
-}
+// Moveonly
+// std::move_only_function.
 
 int main() {
-    solve();
+    // TODO: Implement the Moveonly feature
+    // Hint: std::move_only_function.
+
+    std::cout << "Exercise moveonly: Implement Moveonly" << std::endl;
     return 0;
 }

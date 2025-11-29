@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Proxy
-// Implement Proxy pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Proxy.
-    std::cout << "Exercise proxy not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Proxy.
 
 int main() {
-    solve();
+    // TODO: Implement the Proxy feature
+    // Hint: Implement Proxy.
+
+    std::cout << "Exercise proxy: Implement Proxy" << std::endl;
     return 0;
 }

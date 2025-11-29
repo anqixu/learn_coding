@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Nodiscard
-// Mark return values
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Mark function nodiscard.
-    std::cout << "Exercise nodiscard not implemented!" << std::endl;
-    // exit(1);
-}
+// Mark function nodiscard.
 
 int main() {
-    solve();
+    // TODO: Implement the Nodiscard feature
+    // Hint: Mark function nodiscard.
+
+    std::cout << "Exercise nodiscard: Implement Nodiscard" << std::endl;
     return 0;
 }

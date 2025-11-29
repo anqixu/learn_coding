@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Repeated Fields
+// Proto6
 // Add repeated.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto6 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto6 feature
+    // Hint: Add repeated.
+
+    std::cout << "Exercise proto6: Implement Proto6" << std::endl;
     return 0;
 }

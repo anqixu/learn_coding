@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Duration
+// Proto5
 // Duration type.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto15 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto5 feature
+    // Hint: Duration type.
+
+    std::cout << "Exercise proto15: Implement Proto5" << std::endl;
     return 0;
 }

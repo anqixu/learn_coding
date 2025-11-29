@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Service Impl
+// Grpc6
 // Implement service.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc6 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc6 feature
+    // Hint: Implement service.
+
+    std::cout << "Exercise grpc6: Implement Grpc6" << std::endl;
     return 0;
 }

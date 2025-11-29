@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <list>
 
-// List
-// Use std::list.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise list1 not implemented!" << std::endl;
-    // exit(1);
-}
+// List - doubly linked list
+// Insert elements
 
 int main() {
-    solve();
+    std::list<int> lst;
+
+    // TODO: push_back elements 10, 20, 30
+
+    for (int v : lst) {
+        std::cout << v << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

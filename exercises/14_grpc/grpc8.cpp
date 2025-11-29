@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Context
+// Grpc8
 // Client context.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc8 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc8 feature
+    // Hint: Client context.
+
+    std::cout << "Exercise grpc8: Implement Grpc8" << std::endl;
     return 0;
 }

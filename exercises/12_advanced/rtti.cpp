@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// RTTI
-// Runtime type information
-// I AM NOT DONE
-
-void solve() {
-    // TODO: dynamic_cast and typeid.
-    std::cout << "Exercise rtti not implemented!" << std::endl;
-    // exit(1);
-}
+// Rtti
+// dynamic_cast and typeid.
 
 int main() {
-    solve();
+    // TODO: Implement the Rtti feature
+    // Hint: dynamic_cast and typeid.
+
+    std::cout << "Exercise rtti: Implement Rtti" << std::endl;
     return 0;
 }

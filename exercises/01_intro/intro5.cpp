@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // For Loop
-// Iterate with for loop
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Iterate 10 times.
-    std::cout << "Exercise intro5 not implemented!" << std::endl;
-    // exit(1);
-}
+// Use a for loop to print numbers 0-9
 
 int main() {
-    solve();
+    // TODO: Complete the for loop
+    for (int i = 0; /* condition */; /* increment */) {
+        std::cout << i << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

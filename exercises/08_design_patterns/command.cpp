@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Command
-// Implement Command pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Command.
-    std::cout << "Exercise command not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Command.
 
 int main() {
-    solve();
+    // TODO: Implement the Command feature
+    // Hint: Implement Command.
+
+    std::cout << "Exercise command: Implement Command" << std::endl;
     return 0;
 }

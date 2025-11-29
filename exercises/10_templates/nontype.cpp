@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Non-type Parameters
-// Use non-type template parameters
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Int template param.
-    std::cout << "Exercise nontype not implemented!" << std::endl;
-    // exit(1);
-}
+// Nontype
+// Int template param.
 
 int main() {
-    solve();
+    // TODO: Implement the Nontype feature
+    // Hint: Int template param.
+
+    std::cout << "Exercise nontype: Implement Nontype" << std::endl;
     return 0;
 }

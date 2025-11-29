@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Serialize
+// Proto3
 // SerializeToString.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto3 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto3 feature
+    // Hint: SerializeToString.
+
+    std::cout << "Exercise proto3: Implement Proto3" << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Concepts Basics
-// Define a concept
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Define a simple concept.
-    std::cout << "Exercise concepts1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Concepts
+// Define a simple concept.
 
 int main() {
-    solve();
+    // TODO: Implement the Concepts feature
+    // Hint: Define a simple concept.
+
+    std::cout << "Exercise concepts1: Implement Concepts" << std::endl;
     return 0;
 }

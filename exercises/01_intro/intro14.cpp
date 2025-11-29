@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Scope
-// Fix variable scope.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro14 not implemented!" << std::endl;
-    // exit(1);
-}
+// Variable Scope
+// Fix the scope issue
 
 int main() {
-    solve();
+    {
+        int x = 10;
+    }
+    // TODO: x is out of scope here! Fix it.
+    std::cout << "x = " << x << std::endl;
     return 0;
 }

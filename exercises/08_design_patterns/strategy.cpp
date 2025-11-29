@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Strategy
-// Implement Strategy pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Strategy.
-    std::cout << "Exercise strategy not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Strategy.
 
 int main() {
-    solve();
+    // TODO: Implement the Strategy feature
+    // Hint: Implement Strategy.
+
+    std::cout << "Exercise strategy: Implement Strategy" << std::endl;
     return 0;
 }

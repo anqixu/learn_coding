@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Filesystem
-// Use std::filesystem
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Check file existence.
-    std::cout << "Exercise filesystem not implemented!" << std::endl;
-    // exit(1);
-}
+// Check file existence.
 
 int main() {
-    solve();
+    // TODO: Implement the Filesystem feature
+    // Hint: Check file existence.
+
+    std::cout << "Exercise filesystem: Implement Filesystem" << std::endl;
     return 0;
 }

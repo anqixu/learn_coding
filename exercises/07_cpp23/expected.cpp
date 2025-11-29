@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Expected
-// Use std::expected
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::expected.
-    std::cout << "Exercise expected not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::expected.
 
 int main() {
-    solve();
+    // TODO: Implement the Expected feature
+    // Hint: Use std::expected.
+
+    std::cout << "Exercise expected: Implement Expected" << std::endl;
     return 0;
 }

@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Basic Math
-// Perform arithmetic
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Calculate sum of a and b.
-    std::cout << "Exercise intro3 not implemented!" << std::endl;
-    // exit(1);
-}
+// Calculate the sum of a and b
 
 int main() {
-    solve();
+    int a = 5;
+    int b = 3;
+    // TODO: Calculate sum
+    int sum;
+    std::cout << "Sum: " << sum << std::endl;
     return 0;
 }

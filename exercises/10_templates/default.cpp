@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Default Template Args
-// Default template parameters
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Default template args.
-    std::cout << "Exercise default not implemented!" << std::endl;
-    // exit(1);
-}
+// Default
+// Default template args.
 
 int main() {
-    solve();
+    // TODO: Implement the Default feature
+    // Hint: Default template args.
+
+    std::cout << "Exercise default: Implement Default" << std::endl;
     return 0;
 }

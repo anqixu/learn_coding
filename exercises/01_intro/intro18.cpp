@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// C Arrays
-// Use raw arrays.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro18 not implemented!" << std::endl;
-    // exit(1);
-}
+// Raw Arrays
+// Work with C-style arrays
 
 int main() {
-    solve();
+    // TODO: Create array of 5 integers
+    int arr[] = {1, 2, 3};
+    int size = sizeof(arr) / sizeof(arr[0]);
+    for (int i = 0; i < size; i++) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

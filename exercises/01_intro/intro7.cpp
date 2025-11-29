@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Functions
-// Define and call functions
-// I AM NOT DONE
+// Call the greet() function
 
-void solve() {
-    // TODO: Call the function.
-    std::cout << "Exercise intro7 not implemented!" << std::endl;
-    // exit(1);
+void greet() {
+    std::cout << "Hello from function!" << std::endl;
 }
 
 int main() {
-    solve();
+    // TODO: Call the greet function
     return 0;
 }

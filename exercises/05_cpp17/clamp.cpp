@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Clamp
-// Clamp values
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Clamp a value.
-    std::cout << "Exercise clamp not implemented!" << std::endl;
-    // exit(1);
-}
+// Clamp a value.
 
 int main() {
-    solve();
+    // TODO: Implement the Clamp feature
+    // Hint: Clamp a value.
+
+    std::cout << "Exercise clamp: Implement Clamp" << std::endl;
     return 0;
 }

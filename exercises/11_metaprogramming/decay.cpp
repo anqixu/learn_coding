@@ -5,15 +5,11 @@
 
 // Decay
 // std::decay.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise decay not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Decay feature
+    // Hint: std::decay.
+
+    std::cout << "Exercise decay: Implement Decay" << std::endl;
     return 0;
 }

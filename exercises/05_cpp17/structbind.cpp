@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Structured Binding
-// Unpack tuples/pairs
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Unpack pair/tuple.
-    std::cout << "Exercise structbind not implemented!" << std::endl;
-    // exit(1);
-}
+// Structbind
+// Unpack pair/tuple.
 
 int main() {
-    solve();
+    // TODO: Implement the Structbind feature
+    // Hint: Unpack pair/tuple.
+
+    std::cout << "Exercise structbind: Implement Structbind" << std::endl;
     return 0;
 }

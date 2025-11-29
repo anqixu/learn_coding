@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Server Builder
+// Grpc5
 // Start server.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc5 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc5 feature
+    // Hint: Start server.
+
+    std::cout << "Exercise grpc5: Implement Grpc5" << std::endl;
     return 0;
 }

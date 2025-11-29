@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <tuple>
 
-// Tuple
-// Use std::tuple
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Create and unpack tuple.
-    std::cout << "Exercise tuple1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Tuple - fixed-size heterogeneous container
+// Create and unpack tuples
 
 int main() {
-    solve();
+    // TODO: Create tuple with int, double, string
+    auto t = std::make_tuple(/* fill in */);
+
+    // TODO: Unpack using std::get or structured bindings
+    std::cout << "First: " << std::get<0>(t) << std::endl;
+
     return 0;
 }

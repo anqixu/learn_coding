@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Stub
+// Grpc2
 // Create stub.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc2 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc2 feature
+    // Hint: Create stub.
+
+    std::cout << "Exercise grpc2: Implement Grpc2" << std::endl;
     return 0;
 }

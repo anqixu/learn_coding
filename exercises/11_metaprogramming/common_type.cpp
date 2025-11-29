@@ -5,15 +5,11 @@
 
 // Common Type
 // std::common_type.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise common_type not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Common Type feature
+    // Hint: std::common_type.
+
+    std::cout << "Exercise common_type: Implement Common Type" << std::endl;
     return 0;
 }

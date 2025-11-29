@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// String Starts With
+// Starts With
 // s.starts_with().
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise starts_with not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Starts With feature
+    // Hint: s.starts_with().
+
+    std::cout << "Exercise starts_with: Implement Starts With" << std::endl;
     return 0;
 }

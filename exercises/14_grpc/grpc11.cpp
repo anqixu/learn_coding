@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Bidi Streaming
+// Grpc
 // Bidirectional.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc11 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc feature
+    // Hint: Bidirectional.
+
+    std::cout << "Exercise grpc11: Implement Grpc" << std::endl;
     return 0;
 }

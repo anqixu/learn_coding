@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <map>
 
-// Multimap
-// Use std::multimap.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise multimap1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Multimap - allows duplicate keys
+// Insert multiple values for same key
 
 int main() {
-    solve();
+    std::multimap<std::string, int> mm;
+
+    // TODO: Insert ("apple", 1), ("banana", 2), ("apple", 3)
+
+    for (const auto& [key, value] : mm) {
+        std::cout << key << ": " << value << std::endl;
+    }
     return 0;
 }

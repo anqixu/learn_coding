@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Maps
+// Proto7
 // Map field.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto7 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto7 feature
+    // Hint: Map field.
+
+    std::cout << "Exercise proto7: Implement Proto7" << std::endl;
     return 0;
 }

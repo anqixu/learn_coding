@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Template Recursion
+// Recursion
 // Recursive struct.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise recursion not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Recursion feature
+    // Hint: Recursive struct.
+
+    std::cout << "Exercise recursion: Implement Recursion" << std::endl;
     return 0;
 }

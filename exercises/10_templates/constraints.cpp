@@ -5,15 +5,11 @@
 
 // Constraints
 // requires clause.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise constraints not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Constraints feature
+    // Hint: requires clause.
+
+    std::cout << "Exercise constraints: Implement Constraints" << std::endl;
     return 0;
 }

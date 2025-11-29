@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Fold Expression
-// Use fold expressions
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use fold expression.
-    std::cout << "Exercise fold not implemented!" << std::endl;
-    // exit(1);
-}
+// Fold
+// Use fold expression.
 
 int main() {
-    solve();
+    // TODO: Implement the Fold feature
+    // Hint: Use fold expression.
+
+    std::cout << "Exercise fold: Implement Fold" << std::endl;
     return 0;
 }

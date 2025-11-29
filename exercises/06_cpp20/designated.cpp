@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Designated Initializers
+// Designated
 // {.x = 1, .y = 2}
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise designated not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Designated feature
+    // Hint: {.x = 1, .y = 2}
+
+    std::cout << "Exercise designated: Implement Designated" << std::endl;
     return 0;
 }

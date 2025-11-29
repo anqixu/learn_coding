@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Format
-// Use std::format
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::format.
-    std::cout << "Exercise format not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::format.
 
 int main() {
-    solve();
+    // TODO: Implement the Format feature
+    // Hint: Use std::format.
+
+    std::cout << "Exercise format: Implement Format" << std::endl;
     return 0;
 }

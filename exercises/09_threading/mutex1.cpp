@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Mutex
-// Protect shared data with mutex
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Protect shared data.
-    std::cout << "Exercise mutex1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Protect shared data.
 
 int main() {
-    solve();
+    // TODO: Implement the Mutex feature
+    // Hint: Protect shared data.
+
+    std::cout << "Exercise mutex1: Implement Mutex" << std::endl;
     return 0;
 }

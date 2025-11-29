@@ -5,15 +5,11 @@
 
 // Dependent Name
 // typename T::type.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise dependent_name not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Dependent Name feature
+    // Hint: typename T::type.
+
+    std::cout << "Exercise dependent_name: Implement Dependent Name" << std::endl;
     return 0;
 }

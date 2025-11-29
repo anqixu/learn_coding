@@ -5,15 +5,11 @@
 
 // Atomic Flag
 // Test and set.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise atomic_flag not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Atomic Flag feature
+    // Hint: Test and set.
+
+    std::cout << "Exercise atomic_flag: Implement Atomic Flag" << std::endl;
     return 0;
 }

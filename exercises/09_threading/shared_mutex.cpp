@@ -5,15 +5,11 @@
 
 // Shared Mutex
 // std::shared_mutex.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise shared_mutex not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Shared Mutex feature
+    // Hint: std::shared_mutex.
+
+    std::cout << "Exercise shared_mutex: Implement Shared Mutex" << std::endl;
     return 0;
 }

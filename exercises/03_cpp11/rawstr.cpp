@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
 
 // Raw String Literals
-// Use R"(...)".
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise rawstr not implemented!" << std::endl;
-    // exit(1);
-}
+// Use R"(...)" syntax
 
 int main() {
-    solve();
+    // TODO: Use raw string literal for path
+    std::string path = "C:\\Users\\Name";  // Ugly escaping!
+
+    std::cout << path << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// CRTP
-// Curiously Recurring Template Pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Curiously Recurring Template Pattern.
-    std::cout << "Exercise crtp not implemented!" << std::endl;
-    // exit(1);
-}
+// Crtp
+// Curiously Recurring Template Pattern.
 
 int main() {
-    solve();
+    // TODO: Implement the Crtp feature
+    // Hint: Curiously Recurring Template Pattern.
+
+    std::cout << "Exercise crtp: Implement Crtp" << std::endl;
     return 0;
 }

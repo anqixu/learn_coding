@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Ranges Views
-// Use range views
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use views::transform.
-    std::cout << "Exercise ranges2 not implemented!" << std::endl;
-    // exit(1);
-}
+// Ranges2
+// Use views::transform.
 
 int main() {
-    solve();
+    // TODO: Implement the Ranges2 feature
+    // Hint: Use views::transform.
+
+    std::cout << "Exercise ranges2: Implement Ranges2" << std::endl;
     return 0;
 }

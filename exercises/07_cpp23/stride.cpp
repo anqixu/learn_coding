@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Stride View
+// Stride
 // views::stride.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise stride not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Stride feature
+    // Hint: views::stride.
+
+    std::cout << "Exercise stride: Implement Stride" << std::endl;
     return 0;
 }

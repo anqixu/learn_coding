@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Map Contains
+// Contains
 // m.contains().
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise contains not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Contains feature
+    // Hint: m.contains().
+
+    std::cout << "Exercise contains: Implement Contains" << std::endl;
     return 0;
 }

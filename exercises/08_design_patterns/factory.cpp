@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Factory Method
-// Implement Factory pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Factory Method.
-    std::cout << "Exercise factory not implemented!" << std::endl;
-    // exit(1);
-}
+// Factory
+// Implement Factory Method.
 
 int main() {
-    solve();
+    // TODO: Implement the Factory feature
+    // Hint: Implement Factory Method.
+
+    std::cout << "Exercise factory: Implement Factory" << std::endl;
     return 0;
 }

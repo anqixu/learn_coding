@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Variadic Templates
-// Use parameter packs
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Variadic args.
-    std::cout << "Exercise variadic not implemented!" << std::endl;
-    // exit(1);
-}
+// Variadic
+// Variadic args.
 
 int main() {
-    solve();
+    // TODO: Implement the Variadic feature
+    // Hint: Variadic args.
+
+    std::cout << "Exercise variadic: Implement Variadic" << std::endl;
     return 0;
 }

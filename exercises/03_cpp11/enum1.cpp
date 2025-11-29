@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Enum Class
-// Use strongly typed enums
-// I AM NOT DONE
+// Enum Class - strongly typed enums
+// Use enum class instead of plain enum
 
-void solve() {
-    // TODO: Use enum class.
-    std::cout << "Exercise enum1 not implemented!" << std::endl;
-    // exit(1);
-}
+// TODO: Change to enum class
+enum Color { RED, GREEN, BLUE };
 
 int main() {
-    solve();
+    Color c = /* TODO: Color:: */RED;
+
+    // TODO: Can't compare directly with int in enum class
+    if (c == 0) {
+        std::cout << "Red" << std::endl;
+    }
     return 0;
 }

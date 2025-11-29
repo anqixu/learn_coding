@@ -1,19 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
-// Range-based For
-// Use range-based for loop
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Iterate over collection.
-    std::cout << "Exercise rangefor not implemented!" << std::endl;
-    // exit(1);
-}
+// Range-based For Loop
+// Use range-for instead of iterators
 
 int main() {
-    solve();
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+
+    // TODO: Convert to range-based for loop
+    for (size_t i = 0; i < vec.size(); i++) {
+        std::cout << vec[i] << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

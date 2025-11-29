@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Tuple Addressing
-// std::get by type.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise tuple_address not implemented!" << std::endl;
-    // exit(1);
-}
+// Tuple Address
+// std::get by type
 
 int main() {
-    solve();
+    // TODO: Implement the std::get by type feature
+    // Hint: std::get by type
+
+    std::cout << "Exercise tuple_address: Implement std::get by type" << std::endl;
     return 0;
 }

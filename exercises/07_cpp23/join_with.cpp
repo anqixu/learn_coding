@@ -5,15 +5,11 @@
 
 // Join With
 // views::join_with.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise join_with not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Join With feature
+    // Hint: views::join_with.
+
+    std::cout << "Exercise join_with: Implement Join With" << std::endl;
     return 0;
 }

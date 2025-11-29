@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Binary Fold
+// Fold Binary
 // (args + ... + init).
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise fold_binary not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Fold Binary feature
+    // Hint: (args + ... + init).
+
+    std::cout << "Exercise fold_binary: Implement Fold Binary" << std::endl;
     return 0;
 }

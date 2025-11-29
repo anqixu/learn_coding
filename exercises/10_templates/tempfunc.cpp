@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Template Function
-// Create generic function
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Generic function.
-    std::cout << "Exercise tempfunc not implemented!" << std::endl;
-    // exit(1);
-}
+// Tempfunc
+// Generic function.
 
 int main() {
-    solve();
+    // TODO: Implement the Tempfunc feature
+    // Hint: Generic function.
+
+    std::cout << "Exercise tempfunc: Implement Tempfunc" << std::endl;
     return 0;
 }

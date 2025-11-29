@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Do While Loop
-// Use do-while.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro12 not implemented!" << std::endl;
-    // exit(1);
-}
+// Do-While Loop
+// Use do-while to execute at least once
 
 int main() {
-    solve();
+    int i = 0;
+    // TODO: Convert to do-while loop
+    while (i < 5) {
+        std::cout << i << " ";
+        i++;
+    }
+    std::cout << std::endl;
     return 0;
 }

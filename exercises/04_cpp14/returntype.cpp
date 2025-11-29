@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Auto Return Type
-// Function auto return type deduction
-// I AM NOT DONE
+// Let compiler deduce return type
 
-void solve() {
-    // TODO: Function auto return.
-    std::cout << "Exercise returntype not implemented!" << std::endl;
-    // exit(1);
+// TODO: Use just 'auto' without trailing return
+auto add(int a, int b) -> int {
+    return a + b;
 }
 
 int main() {
-    solve();
+    std::cout << add(3, 4) << std::endl;
     return 0;
 }

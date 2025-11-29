@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Volatile
-// Use volatile keyword
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Volatile keyword.
-    std::cout << "Exercise volatile not implemented!" << std::endl;
-    // exit(1);
-}
+// Volatile keyword.
 
 int main() {
-    solve();
+    // TODO: Implement the Volatile feature
+    // Hint: Volatile keyword.
+
+    std::cout << "Exercise volatile: Implement Volatile" << std::endl;
     return 0;
 }

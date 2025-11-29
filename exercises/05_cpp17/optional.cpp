@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Optional
-// Use std::optional
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::optional.
-    std::cout << "Exercise optional not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::optional.
 
 int main() {
-    solve();
+    // TODO: Implement the Optional feature
+    // Hint: Use std::optional.
+
+    std::cout << "Exercise optional: Implement Optional" << std::endl;
     return 0;
 }

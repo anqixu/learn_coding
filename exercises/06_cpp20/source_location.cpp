@@ -5,15 +5,11 @@
 
 // Source Location
 // std::source_location.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise source_location not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Source Location feature
+    // Hint: std::source_location.
+
+    std::cout << "Exercise source_location: Implement Source Location" << std::endl;
     return 0;
 }

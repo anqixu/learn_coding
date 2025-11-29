@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Flat Map
-// Use std::flat_map
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::flat_map.
-    std::cout << "Exercise flatmap not implemented!" << std::endl;
-    // exit(1);
-}
+// Flatmap
+// Use std::flat_map.
 
 int main() {
-    solve();
+    // TODO: Implement the Flatmap feature
+    // Hint: Use std::flat_map.
+
+    std::cout << "Exercise flatmap: Implement Flatmap" << std::endl;
     return 0;
 }

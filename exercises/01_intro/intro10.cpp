@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // References
-// Use references
-// I AM NOT DONE
+// Use a reference parameter to modify the variable
 
-void solve() {
-    // TODO: Use a reference to modify variable.
-    std::cout << "Exercise intro10 not implemented!" << std::endl;
-    // exit(1);
+void increment(/* TODO: add reference parameter */) {
+    value++;
 }
 
 int main() {
-    solve();
+    int x = 5;
+    increment(x);
+    std::cout << "x = " << x << std::endl;  // Should print 6
     return 0;
 }

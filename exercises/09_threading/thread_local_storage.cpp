@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Thread Local
+// Thread Local Storage
 // thread_local.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise thread_local_storage not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Thread Local Storage feature
+    // Hint: thread_local.
+
+    std::cout << "Exercise thread_local_storage: Implement Thread Local Storage" << std::endl;
     return 0;
 }

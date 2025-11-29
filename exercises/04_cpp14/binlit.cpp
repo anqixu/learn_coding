@@ -1,19 +1,12 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Binary Literals
-// Use binary literals
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use binary literals.
-    std::cout << "Exercise binlit not implemented!" << std::endl;
-    // exit(1);
-}
+// Use 0b prefix
 
 int main() {
-    solve();
+    // TODO: Use binary literal for 42 (0b101010)
+    int answer = 42;
+
+    std::cout << "Answer: " << answer << std::endl;
     return 0;
 }

@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Future
-// Use std::future
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::future.
-    std::cout << "Exercise future not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::future.
 
 int main() {
-    solve();
+    // TODO: Implement the Future feature
+    // Hint: Use std::future.
+
+    std::cout << "Exercise future: Implement Future" << std::endl;
     return 0;
 }

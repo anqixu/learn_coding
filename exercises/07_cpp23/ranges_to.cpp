@@ -5,15 +5,11 @@
 
 // Ranges To
 // ranges::to.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise ranges_to not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Ranges To feature
+    // Hint: ranges::to.
+
+    std::cout << "Exercise ranges_to: Implement Ranges To" << std::endl;
     return 0;
 }

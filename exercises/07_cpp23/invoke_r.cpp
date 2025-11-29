@@ -5,15 +5,11 @@
 
 // Invoke R
 // std::invoke_r.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise invoke_r not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Invoke R feature
+    // Hint: std::invoke_r.
+
+    std::cout << "Exercise invoke_r: Implement Invoke R" << std::endl;
     return 0;
 }

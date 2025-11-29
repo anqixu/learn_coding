@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Timestamp
+// Proto4
 // Well known types.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto14 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto4 feature
+    // Hint: Well known types.
+
+    std::cout << "Exercise proto14: Implement Proto4" << std::endl;
     return 0;
 }

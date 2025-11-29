@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Attributes
-// Use attributes
-// I AM NOT DONE
-
-void solve() {
-    // TODO: [[nodiscard]], [[maybe_unused]].
-    std::cout << "Exercise attributes not implemented!" << std::endl;
-    // exit(1);
-}
+// [[nodiscard]], [[maybe_unused]].
 
 int main() {
-    solve();
+    // TODO: Implement the Attributes feature
+    // Hint: [[nodiscard]], [[maybe_unused]].
+
+    std::cout << "Exercise attributes: Implement Attributes" << std::endl;
     return 0;
 }

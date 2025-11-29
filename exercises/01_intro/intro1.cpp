@@ -1,19 +1,10 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Hello World
-// Print 'Hello, World!'
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Make the code compile and print Hello, World!
-    std::cout << "Exercise intro1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Fix the code to print "Hello, World!"
 
 int main() {
-    solve();
+    // TODO: Fix this line to print "Hello, World!"
+    std::cout << "Goodbye, World!" << std::endl;
     return 0;
 }

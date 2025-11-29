@@ -1,19 +1,23 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
 // Move Semantics
 // Implement move constructor
-// I AM NOT DONE
 
-void solve() {
-    // TODO: Implement move constructor.
-    std::cout << "Exercise move1 not implemented!" << std::endl;
-    // exit(1);
-}
+class MyVector {
+    std::vector<int> data;
+public:
+    MyVector(std::vector<int> d) : data(std::move(d)) {}
+
+    // TODO: Implement move constructor
+    // MyVector(MyVector&& other) noexcept { ... }
+
+    size_t size() const { return data.size(); }
+};
 
 int main() {
-    solve();
+    MyVector v1({1, 2, 3});
+    // MyVector v2 = std::move(v1);
+    std::cout << "Size: " << v1.size() << std::endl;
     return 0;
 }

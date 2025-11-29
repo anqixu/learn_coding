@@ -1,19 +1,11 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Command Line Args
-// Read argc/argv.
-// I AM NOT DONE
+// Command Line Arguments
+// Read argc and argv
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro20 not implemented!" << std::endl;
-    // exit(1);
-}
-
-int main() {
-    solve();
+int main(int argc, char* argv[]) {
+    std::cout << "Program name: " << argv[0] << std::endl;
+    // TODO: Print number of arguments
+    std::cout << "Number of arguments: " << /* print argc */ << std::endl;
     return 0;
 }

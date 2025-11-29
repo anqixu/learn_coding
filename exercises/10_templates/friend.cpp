@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Friend Templates
-// Friend declarations in templates
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Friend declarations.
-    std::cout << "Exercise friend not implemented!" << std::endl;
-    // exit(1);
-}
+// Friend
+// Friend declarations.
 
 int main() {
-    solve();
+    // TODO: Implement the Friend feature
+    // Hint: Friend declarations.
+
+    std::cout << "Exercise friend: Implement Friend" << std::endl;
     return 0;
 }

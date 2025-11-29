@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Any
-// Use std::any
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::any.
-    std::cout << "Exercise any not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::any.
 
 int main() {
-    solve();
+    // TODO: Implement the Any feature
+    // Hint: Use std::any.
+
+    std::cout << "Exercise any: Implement Any" << std::endl;
     return 0;
 }

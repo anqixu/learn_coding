@@ -5,15 +5,11 @@
 
 // Assume Aligned
 // std::assume_aligned.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise assume_aligned not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Assume Aligned feature
+    // Hint: std::assume_aligned.
+
+    std::cout << "Exercise assume_aligned: Implement Assume Aligned" << std::endl;
     return 0;
 }

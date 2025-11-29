@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Interceptors
+// Grpc4
 // Client interceptor.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc14 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc4 feature
+    // Hint: Client interceptor.
+
+    std::cout << "Exercise grpc14: Implement Grpc4" << std::endl;
     return 0;
 }

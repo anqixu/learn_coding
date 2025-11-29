@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// File Output
+// Proto7
 // Write to file.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto17 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto7 feature
+    // Hint: Write to file.
+
+    std::cout << "Exercise proto17: Implement Proto7" << std::endl;
     return 0;
 }

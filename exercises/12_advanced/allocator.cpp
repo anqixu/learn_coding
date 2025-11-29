@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Custom Allocator
-// Create custom allocator
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Custom allocator basics.
-    std::cout << "Exercise allocator not implemented!" << std::endl;
-    // exit(1);
-}
+// Allocator
+// Custom allocator basics.
 
 int main() {
-    solve();
+    // TODO: Implement the Allocator feature
+    // Hint: Custom allocator basics.
+
+    std::cout << "Exercise allocator: Implement Allocator" << std::endl;
     return 0;
 }

@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Variable Template
-// Create variable templates
-// I AM NOT DONE
+// Variable Templates
+// Define template variables
 
-void solve() {
-    // TODO: Create variable template.
-    std::cout << "Exercise varemplate not implemented!" << std::endl;
-    // exit(1);
-}
+// TODO: Create variable template for pi
+template<typename T>
+T pi = T(3.14159265358979);
 
 int main() {
-    solve();
+    std::cout << "pi<double>: " << pi<double> << std::endl;
+    std::cout << "pi<float>: " << pi<float> << std::endl;
     return 0;
 }

@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <sstream>
+#include <iomanip>
 
 // Quoted I/O
-// Use std::quoted
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use quoted IO.
-    std::cout << "Exercise quoted not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::quoted for strings with spaces
 
 int main() {
-    solve();
+    std::string s = "Hello World";
+
+    std::ostringstream oss;
+    // TODO: Use std::quoted
+    oss << s;
+
+    std::cout << oss.str() << std::endl;
     return 0;
 }

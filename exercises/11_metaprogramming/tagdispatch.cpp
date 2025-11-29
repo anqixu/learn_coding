@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Tag Dispatch
-// Tag dispatching
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Dispatch based on tag.
-    std::cout << "Exercise tagdispatch not implemented!" << std::endl;
-    // exit(1);
-}
+// Tagdispatch
+// Dispatch based on tag.
 
 int main() {
-    solve();
+    // TODO: Implement the Tagdispatch feature
+    // Hint: Dispatch based on tag.
+
+    std::cout << "Exercise tagdispatch: Implement Tagdispatch" << std::endl;
     return 0;
 }

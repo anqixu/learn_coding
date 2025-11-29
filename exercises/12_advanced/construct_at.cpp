@@ -5,15 +5,11 @@
 
 // Construct At
 // std::construct_at.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise construct_at not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Construct At feature
+    // Hint: std::construct_at.
+
+    std::cout << "Exercise construct_at: Implement Construct At" << std::endl;
     return 0;
 }

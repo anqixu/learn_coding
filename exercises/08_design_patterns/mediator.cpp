@@ -5,15 +5,11 @@
 
 // Mediator
 // Implement Mediator.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise mediator not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Mediator feature
+    // Hint: Implement Mediator.
+
+    std::cout << "Exercise mediator: Implement Mediator" << std::endl;
     return 0;
 }

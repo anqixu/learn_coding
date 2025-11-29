@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Byteswap
-// Use std::byteswap
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::byteswap.
-    std::cout << "Exercise byteswap not implemented!" << std::endl;
-    // exit(1);
-}
+// std::byteswap.
 
 int main() {
-    solve();
+    // TODO: Implement the Byteswap feature
+    // Hint: std::byteswap.
+
+    std::cout << "Exercise byteswap: Implement Byteswap" << std::endl;
     return 0;
 }

@@ -5,15 +5,11 @@
 
 // State
 // Implement State.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise state not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the State feature
+    // Hint: Implement State.
+
+    std::cout << "Exercise state: Implement State" << std::endl;
     return 0;
 }

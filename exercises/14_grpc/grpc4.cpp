@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Async Client
+// Grpc4
 // Async call.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc4 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc4 feature
+    // Hint: Async call.
+
+    std::cout << "Exercise grpc4: Implement Grpc4" << std::endl;
     return 0;
 }

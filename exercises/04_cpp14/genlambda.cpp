@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Generic Lambda
+// Generic Lambda - auto parameters
 // Use auto in lambda parameters
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use auto in lambda args.
-    std::cout << "Exercise genlambda not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Use auto instead of int
+    auto add = [](int a, int b) { return a + b; };
+
+    std::cout << add(3, 4) << std::endl;
+    std::cout << add(1.5, 2.5) << std::endl;  // Won't compile with int
     return 0;
 }

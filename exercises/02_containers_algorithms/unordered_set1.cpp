@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <unordered_set>
 
-// Unordered Set
-// Use std::unordered_set.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise unordered_set1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Unordered Set - hash set
+// Fast lookup, unique elements, no ordering
 
 int main() {
-    solve();
+    std::unordered_set<int> uset;
+
+    // TODO: insert 5, 2, 8, 2, 1 (duplicate 2 ignored)
+
+    std::cout << "Size: " << uset.size() << std::endl;  // Should be 4
     return 0;
 }

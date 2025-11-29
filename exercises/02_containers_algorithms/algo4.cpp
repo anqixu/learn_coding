@@ -1,19 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
+#include <numeric>
 
 // Accumulate
-// Sum elements
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::accumulate.
-    std::cout << "Exercise algo4 not implemented!" << std::endl;
-    // exit(1);
-}
+// Sum elements using std::accumulate
 
 int main() {
-    solve();
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+
+    // TODO: Calculate sum using std::accumulate
+    int sum = std::accumulate(/* begin */, /* end */, /* initial value */);
+
+    std::cout << "Sum: " << sum << std::endl;
     return 0;
 }

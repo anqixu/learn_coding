@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Shared Lock
-// shared_timed_mutex (C++14).
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise shared_lock not implemented!" << std::endl;
-    // exit(1);
-}
+// shared_timed_mutex (C++14)
 
 int main() {
-    solve();
+    // TODO: Implement the shared_timed_mutex feature
+    // Hint: shared_timed_mutex (C++14)
+
+    std::cout << "Exercise shared_lock: Implement shared_timed_mutex" << std::endl;
     return 0;
 }

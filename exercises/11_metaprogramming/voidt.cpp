@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Void_t
-// Detection idiom
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Detection idiom.
-    std::cout << "Exercise voidt not implemented!" << std::endl;
-    // exit(1);
-}
+// Voidt
+// Detection idiom.
 
 int main() {
-    solve();
+    // TODO: Implement the Voidt feature
+    // Hint: Detection idiom.
+
+    std::cout << "Exercise voidt: Implement Voidt" << std::endl;
     return 0;
 }

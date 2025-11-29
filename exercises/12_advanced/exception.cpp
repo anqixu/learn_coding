@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Custom Exception
-// Create custom exception
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Custom exception.
-    std::cout << "Exercise exception not implemented!" << std::endl;
-    // exit(1);
-}
+// Exception
+// Custom exception.
 
 int main() {
-    solve();
+    // TODO: Implement the Exception feature
+    // Hint: Custom exception.
+
+    std::cout << "Exercise exception: Implement Exception" << std::endl;
     return 0;
 }

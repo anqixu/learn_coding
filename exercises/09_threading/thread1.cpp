@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Thread Basics
-// Create and join threads
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Start a thread.
-    std::cout << "Exercise thread1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Thread
+// Start a thread.
 
 int main() {
-    solve();
+    // TODO: Implement the Thread feature
+    // Hint: Start a thread.
+
+    std::cout << "Exercise thread1: Implement Thread" << std::endl;
     return 0;
 }

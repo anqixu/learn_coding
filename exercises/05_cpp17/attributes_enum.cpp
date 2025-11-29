@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Enum Attributes
+// Attributes Enum
 // [[nodiscard]] enum class.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise attributes_enum not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Attributes Enum feature
+    // Hint: [[nodiscard]] enum class.
+
+    std::cout << "Exercise attributes_enum: Implement Attributes Enum" << std::endl;
     return 0;
 }

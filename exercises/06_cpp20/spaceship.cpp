@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Spaceship Operator
-// Implement operator<=>
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement <=>.
-    std::cout << "Exercise spaceship not implemented!" << std::endl;
-    // exit(1);
-}
+// Spaceship
+// Implement <=>.
 
 int main() {
-    solve();
+    // TODO: Implement the Spaceship feature
+    // Hint: Implement <=>.
+
+    std::cout << "Exercise spaceship: Implement Spaceship" << std::endl;
     return 0;
 }

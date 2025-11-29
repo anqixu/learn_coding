@@ -5,15 +5,11 @@
 
 // Facade
 // Implement Facade.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise facade not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Facade feature
+    // Hint: Implement Facade.
+
+    std::cout << "Exercise facade: Implement Facade" << std::endl;
     return 0;
 }

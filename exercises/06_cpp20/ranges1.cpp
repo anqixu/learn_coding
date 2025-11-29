@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Ranges Sort
-// Use ranges algorithms
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use ranges::sort.
-    std::cout << "Exercise ranges1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Ranges
+// Use ranges::sort.
 
 int main() {
-    solve();
+    // TODO: Implement the Ranges feature
+    // Hint: Use ranges::sort.
+
+    std::cout << "Exercise ranges1: Implement Ranges" << std::endl;
     return 0;
 }
