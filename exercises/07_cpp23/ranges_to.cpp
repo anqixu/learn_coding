@@ -1,15 +1,30 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
 
-// Ranges To
-// ranges::to.
+// std::ranges::to - convert range to container
+// Simplify range-to-container conversion
 
 int main() {
-    // TODO: Implement the Ranges To feature
-    // Hint: ranges::to.
+    std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    std::cout << "Exercise ranges_to: Implement Ranges To" << std::endl;
+    // TODO: Replace this with std::ranges::to<std::vector>
+    std::vector<int> evens;
+    for (int n : numbers) {
+        if (n % 2 == 0) {
+            evens.push_back(n);
+        }
+    }
+
+    std::cout << "Even numbers: ";
+    for (int n : evens) {
+        std::cout << n << " ";
+    }
+    std::cout << std::endl;
+
+    // TODO: Use ranges::to with views
+    // auto evens = numbers | views::filter([](int n) { return n % 2 == 0; })
+    //                      | ranges::to<std::vector>();
+
     return 0;
 }
