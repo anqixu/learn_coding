@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Options
+// Proto3
 // Field options.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto13 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto3 feature
+    // Hint: Field options.
+
+    std::cout << "Exercise proto13: Implement Proto3" << std::endl;
     return 0;
 }

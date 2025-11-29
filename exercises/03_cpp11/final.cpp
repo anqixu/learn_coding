@@ -1,19 +1,21 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Final Specifier
-// Mark class/method final.
-// I AM NOT DONE
+// Final - prevent overriding
+// Mark class or method as final
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise final not implemented!" << std::endl;
-    // exit(1);
-}
+class Base {
+public:
+    // TODO: Mark as final to prevent overriding
+    virtual void foo() { std::cout << "Base::foo" << std::endl; }
+};
+
+class Derived : public Base {
+public:
+    void foo() override { std::cout << "Derived::foo" << std::endl; }
+};
 
 int main() {
-    solve();
+    Derived d;
+    d.foo();
     return 0;
 }

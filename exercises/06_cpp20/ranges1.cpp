@@ -1,19 +1,21 @@
 #include <iostream>
 #include <vector>
-#include <string>
 #include <algorithm>
+#include <ranges>
 
-// Ranges Sort
-// Use ranges algorithms
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use ranges::sort.
-    std::cout << "Exercise ranges1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Ranges - composable algorithms
+// Use std::ranges::sort instead of std::sort
 
 int main() {
-    solve();
+    std::vector<int> vec = {5, 2, 8, 1, 9, 3};
+
+    // TODO: Use std::ranges::sort
+    std::sort(vec.begin(), vec.end());
+
+    for (int v : vec) {
+        std::cout << v << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }

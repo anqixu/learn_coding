@@ -1,19 +1,20 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Default/Delete
-// = default; = delete;
-// I AM NOT DONE
+// Default and Delete
+// Use = default and = delete
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise default_delete not implemented!" << std::endl;
-    // exit(1);
-}
+class NonCopyable {
+public:
+    NonCopyable() = default;
+
+    // TODO: Delete copy constructor and assignment
+    NonCopyable(const NonCopyable&) {}
+    NonCopyable& operator=(const NonCopyable&) { return *this; }
+};
 
 int main() {
-    solve();
+    NonCopyable a;
+    // NonCopyable b = a;  // Should not compile
+    std::cout << "NonCopyable created" << std::endl;
     return 0;
 }

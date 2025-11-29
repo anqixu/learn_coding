@@ -5,15 +5,11 @@
 
 // Template Method
 // Implement Template Method.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise template_method not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Template Method feature
+    // Hint: Implement Template Method.
+
+    std::cout << "Exercise template_method: Implement Template Method" << std::endl;
     return 0;
 }

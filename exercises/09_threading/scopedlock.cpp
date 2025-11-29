@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Scoped Lock
-// Use std::scoped_lock
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::scoped_lock.
-    std::cout << "Exercise scopedlock not implemented!" << std::endl;
-    // exit(1);
-}
+// Scopedlock
+// std::scoped_lock.
 
 int main() {
-    solve();
+    // TODO: Implement the Scopedlock feature
+    // Hint: std::scoped_lock.
+
+    std::cout << "Exercise scopedlock: Implement Scopedlock" << std::endl;
     return 0;
 }

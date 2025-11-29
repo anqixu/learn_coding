@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Call Once
-// Use std::call_once
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::call_once.
-    std::cout << "Exercise once not implemented!" << std::endl;
-    // exit(1);
-}
+// Once
+// std::call_once.
 
 int main() {
-    solve();
+    // TODO: Implement the Once feature
+    // Hint: std::call_once.
+
+    std::cout << "Exercise once: Implement Once" << std::endl;
     return 0;
 }

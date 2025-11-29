@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Error Handling
+// Grpc6
 // Handle errors.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc16 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc6 feature
+    // Hint: Handle errors.
+
+    std::cout << "Exercise grpc16: Implement Grpc6" << std::endl;
     return 0;
 }

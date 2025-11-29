@@ -5,15 +5,11 @@
 
 // Packaged Task
 // std::packaged_task.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise packaged_task not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Packaged Task feature
+    // Hint: std::packaged_task.
+
+    std::cout << "Exercise packaged_task: Implement Packaged Task" << std::endl;
     return 0;
 }

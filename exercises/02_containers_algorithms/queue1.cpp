@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <queue>
 
-// Queue
-// Use std::queue.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise queue1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Queue - FIFO container
+// Enqueue and dequeue
 
 int main() {
-    solve();
+    std::queue<int> q;
+
+    // TODO: push 1, 2, 3
+
+    while (!q.empty()) {
+        std::cout << q.front() << " ";  // Should print: 1 2 3
+        q.pop();
+    }
+    std::cout << std::endl;
     return 0;
 }

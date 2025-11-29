@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Member Templates
-// Template member functions
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Template inside class.
-    std::cout << "Exercise member not implemented!" << std::endl;
-    // exit(1);
-}
+// Member
+// Template inside class.
 
 int main() {
-    solve();
+    // TODO: Implement the Member feature
+    // Hint: Template inside class.
+
+    std::cout << "Exercise member: Implement Member" << std::endl;
     return 0;
 }

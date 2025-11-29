@@ -5,15 +5,11 @@
 
 // Cartesian Product
 // views::cartesian_product.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise cartesian_product not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Cartesian Product feature
+    // Hint: views::cartesian_product.
+
+    std::cout << "Exercise cartesian_product: Implement Cartesian Product" << std::endl;
     return 0;
 }

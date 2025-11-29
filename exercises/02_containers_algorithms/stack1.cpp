@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <stack>
 
-// Stack
-// Use std::stack.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise stack1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Stack - LIFO container
+// Push and pop elements
 
 int main() {
-    solve();
+    std::stack<int> s;
+
+    // TODO: push 1, 2, 3
+
+    while (!s.empty()) {
+        std::cout << s.top() << " ";  // Should print: 3 2 1
+        s.pop();
+    }
+    std::cout << std::endl;
     return 0;
 }

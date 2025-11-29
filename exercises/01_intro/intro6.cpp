@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // While Loop
-// Use while loop
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Loop until condition met.
-    std::cout << "Exercise intro6 not implemented!" << std::endl;
-    // exit(1);
-}
+// Use while loop to print numbers while i < 10
 
 int main() {
-    solve();
+    int i = 0;
+    // TODO: Complete the while loop
+    while (/* condition */) {
+        std::cout << i << " ";
+        // TODO: Don't forget to increment!
+    }
+    std::cout << std::endl;
     return 0;
 }

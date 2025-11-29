@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Health Check
+// Grpc7
 // Health service.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc17 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc7 feature
+    // Hint: Health service.
+
+    std::cout << "Exercise grpc17: Implement Grpc7" << std::endl;
     return 0;
 }

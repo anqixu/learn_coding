@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Requires Clause
-// Use requires clause
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use requires.
-    std::cout << "Exercise requires not implemented!" << std::endl;
-    // exit(1);
-}
+// Requires
+// Use requires.
 
 int main() {
-    solve();
+    // TODO: Implement the Requires feature
+    // Hint: Use requires.
+
+    std::cout << "Exercise requires: Implement Requires" << std::endl;
     return 0;
 }

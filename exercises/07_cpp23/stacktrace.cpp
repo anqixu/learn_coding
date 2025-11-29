@@ -5,15 +5,11 @@
 
 // Stacktrace
 // std::stacktrace.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise stacktrace not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Stacktrace feature
+    // Hint: std::stacktrace.
+
+    std::cout << "Exercise stacktrace: Implement Stacktrace" << std::endl;
     return 0;
 }

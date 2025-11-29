@@ -5,15 +5,11 @@
 
 // Aligned Storage
 // std::aligned_storage.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise aligned_storage not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Aligned Storage feature
+    // Hint: std::aligned_storage.
+
+    std::cout << "Exercise aligned_storage: Implement Aligned Storage" << std::endl;
     return 0;
 }

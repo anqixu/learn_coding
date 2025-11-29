@@ -1,19 +1,12 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Global Variables
-// Use extern or avoid global.
-// I AM NOT DONE
+// Avoid using globals or use extern properly
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro15 not implemented!" << std::endl;
-    // exit(1);
-}
+// TODO: Move this inside main() or declare properly
+int global_var = 42;
 
 int main() {
-    solve();
+    std::cout << "Value: " << global_var << std::endl;
     return 0;
 }

@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Template Function
-// Create generic function
-// I AM NOT DONE
+// Template Function - generic function
+// Create a template function to find max
 
-void solve() {
-    // TODO: Generic function.
-    std::cout << "Exercise tempfunc not implemented!" << std::endl;
-    // exit(1);
+// TODO: Make this a template function
+int max(int a, int b) {
+    return (a > b) ? a : b;
 }
 
 int main() {
-    solve();
+    std::cout << max(5, 3) << std::endl;
+    // std::cout << max(5.5, 3.3) << std::endl;  // Won't work!
+    // std::cout << max(std::string("hello"), std::string("world")) << std::endl;
+
     return 0;
 }

@@ -1,19 +1,24 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <future>
+#include <thread>
 
-// Future
-// Use std::future
-// I AM NOT DONE
+// Future/Promise - communicate between threads
+// Use promise to set value, future to get it
 
-void solve() {
-    // TODO: Use std::future.
-    std::cout << "Exercise future not implemented!" << std::endl;
-    // exit(1);
+void worker(/* TODO: add std::promise parameter */) {
+    // Do some work...
+    int result = 42;
+
+    // TODO: Set the promise value
+    std::cout << "Worker done" << std::endl;
 }
 
 int main() {
-    solve();
+    // TODO: Create promise and future
+    // TODO: Start thread with promise
+    // TODO: Get value from future
+
+    std::cout << "Result: ???" << std::endl;
+
     return 0;
 }

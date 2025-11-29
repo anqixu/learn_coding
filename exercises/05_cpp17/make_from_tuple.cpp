@@ -5,15 +5,11 @@
 
 // Make From Tuple
 // std::make_from_tuple.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise make_from_tuple not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Make From Tuple feature
+    // Hint: std::make_from_tuple.
+
+    std::cout << "Exercise make_from_tuple: Implement Make From Tuple" << std::endl;
     return 0;
 }

@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Builder
-// Implement Builder pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Builder.
-    std::cout << "Exercise builder not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Builder.
 
 int main() {
-    solve();
+    // TODO: Implement the Builder feature
+    // Hint: Implement Builder.
+
+    std::cout << "Exercise builder: Implement Builder" << std::endl;
     return 0;
 }

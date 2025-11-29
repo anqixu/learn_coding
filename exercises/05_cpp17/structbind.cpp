@@ -1,19 +1,28 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <tuple>
+#include <map>
 
-// Structured Binding
-// Unpack tuples/pairs
-// I AM NOT DONE
+// Structured Bindings - unpack tuples/pairs easily
+// Use auto [a, b, c] syntax
 
-void solve() {
-    // TODO: Unpack pair/tuple.
-    std::cout << "Exercise structbind not implemented!" << std::endl;
-    // exit(1);
+std::tuple<int, double, std::string> get_data() {
+    return {42, 3.14, "hello"};
 }
 
 int main() {
-    solve();
+    // TODO: Use structured bindings instead of std::get
+    auto data = get_data();
+    int num = std::get<0>(data);
+    double pi = std::get<1>(data);
+    std::string msg = std::get<2>(data);
+
+    std::cout << num << ", " << pi << ", " << msg << std::endl;
+
+    // TODO: Also use structured bindings for map iteration
+    std::map<std::string, int> ages = {{"Alice", 30}, {"Bob", 25}};
+    for (auto pair : ages) {  // Copies!
+        std::cout << pair.first << ": " << pair.second << std::endl;
+    }
+
     return 0;
 }

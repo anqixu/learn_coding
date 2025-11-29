@@ -5,15 +5,11 @@
 
 // Latch
 // std::latch.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise latch not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Latch feature
+    // Hint: std::latch.
+
+    std::cout << "Exercise latch: Implement Latch" << std::endl;
     return 0;
 }

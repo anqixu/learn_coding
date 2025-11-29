@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Type List
-// Create type list
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Simple type list.
-    std::cout << "Exercise typeliest not implemented!" << std::endl;
-    // exit(1);
-}
+// Typeliest
+// Simple type list.
 
 int main() {
-    solve();
+    // TODO: Implement the Typeliest feature
+    // Hint: Simple type list.
+
+    std::cout << "Exercise typeliest: Implement Typeliest" << std::endl;
     return 0;
 }

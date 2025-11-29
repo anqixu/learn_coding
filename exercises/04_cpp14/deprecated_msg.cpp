@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Deprecated with Msg
-// [[deprecated("msg")]]
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise deprecated_msg not implemented!" << std::endl;
-    // exit(1);
-}
+// Deprecated Message
+// Deprecated attribute with message
 
 int main() {
-    solve();
+    // TODO: Implement the [[deprecated]] with message feature
+    // Hint: Deprecated attribute with message
+
+    std::cout << "Exercise deprecated_msg: Implement [[deprecated]] with message" << std::endl;
     return 0;
 }

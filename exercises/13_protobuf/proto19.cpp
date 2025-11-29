@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Json
+// Proto9
 // JsonToBinary.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto19 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto9 feature
+    // Hint: JsonToBinary.
+
+    std::cout << "Exercise proto19: Implement Proto9" << std::endl;
     return 0;
 }

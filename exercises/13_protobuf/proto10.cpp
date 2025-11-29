@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Nested
+// Proto0
 // Nested message.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto10 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto0 feature
+    // Hint: Nested message.
+
+    std::cout << "Exercise proto10: Implement Proto0" << std::endl;
     return 0;
 }

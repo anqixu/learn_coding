@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Repeat View
+// Repeat
 // views::repeat.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise repeat not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Repeat feature
+    // Hint: views::repeat.
+
+    std::cout << "Exercise repeat: Implement Repeat" << std::endl;
     return 0;
 }

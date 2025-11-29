@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Reflection
+// Proto20
 // Use reflection.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto20 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto20 feature
+    // Hint: Use reflection.
+
+    std::cout << "Exercise proto20: Implement Proto20" << std::endl;
     return 0;
 }

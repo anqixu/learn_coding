@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Explicit Spec
+// Explicit Specialization
 // template<>.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise explicit_specialization not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Explicit Specialization feature
+    // Hint: template<>.
+
+    std::cout << "Exercise explicit_specialization: Implement Explicit Specialization" << std::endl;
     return 0;
 }

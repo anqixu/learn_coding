@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
 
 // Strings
-// Work with std::string
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Concatenate strings.
-    std::cout << "Exercise string1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Concatenate strings
 
 int main() {
-    solve();
+    std::string first = "Hello";
+    std::string second = "World";
+
+    // TODO: Concatenate with a space in between
+    std::string result = first; // + ...
+
+    std::cout << result << std::endl;
     return 0;
 }

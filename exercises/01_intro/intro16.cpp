@@ -1,19 +1,11 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Const
-// Use const correctly.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro16 not implemented!" << std::endl;
-    // exit(1);
-}
+// Const Correctness
+// Use const where appropriate
 
 int main() {
-    solve();
+    // TODO: This value shouldn't change - make it const
+    int PI = 3.14159;
+    std::cout << "PI = " << PI << std::endl;
     return 0;
 }

@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <queue>
 
-// Priority Queue
-// Use std::priority_queue.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise pqueue1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Priority Queue - max heap by default
+// Elements come out sorted
 
 int main() {
-    solve();
+    std::priority_queue<int> pq;
+
+    // TODO: push 3, 1, 4, 1, 5
+
+    while (!pq.empty()) {
+        std::cout << pq.top() << " ";  // Should print: 5 4 3 1 1
+        pq.pop();
+    }
+    std::cout << std::endl;
     return 0;
 }

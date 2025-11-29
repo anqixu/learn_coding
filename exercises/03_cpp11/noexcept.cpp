@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Noexcept
-// Mark function noexcept.
-// I AM NOT DONE
+// Noexcept - specify non-throwing functions
+// Mark function as noexcept
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise noexcept not implemented!" << std::endl;
-    // exit(1);
+// TODO: Add noexcept specifier
+void safe_function() {
+    std::cout << "This never throws" << std::endl;
 }
 
 int main() {
-    solve();
+    safe_function();
+    std::cout << "Is noexcept: " << noexcept(safe_function()) << std::endl;
     return 0;
 }

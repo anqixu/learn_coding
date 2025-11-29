@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Return Values
-// Return from functions
-// I AM NOT DONE
+// Return the correct value from multiply()
 
-void solve() {
-    // TODO: Return the correct value.
-    std::cout << "Exercise intro9 not implemented!" << std::endl;
-    // exit(1);
+int multiply(int a, int b) {
+    // TODO: Return a * b
 }
 
 int main() {
-    solve();
+    int result = multiply(4, 5);
+    std::cout << "Result: " << result << std::endl;
     return 0;
 }

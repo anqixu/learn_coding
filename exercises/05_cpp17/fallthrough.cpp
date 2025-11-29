@@ -5,15 +5,11 @@
 
 // Fallthrough
 // [[fallthrough]]
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise fallthrough not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Fallthrough feature
+    // Hint: [[fallthrough]]
+
+    std::cout << "Exercise fallthrough: Implement Fallthrough" << std::endl;
     return 0;
 }

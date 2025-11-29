@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Slide View
+// Slide
 // views::slide.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise slide not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Slide feature
+    // Hint: views::slide.
+
+    std::cout << "Exercise slide: Implement Slide" << std::endl;
     return 0;
 }

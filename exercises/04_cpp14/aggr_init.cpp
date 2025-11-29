@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Aggregate Initialization
-// Struct init.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise aggr_init not implemented!" << std::endl;
-    // exit(1);
-}
+// Struct init
 
 int main() {
-    solve();
+    // TODO: Implement the aggregate initialization feature
+    // Hint: Struct init
+
+    std::cout << "Exercise aggr_init: Implement aggregate initialization" << std::endl;
     return 0;
 }

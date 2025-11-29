@@ -5,15 +5,11 @@
 
 // Interpreter
 // Implement Interpreter.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise interpreter not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Interpreter feature
+    // Hint: Implement Interpreter.
+
+    std::cout << "Exercise interpreter: Implement Interpreter" << std::endl;
     return 0;
 }

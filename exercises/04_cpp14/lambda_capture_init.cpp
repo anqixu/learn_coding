@@ -5,15 +5,11 @@
 
 // Lambda Capture Init
 // [x = 1]
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise lambda_capture_init not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the lambda init-capture feature
+    // Hint: [x = 1]
+
+    std::cout << "Exercise lambda_capture_init: Implement lambda init-capture" << std::endl;
     return 0;
 }

@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Nullptr
-// Use nullptr
-// I AM NOT DONE
+// Nullptr - type-safe null pointer
+// Use nullptr instead of NULL or 0
 
-void solve() {
-    // TODO: Use nullptr.
-    std::cout << "Exercise nullptr1 not implemented!" << std::endl;
-    // exit(1);
-}
+void foo(int) { std::cout << "int" << std::endl; }
+void foo(int*) { std::cout << "pointer" << std::endl; }
 
 int main() {
-    solve();
+    // TODO: Use nullptr instead of 0 or NULL
+    foo(0);  // Calls int version, probably not what we want
     return 0;
 }

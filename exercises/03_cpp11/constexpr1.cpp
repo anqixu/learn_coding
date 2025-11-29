@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Constexpr
-// Use constexpr
-// I AM NOT DONE
+// Constexpr - compile-time constants
+// Make function constexpr for compile-time evaluation
 
-void solve() {
-    // TODO: Make function constexpr.
-    std::cout << "Exercise constexpr1 not implemented!" << std::endl;
-    // exit(1);
+// TODO: Add constexpr
+int square(int x) {
+    return x * x;
 }
 
 int main() {
-    solve();
+    constexpr int val = square(5);  // Should be computed at compile time
+    std::cout << "Square: " << val << std::endl;
     return 0;
 }

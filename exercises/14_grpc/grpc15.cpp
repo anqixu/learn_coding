@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Auth
+// Grpc5
 // Credentials.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc15 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc5 feature
+    // Hint: Credentials.
+
+    std::cout << "Exercise grpc15: Implement Grpc5" << std::endl;
     return 0;
 }

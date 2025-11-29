@@ -1,19 +1,14 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Trailing Return Type
-// auto func() -> int.
-// I AM NOT DONE
+// Use auto func() -> int syntax
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise trailing not implemented!" << std::endl;
-    // exit(1);
+// TODO: Convert to trailing return type
+int add(int a, int b) {
+    return a + b;
 }
 
 int main() {
-    solve();
+    std::cout << "Result: " << add(3, 4) << std::endl;
     return 0;
 }

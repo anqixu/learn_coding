@@ -1,19 +1,25 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Alignas
-// Control alignment
-// I AM NOT DONE
+// Alignas - specify alignment requirements
+// Use alignas to align data
 
-void solve() {
-    // TODO: Use alignas.
-    std::cout << "Exercise alignas not implemented!" << std::endl;
-    // exit(1);
-}
+struct Normal {
+    char c;
+    int i;
+};
+
+// TODO: Use alignas to align to 64 bytes (cache line)
+struct Aligned {
+    char c;
+    int i;
+};
 
 int main() {
-    solve();
+    std::cout << "Normal alignment: " << alignof(Normal) << std::endl;
+    std::cout << "Normal size: " << sizeof(Normal) << std::endl;
+
+    std::cout << "Aligned alignment: " << alignof(Aligned) << std::endl;
+    std::cout << "Aligned size: " << sizeof(Aligned) << std::endl;
+
     return 0;
 }

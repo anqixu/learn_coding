@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Complex Variable Template
-// Pi template with precision.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise vartmpl_complex not implemented!" << std::endl;
-    // exit(1);
-}
+// Variable Template Complex
+// Pi template with precision
 
 int main() {
-    solve();
+    // TODO: Implement the variable template with precision feature
+    // Hint: Pi template with precision
+
+    std::cout << "Exercise vartmpl_complex: Implement variable template with precision" << std::endl;
     return 0;
 }

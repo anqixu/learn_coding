@@ -5,15 +5,11 @@
 
 // Deduction Guide
 // User defined deduction guide.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise deduction_guide not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Deduction Guide feature
+    // Hint: User defined deduction guide.
+
+    std::cout << "Exercise deduction_guide: Implement Deduction Guide" << std::endl;
     return 0;
 }

@@ -5,15 +5,11 @@
 
 // Visitor
 // Implement Visitor.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise visitor not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Visitor feature
+    // Hint: Implement Visitor.
+
+    std::cout << "Exercise visitor: Implement Visitor" << std::endl;
     return 0;
 }

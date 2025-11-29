@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Composite
-// Implement Composite pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Composite.
-    std::cout << "Exercise composite not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Composite.
 
 int main() {
-    solve();
+    // TODO: Implement the Composite feature
+    // Hint: Implement Composite.
+
+    std::cout << "Exercise composite: Implement Composite" << std::endl;
     return 0;
 }

@@ -1,19 +1,24 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Delegating Constructors
-// Call constructor from another.
-// I AM NOT DONE
+// Call one constructor from another
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise delegate not implemented!" << std::endl;
-    // exit(1);
-}
+class Point {
+    int x, y;
+public:
+    Point(int x_val, int y_val) : x(x_val), y(y_val) {}
+
+    // TODO: Delegate to two-parameter constructor
+    Point() {
+        x = 0;
+        y = 0;
+    }
+
+    void print() { std::cout << "(" << x << ", " << y << ")" << std::endl; }
+};
 
 int main() {
-    solve();
+    Point p;
+    p.print();
     return 0;
 }

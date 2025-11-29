@@ -5,15 +5,11 @@
 
 // Invoke Result
 // std::invoke_result.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise invoke_result not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Invoke Result feature
+    // Hint: std::invoke_result.
+
+    std::cout << "Exercise invoke_result: Implement Invoke Result" << std::endl;
     return 0;
 }

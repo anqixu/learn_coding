@@ -1,19 +1,16 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Recursion
-// Implement recursive factorial.
-// I AM NOT DONE
+// Implement recursive factorial
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro13 not implemented!" << std::endl;
-    // exit(1);
+int factorial(int n) {
+    // TODO: Implement recursively
+    // Base case: if n <= 1, return 1
+    // Recursive case: return n * factorial(n-1)
+    return 0;
 }
 
 int main() {
-    solve();
+    std::cout << "5! = " << factorial(5) << std::endl;  // Should be 120
     return 0;
 }

@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <set>
 
 // Set Basics
-// Use std::set
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Insert into set.
-    std::cout << "Exercise set1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Insert elements into a set
 
 int main() {
-    solve();
+    std::set<int> numbers;
+
+    // TODO: Insert 5, 2, 8, 2, 1 (duplicates will be ignored)
+
+    for (int n : numbers) {
+        std::cout << n << " ";  // Should print sorted: 1 2 5 8
+    }
+    std::cout << std::endl;
     return 0;
 }

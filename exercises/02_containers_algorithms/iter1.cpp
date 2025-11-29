@@ -1,19 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
 // Iterators
-// Use iterators
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Iterate with iterators.
-    std::cout << "Exercise iter1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Use iterators to traverse a container
 
 int main() {
-    solve();
+    std::vector<int> vec = {1, 2, 3, 4, 5};
+
+    // TODO: Use iterators in the for loop
+    for (auto it = vec./* begin */; it != vec./* end */; ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

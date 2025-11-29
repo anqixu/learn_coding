@@ -1,19 +1,17 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <set>
 
-// Multiset
-// Use std::multiset.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise multiset1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Multiset - allows duplicates
+// Keeps elements sorted
 
 int main() {
-    solve();
+    std::multiset<int> ms;
+
+    // TODO: insert 3, 1, 4, 1, 5, 9, 2, 6, 5
+
+    for (int v : ms) {
+        std::cout << v << " ";  // Should print sorted with dups
+    }
+    std::cout << std::endl;
     return 0;
 }

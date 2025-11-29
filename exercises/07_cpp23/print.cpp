@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <print>
 
-// Print
-// Use std::print
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::print.
-    std::cout << "Exercise print not implemented!" << std::endl;
-    // exit(1);
-}
+// Print - simpler output
+// Use std::print instead of std::cout
 
 int main() {
-    solve();
+    std::string name = "Alice";
+    int age = 30;
+
+    // TODO: Use std::print instead of cout
+    std::cout << "Name: " << name << ", Age: " << age << std::endl;
+
+    // TODO: Use std::println for automatic newline
+    std::cout << "Hello, World!" << std::endl;
+
     return 0;
 }

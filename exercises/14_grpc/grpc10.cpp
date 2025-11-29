@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Streaming Server
+// Grpc0
 // Server streaming.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc10 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc0 feature
+    // Hint: Server streaming.
+
+    std::cout << "Exercise grpc10: Implement Grpc0" << std::endl;
     return 0;
 }

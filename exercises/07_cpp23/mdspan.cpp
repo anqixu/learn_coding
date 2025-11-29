@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// MDSpan
-// Use std::mdspan
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::mdspan.
-    std::cout << "Exercise mdspan not implemented!" << std::endl;
-    // exit(1);
-}
+// Mdspan
+// Use std::mdspan.
 
 int main() {
-    solve();
+    // TODO: Implement the Mdspan feature
+    // Hint: Use std::mdspan.
+
+    std::cout << "Exercise mdspan: Implement Mdspan" << std::endl;
     return 0;
 }

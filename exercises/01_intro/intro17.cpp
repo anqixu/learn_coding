@@ -1,19 +1,12 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Static Cast
-// Use static_cast.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro17 not implemented!" << std::endl;
-    // exit(1);
-}
+// Use static_cast for type conversion
 
 int main() {
-    solve();
+    double pi = 3.14159;
+    // TODO: Use static_cast to convert to int
+    int pi_int = pi;  // C-style cast - use static_cast instead
+    std::cout << "PI as int: " << pi_int << std::endl;
     return 0;
 }

@@ -1,19 +1,22 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <type_traits>
 
-// Type Traits
-// Use type traits
-// I AM NOT DONE
+// Type Traits - query type properties at compile time
+// Use std::is_same, std::is_integral, etc.
 
-void solve() {
-    // TODO: Use std::is_same.
-    std::cout << "Exercise typetraits not implemented!" << std::endl;
-    // exit(1);
+template<typename T>
+void check_type(T value) {
+    // TODO: Use type traits to check if T is integral
+    std::cout << "Is integral: ???" << std::endl;
+
+    // TODO: Check if T is the same as int
+    std::cout << "Is int: ???" << std::endl;
 }
 
 int main() {
-    solve();
+    check_type(42);
+    check_type(3.14);
+    check_type("hello");
+
     return 0;
 }

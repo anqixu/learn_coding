@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Reflection
+// Grpc8
 // Server reflection.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc18 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc8 feature
+    // Hint: Server reflection.
+
+    std::cout << "Exercise grpc18: Implement Grpc8" << std::endl;
     return 0;
 }

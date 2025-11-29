@@ -5,15 +5,11 @@
 
 // Launder
 // std::launder.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise launder not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Launder feature
+    // Hint: std::launder.
+
+    std::cout << "Exercise launder: Implement Launder" << std::endl;
     return 0;
 }

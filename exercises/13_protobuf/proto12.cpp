@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Package
+// Proto2
 // Package declaration.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto12 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto2 feature
+    // Hint: Package declaration.
+
+    std::cout << "Exercise proto12: Implement Proto2" << std::endl;
     return 0;
 }

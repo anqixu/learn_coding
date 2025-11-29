@@ -5,15 +5,11 @@
 
 // Destroy At
 // std::destroy_at.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise destroy_at not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Destroy At feature
+    // Hint: std::destroy_at.
+
+    std::cout << "Exercise destroy_at: Implement Destroy At" << std::endl;
     return 0;
 }

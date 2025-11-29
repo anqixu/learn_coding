@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Compression
+// Grpc9
 // Set compression.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc19 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc9 feature
+    // Hint: Set compression.
+
+    std::cout << "Exercise grpc19: Implement Grpc9" << std::endl;
     return 0;
 }

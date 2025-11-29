@@ -5,15 +5,11 @@
 
 // Hardware Concurrency
 // std::thread::hardware_concurrency.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise hardware_concurrency not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Hardware Concurrency feature
+    // Hint: std::thread::hardware_concurrency.
+
+    std::cout << "Exercise hardware_concurrency: Implement Hardware Concurrency" << std::endl;
     return 0;
 }

@@ -1,19 +1,20 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <thread>
 
-// Thread Basics
-// Create and join threads
-// I AM NOT DONE
+// Threading Basics - create and join threads
+// Start a thread with a function
 
-void solve() {
-    // TODO: Start a thread.
-    std::cout << "Exercise thread1 not implemented!" << std::endl;
-    // exit(1);
+void worker(int id) {
+    std::cout << "Worker " << id << " started" << std::endl;
+    // Do some work...
+    std::cout << "Worker " << id << " finished" << std::endl;
 }
 
 int main() {
-    solve();
+    // TODO: Create a thread running worker(1)
+    // TODO: Don't forget to join()!
+
+    std::cout << "Main thread" << std::endl;
+
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Polymorphic Memory Resource
+// Pmr
 // std::pmr.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise pmr not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Pmr feature
+    // Hint: std::pmr.
+
+    std::cout << "Exercise pmr: Implement Pmr" << std::endl;
     return 0;
 }

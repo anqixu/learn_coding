@@ -5,15 +5,11 @@
 
 // Apply
 // std::apply.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise apply not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Apply feature
+    // Hint: std::apply.
+
+    std::cout << "Exercise apply: Implement Apply" << std::endl;
     return 0;
 }

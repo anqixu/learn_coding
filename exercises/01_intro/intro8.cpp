@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Function Parameters
-// Pass arguments to functions
-// I AM NOT DONE
+// Pass the correct arguments to add()
 
-void solve() {
-    // TODO: Pass arguments.
-    std::cout << "Exercise intro8 not implemented!" << std::endl;
-    // exit(1);
+int add(int a, int b) {
+    return a + b;
 }
 
 int main() {
-    solve();
+    // TODO: Call add with arguments 5 and 3
+    int result = add(/* pass arguments */);
+    std::cout << "Result: " << result << std::endl;
     return 0;
 }

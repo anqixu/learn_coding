@@ -1,19 +1,21 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Override Specifier
-// Mark method override.
-// I AM NOT DONE
+// Override - explicit override
+// Use override keyword
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise override not implemented!" << std::endl;
-    // exit(1);
-}
+class Base {
+public:
+    virtual void foo() { std::cout << "Base::foo" << std::endl; }
+};
+
+class Derived : public Base {
+public:
+    // TODO: Add override keyword
+    void foo() { std::cout << "Derived::foo" << std::endl; }
+};
 
 int main() {
-    solve();
+    Derived d;
+    d.foo();
     return 0;
 }

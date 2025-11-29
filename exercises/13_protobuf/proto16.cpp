@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Any
+// Proto6
 // Any type.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto16 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto6 feature
+    // Hint: Any type.
+
+    std::cout << "Exercise proto16: Implement Proto6" << std::endl;
     return 0;
 }

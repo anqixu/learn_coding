@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// Fold Expression
-// Use fold expressions
-// I AM NOT DONE
+// Fold Expressions - expand parameter packs
+// Sum all arguments with (... + args)
 
-void solve() {
-    // TODO: Use fold expression.
-    std::cout << "Exercise fold not implemented!" << std::endl;
-    // exit(1);
+// TODO: Implement using fold expression
+template<typename... Args>
+int sum(Args... args) {
+    // Old way: recursive template
+    return 0;  // Incomplete!
 }
 
 int main() {
-    solve();
+    std::cout << "Sum: " << sum(1, 2, 3, 4, 5) << std::endl;  // Should be 15
+    std::cout << "Sum: " << sum(10, 20) << std::endl;  // Should be 30
+
     return 0;
 }

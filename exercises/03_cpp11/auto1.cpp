@@ -1,19 +1,16 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
-// Auto Keyword
-// Use auto for type deduction
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use auto.
-    std::cout << "Exercise auto1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Auto - type deduction
+// Use auto instead of explicit types
 
 int main() {
-    solve();
+    std::vector<int> vec = {1, 2, 3};
+
+    // TODO: Use auto instead of std::vector<int>::iterator
+    for (std::vector<int>::iterator it = vec.begin(); it != vec.end(); ++it) {
+        std::cout << *it << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

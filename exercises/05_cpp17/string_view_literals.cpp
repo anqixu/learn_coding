@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // String View Literals
-// "sv"sv
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise string_view_literals not implemented!" << std::endl;
-    // exit(1);
-}
+// String view literals.
 
 int main() {
-    solve();
+    // TODO: Implement the String View Literals feature
+    // Hint: String view literals.
+
+    std::cout << "Exercise string_view_literals: Implement String View Literals" << std::endl;
     return 0;
 }

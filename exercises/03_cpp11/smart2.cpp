@@ -1,19 +1,18 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <memory>
 
-// Shared Pointer
-// Use std::shared_ptr
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::shared_ptr.
-    std::cout << "Exercise smart2 not implemented!" << std::endl;
-    // exit(1);
-}
+// Shared Pointer - shared ownership
+// Use std::shared_ptr for reference counting
 
 int main() {
-    solve();
+    // TODO: Create shared_ptr
+    std::shared_ptr<int> ptr1; // = ...
+
+    {
+        std::shared_ptr<int> ptr2 = ptr1;
+        std::cout << "Use count: " << ptr1.use_count() << std::endl;
+    }
+
+    std::cout << "Use count after scope: " << ptr1.use_count() << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Deduce This
-// Explicit object parameter
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Explicit object parameter.
-    std::cout << "Exercise deducethis not implemented!" << std::endl;
-    // exit(1);
-}
+// Deducethis
+// Explicit object parameter.
 
 int main() {
-    solve();
+    // TODO: Implement the Deducethis feature
+    // Hint: Explicit object parameter.
+
+    std::cout << "Exercise deducethis: Implement Deducethis" << std::endl;
     return 0;
 }

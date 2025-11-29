@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Relaxed Constexpr
-// More complex constexpr
-// I AM NOT DONE
+// More complex constexpr functions in C++14
 
-void solve() {
-    // TODO: More complex constexpr.
-    std::cout << "Exercise relaxconst not implemented!" << std::endl;
-    // exit(1);
+constexpr int factorial(int n) {
+    // TODO: Implement with loop (allowed in C++14)
+    return (n <= 1) ? 1 : n * factorial(n - 1);
 }
 
 int main() {
-    solve();
+    constexpr int f5 = factorial(5);
+    std::cout << "5! = " << f5 << std::endl;
     return 0;
 }

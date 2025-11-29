@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Consteval
-// Use immediate functions
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Immediate function.
-    std::cout << "Exercise consteval not implemented!" << std::endl;
-    // exit(1);
-}
+// Immediate function.
 
 int main() {
-    solve();
+    // TODO: Implement the Consteval feature
+    // Hint: Immediate function.
+
+    std::cout << "Exercise consteval: Implement Consteval" << std::endl;
     return 0;
 }

@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Forward Like
-// Use std::forward_like
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::forward_like.
-    std::cout << "Exercise forward_like not implemented!" << std::endl;
-    // exit(1);
-}
+// std::forward_like.
 
 int main() {
-    solve();
+    // TODO: Implement the Forward Like feature
+    // Hint: std::forward_like.
+
+    std::cout << "Exercise forward_like: Implement Forward Like" << std::endl;
     return 0;
 }

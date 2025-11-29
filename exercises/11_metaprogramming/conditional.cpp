@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Conditional
-// Use std::conditional
-// I AM NOT DONE
-
-void solve() {
-    // TODO: std::conditional.
-    std::cout << "Exercise conditional not implemented!" << std::endl;
-    // exit(1);
-}
+// std::conditional.
 
 int main() {
-    solve();
+    // TODO: Implement the Conditional feature
+    // Hint: std::conditional.
+
+    std::cout << "Exercise conditional: Implement Conditional" << std::endl;
     return 0;
 }

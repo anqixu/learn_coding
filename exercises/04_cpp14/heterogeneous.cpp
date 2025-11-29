@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Heterogeneous Lookup
-// std::less<>.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise heterogeneous not implemented!" << std::endl;
-    // exit(1);
-}
+// std::less<>
 
 int main() {
-    solve();
+    // TODO: Implement the heterogeneous lookup feature
+    // Hint: std::less<>
+
+    std::cout << "Exercise heterogeneous: Implement heterogeneous lookup" << std::endl;
     return 0;
 }

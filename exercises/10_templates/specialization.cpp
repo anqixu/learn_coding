@@ -1,19 +1,22 @@
 #include <iostream>
-#include <vector>
 #include <string>
-#include <algorithm>
 
-// Template Specialization
-// Specialize templates
-// I AM NOT DONE
+// Template Specialization - customize for specific types
+// Specialize the template for std::string
 
-void solve() {
-    // TODO: Template specialization.
-    std::cout << "Exercise specialization not implemented!" << std::endl;
-    // exit(1);
+template<typename T>
+void print(const T& value) {
+    std::cout << "Value: " << value << std::endl;
 }
 
+// TODO: Add specialization for std::string to print with quotes
+// template<>
+// void print<std::string>(const std::string& value) { ... }
+
 int main() {
-    solve();
+    print(42);
+    print(3.14);
+    print(std::string("hello"));  // Should print "hello" with quotes
+
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Enum
+// Proto9
 // Enum field.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto9 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto9 feature
+    // Hint: Enum field.
+
+    std::cout << "Exercise proto9: Implement Proto9" << std::endl;
     return 0;
 }

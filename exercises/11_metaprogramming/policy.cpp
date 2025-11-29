@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Policy Based Design
+// Policy
 // Strategy as template param.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise policy not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Policy feature
+    // Hint: Strategy as template param.
+
+    std::cout << "Exercise policy: Implement Policy" << std::endl;
     return 0;
 }

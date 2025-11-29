@@ -5,15 +5,11 @@
 
 // Flyweight
 // Implement Flyweight.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise flyweight not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Flyweight feature
+    // Hint: Implement Flyweight.
+
+    std::cout << "Exercise flyweight: Implement Flyweight" << std::endl;
     return 0;
 }

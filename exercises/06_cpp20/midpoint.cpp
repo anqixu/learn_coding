@@ -5,15 +5,11 @@
 
 // Midpoint
 // std::midpoint.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise midpoint not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Midpoint feature
+    // Hint: std::midpoint.
+
+    std::cout << "Exercise midpoint: Implement Midpoint" << std::endl;
     return 0;
 }

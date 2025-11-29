@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// SIMD
+// Simd Placeholder
 // Placeholder for SIMD.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise simd_placeholder not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Simd Placeholder feature
+    // Hint: Placeholder for SIMD.
+
+    std::cout << "Exercise simd_placeholder: Implement Simd Placeholder" << std::endl;
     return 0;
 }

@@ -1,19 +1,22 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <type_traits>
 
-// Constexpr If
-// Compile-time branching
-// I AM NOT DONE
+// Constexpr If - compile-time conditional
+// Use if constexpr for compile-time branching
 
-void solve() {
-    // TODO: Compile time branch.
-    std::cout << "Exercise constexpr_if not implemented!" << std::endl;
-    // exit(1);
+template<typename T>
+void process(T value) {
+    // TODO: Use if constexpr instead of runtime if
+    if (std::is_integral_v<T>) {
+        std::cout << "Processing integer: " << value << std::endl;
+    } else {
+        std::cout << "Processing other: " << value << std::endl;
+    }
 }
 
 int main() {
-    solve();
+    process(42);
+    process(3.14);
+
     return 0;
 }

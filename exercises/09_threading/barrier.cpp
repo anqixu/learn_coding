@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Barrier
-// Use std::barrier
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::barrier.
-    std::cout << "Exercise barrier not implemented!" << std::endl;
-    // exit(1);
-}
+// Use std::barrier.
 
 int main() {
-    solve();
+    // TODO: Implement the Barrier feature
+    // Hint: Use std::barrier.
+
+    std::cout << "Exercise barrier: Implement Barrier" << std::endl;
     return 0;
 }

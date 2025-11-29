@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// JThread
-// Use std::jthread
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use std::jthread.
-    std::cout << "Exercise jthread not implemented!" << std::endl;
-    // exit(1);
-}
+// Jthread
+// Use std::jthread.
 
 int main() {
-    solve();
+    // TODO: Implement the Jthread feature
+    // Hint: Use std::jthread.
+
+    std::cout << "Exercise jthread: Implement Jthread" << std::endl;
     return 0;
 }

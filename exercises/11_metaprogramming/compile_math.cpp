@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Compile Time Math
+// Compile Math
 // Factorial.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise compile_math not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Compile Math feature
+    // Hint: Factorial.
+
+    std::cout << "Exercise compile_math: Implement Compile Math" << std::endl;
     return 0;
 }

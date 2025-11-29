@@ -1,19 +1,20 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <filesystem>
 
-// Filesystem
-// Use std::filesystem
-// I AM NOT DONE
+// Filesystem - work with files and directories
+// Use std::filesystem::path and exists()
 
-void solve() {
-    // TODO: Check file existence.
-    std::cout << "Exercise filesystem not implemented!" << std::endl;
-    // exit(1);
-}
+namespace fs = std::filesystem;
 
 int main() {
-    solve();
+    // TODO: Use fs::path instead of string
+    std::string p = "/tmp/test.txt";
+
+    // TODO: Check if file exists using fs::exists()
+    std::cout << "File exists: " << "???" << std::endl;
+
+    // TODO: Get file size, parent path, extension
+    // fs::file_size(), .parent_path(), .extension()
+
     return 0;
 }

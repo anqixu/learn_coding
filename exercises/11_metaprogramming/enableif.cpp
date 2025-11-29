@@ -1,19 +1,19 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <type_traits>
 
-// Enable If
-// SFINAE with enable_if
-// I AM NOT DONE
+// Enable If - SFINAE to enable/disable templates
+// Use std::enable_if to constrain templates
 
-void solve() {
-    // TODO: SFINAE with enable_if.
-    std::cout << "Exercise enableif not implemented!" << std::endl;
-    // exit(1);
+// TODO: Add enable_if to only accept integral types
+template<typename T>
+void print_number(T value) {
+    std::cout << "Number: " << value << std::endl;
 }
 
 int main() {
-    solve();
+    print_number(42);        // Should work
+    print_number(3.14);      // Should work
+    // print_number("hello");  // Should not compile after enable_if
+
     return 0;
 }

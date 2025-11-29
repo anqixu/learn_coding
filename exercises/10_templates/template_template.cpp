@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Template Template Param
+// Template Template
 // template<template<class> class T>.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise template_template not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Template Template feature
+    // Hint: template<template<class> class T>.
+
+    std::cout << "Exercise template_template: Implement Template Template" << std::endl;
     return 0;
 }

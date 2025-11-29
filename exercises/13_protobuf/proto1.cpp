@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Proto Basics
+// Proto
 // Define message.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto1 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto feature
+    // Hint: Define message.
+
+    std::cout << "Exercise proto1: Implement Proto" << std::endl;
     return 0;
 }

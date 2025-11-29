@@ -1,19 +1,20 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
 // Inheriting Constructors
-// using Base::Base.
-// I AM NOT DONE
+// Use using Base::Base
 
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise inherit not implemented!" << std::endl;
-    // exit(1);
-}
+class Base {
+public:
+    Base(int x) { std::cout << "Base(" << x << ")" << std::endl; }
+};
+
+class Derived : public Base {
+public:
+    // TODO: Inherit Base constructors using 'using'
+    Derived(int x) : Base(x) {}
+};
 
 int main() {
-    solve();
+    Derived d(42);
     return 0;
 }

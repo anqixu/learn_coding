@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Deadline
+// Grpc2
 // Set deadline.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc12 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc2 feature
+    // Hint: Set deadline.
+
+    std::cout << "Exercise grpc12: Implement Grpc2" << std::endl;
     return 0;
 }

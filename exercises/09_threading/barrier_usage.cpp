@@ -5,15 +5,11 @@
 
 // Barrier Usage
 // More complex barrier.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise barrier_usage not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Barrier Usage feature
+    // Hint: More complex barrier.
+
+    std::cout << "Exercise barrier_usage: Implement Barrier Usage" << std::endl;
     return 0;
 }

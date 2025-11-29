@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Chunk View
+// Chunk
 // views::chunk.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise chunk not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Chunk feature
+    // Hint: views::chunk.
+
+    std::cout << "Exercise chunk: Implement Chunk" << std::endl;
     return 0;
 }

@@ -1,19 +1,13 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <cstring>
 
-// C Strings
-// Use char* and strlen.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise intro19 not implemented!" << std::endl;
-    // exit(1);
-}
+// C-style Strings
+// Use char* and strlen
 
 int main() {
-    solve();
+    // TODO: Create a C-string
+    char str[] = "Hell";  // Should be "Hello"
+    std::cout << "String: " << str << std::endl;
+    std::cout << "Length: " << strlen(str) << std::endl;
     return 0;
 }

@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Union
-// Use unions
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Use union.
-    std::cout << "Exercise union not implemented!" << std::endl;
-    // exit(1);
-}
+// Use union.
 
 int main() {
-    solve();
+    // TODO: Implement the Union feature
+    // Hint: Use union.
+
+    std::cout << "Exercise union: Implement Union" << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Template Alias
-// Use template aliases
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Using template.
-    std::cout << "Exercise alias not implemented!" << std::endl;
-    // exit(1);
-}
+// Alias
+// Using template.
 
 int main() {
-    solve();
+    // TODO: Implement the Alias feature
+    // Hint: Using template.
+
+    std::cout << "Exercise alias: Implement Alias" << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Keepalive
+// Grpc20
 // Keepalive params.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc20 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc20 feature
+    // Hint: Keepalive params.
+
+    std::cout << "Exercise grpc20: Implement Grpc20" << std::endl;
     return 0;
 }

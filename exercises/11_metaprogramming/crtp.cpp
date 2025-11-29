@@ -1,19 +1,28 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
 
-// CRTP
-// Curiously Recurring Template Pattern
-// I AM NOT DONE
+// CRTP - Curiously Recurring Template Pattern
+// Base class templates on derived class
 
-void solve() {
-    // TODO: Curiously Recurring Template Pattern.
-    std::cout << "Exercise crtp not implemented!" << std::endl;
-    // exit(1);
-}
+// TODO: Implement CRTP base class
+template<typename Derived>
+class Base {
+public:
+    void interface() {
+        // TODO: Call derived class method
+        std::cout << "Base::interface" << std::endl;
+    }
+};
+
+class Derived /* : public Base<Derived> */ {
+public:
+    void implementation() {
+        std::cout << "Derived::implementation" << std::endl;
+    }
+};
 
 int main() {
-    solve();
+    Derived d;
+    // d.interface();  // Should call Derived::implementation
+
     return 0;
 }

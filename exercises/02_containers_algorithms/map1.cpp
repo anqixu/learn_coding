@@ -1,19 +1,15 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <map>
 
 // Map Basics
-// Use std::map
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Insert into map.
-    std::cout << "Exercise map1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Insert key-value pairs into a map
 
 int main() {
-    solve();
+    // TODO: Create a map<string, int>
+    std::map</* key type */, /* value type */> ages;
+
+    // TODO: Insert ("Alice", 30) and ("Bob", 25)
+
+    std::cout << "Alice's age: " << ages["Alice"] << std::endl;
     return 0;
 }

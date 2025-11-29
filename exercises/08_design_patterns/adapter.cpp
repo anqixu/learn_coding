@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Adapter
-// Implement Adapter pattern
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Implement Adapter.
-    std::cout << "Exercise adapter not implemented!" << std::endl;
-    // exit(1);
-}
+// Implement Adapter.
 
 int main() {
-    solve();
+    // TODO: Implement the Adapter feature
+    // Hint: Implement Adapter.
+
+    std::cout << "Exercise adapter: Implement Adapter" << std::endl;
     return 0;
 }

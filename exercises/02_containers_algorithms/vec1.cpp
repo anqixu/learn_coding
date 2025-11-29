@@ -1,19 +1,18 @@
 #include <iostream>
 #include <vector>
-#include <string>
-#include <algorithm>
 
 // Vector Basics
-// Create and use std::vector
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Create a vector and push elements.
-    std::cout << "Exercise vec1 not implemented!" << std::endl;
-    // exit(1);
-}
+// Create a vector and push elements
 
 int main() {
-    solve();
+    // TODO: Create a vector of integers
+    std::vector<int> vec;
+
+    // TODO: Push 1, 2, 3 into the vector
+
+    for (int v : vec) {
+        std::cout << v << " ";
+    }
+    std::cout << std::endl;
     return 0;
 }

@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Unary Fold
+// Fold Unary
 // (args + ...).
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise fold_unary not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Fold Unary feature
+    // Hint: (args + ...).
+
+    std::cout << "Exercise fold_unary: Implement Fold Unary" << std::endl;
     return 0;
 }

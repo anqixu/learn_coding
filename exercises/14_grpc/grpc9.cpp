@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Streaming Client
+// Grpc9
 // Client streaming.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise grpc9 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Grpc9 feature
+    // Hint: Client streaming.
+
+    std::cout << "Exercise grpc9: Implement Grpc9" << std::endl;
     return 0;
 }

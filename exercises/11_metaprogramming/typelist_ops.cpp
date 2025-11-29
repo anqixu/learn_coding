@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Type List Ops
+// Typelist Ops
 // Push front/back.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise typelist_ops not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Typelist Ops feature
+    // Hint: Push front/back.
+
+    std::cout << "Exercise typelist_ops: Implement Typelist Ops" << std::endl;
     return 0;
 }

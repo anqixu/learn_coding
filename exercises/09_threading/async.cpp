@@ -1,19 +1,24 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <future>
+#include <thread>
+#include <chrono>
 
-// Async
-// Use std::async
-// I AM NOT DONE
+// Async - run functions asynchronously
+// Use std::async instead of manual threads
 
-void solve() {
-    // TODO: Use std::async.
-    std::cout << "Exercise async not implemented!" << std::endl;
-    // exit(1);
+int calculate(int x) {
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+    return x * x;
 }
 
 int main() {
-    solve();
+    // TODO: Use std::async to run calculate asynchronously
+    int result = calculate(5);  // Blocks for 1 second!
+
+    std::cout << "Doing other work..." << std::endl;
+
+    // TODO: Get result from future
+    std::cout << "Result: " << result << std::endl;
+
     return 0;
 }

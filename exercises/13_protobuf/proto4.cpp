@@ -3,17 +3,13 @@
 #include <string>
 #include <algorithm>
 
-// Deserialize
+// Proto4
 // ParseFromString.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise proto4 not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Proto4 feature
+    // Hint: ParseFromString.
+
+    std::cout << "Exercise proto4: Implement Proto4" << std::endl;
     return 0;
 }

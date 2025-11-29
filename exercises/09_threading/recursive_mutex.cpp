@@ -5,15 +5,11 @@
 
 // Recursive Mutex
 // std::recursive_mutex.
-// I AM NOT DONE
-
-void solve() {
-    // TODO: implementation
-    std::cout << "Exercise recursive_mutex not implemented!" << std::endl;
-    // exit(1);
-}
 
 int main() {
-    solve();
+    // TODO: Implement the Recursive Mutex feature
+    // Hint: std::recursive_mutex.
+
+    std::cout << "Exercise recursive_mutex: Implement Recursive Mutex" << std::endl;
     return 0;
 }

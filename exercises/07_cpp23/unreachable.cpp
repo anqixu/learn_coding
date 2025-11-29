@@ -4,16 +4,12 @@
 #include <algorithm>
 
 // Unreachable
-// Mark unreachable code
-// I AM NOT DONE
-
-void solve() {
-    // TODO: Mark unreachable.
-    std::cout << "Exercise unreachable not implemented!" << std::endl;
-    // exit(1);
-}
+// Mark unreachable.
 
 int main() {
-    solve();
+    // TODO: Implement the Unreachable feature
+    // Hint: Mark unreachable.
+
+    std::cout << "Exercise unreachable: Implement Unreachable" << std::endl;
     return 0;
 }
