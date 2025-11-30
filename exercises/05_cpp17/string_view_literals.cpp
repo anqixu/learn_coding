@@ -1,15 +1,21 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <string_view>
 
-// String View Literals
-// String view literals.
+// String View Literals - using namespace std::string_view_literals
+// Add string_view literal suffix
 
 int main() {
-    // TODO: Implement the String View Literals feature
-    // Hint: String view literals.
+    // TODO: Use 'sv' suffix for string_view literals
+    std::string_view sv1 = "Hello";
 
-    std::cout << "Exercise string_view_literals: Implement String View Literals" << std::endl;
+    // TODO: Use 'sv' suffix
+    auto sv2 = std::string_view("World");
+
+    std::cout << sv1 << " " << sv2 << std::endl;
+
+    // TODO: Use sv literal in function call
+    auto length = std::string_view("test").length();
+    std::cout << "Length: " << length << std::endl;
+
     return 0;
 }

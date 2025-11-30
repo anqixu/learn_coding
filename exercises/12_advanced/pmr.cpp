@@ -1,15 +1,26 @@
 #include <iostream>
+#include <memory_resource>
 #include <vector>
-#include <string>
-#include <algorithm>
 
-// Pmr
-// std::pmr.
+// Polymorphic Memory Resources - custom allocators with runtime polymorphism
+// Use pmr containers with different memory resources
 
 int main() {
-    // TODO: Implement the Pmr feature
-    // Hint: std::pmr.
+    // TODO: Create monotonic_buffer_resource
+    char buffer[1024];
 
-    std::cout << "Exercise pmr: Implement Pmr" << std::endl;
+    // TODO: Create pmr::vector using custom memory resource
+    // std::pmr::monotonic_buffer_resource pool{buffer, sizeof(buffer)};
+    // std::pmr::vector<int> vec{&pool};
+
+    std::vector<int> vec;
+    for (int i = 0; i < 10; ++i) {
+        vec.push_back(i);
+    }
+
+    std::cout << "Vector size: " << vec.size() << std::endl;
+
+    // TODO: Show memory usage from pool
+
     return 0;
 }

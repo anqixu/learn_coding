@@ -1,15 +1,26 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <array>
 
-// To Array
-// std::to_array.
+// std::to_array - create std::array from C array
+// Convert C-style arrays to std::array using to_array
+
+void print_array(const std::array<int, 5>& arr) {
+    for (int val : arr) {
+        std::cout << val << " ";
+    }
+    std::cout << std::endl;
+}
 
 int main() {
-    // TODO: Implement the To Array feature
-    // Hint: std::to_array.
+    int c_array[] = {1, 2, 3, 4, 5};
 
-    std::cout << "Exercise to_array: Implement To Array" << std::endl;
+    // TODO: Use std::to_array to convert c_array
+    std::array<int, 5> arr = {1, 2, 3, 4, 5};  // Manual copy
+
+    print_array(arr);
+
+    // TODO: Use std::to_array with string literals
+    const char* c_str = "Hello";
+
     return 0;
 }
