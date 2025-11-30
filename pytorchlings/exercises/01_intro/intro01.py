@@ -2,8 +2,8 @@
 """
 Welcome to PyTorchlings! 🔥
 
-This is your first exercise. To complete it, simply remove the line
-that says "I AM NOT DONE" below and run the exercise.
+This is your first exercise. To complete it, simply remove the marker
+comment below (the line that prevents completion) and run the exercise.
 
 You can run this exercise with:
     python exercises/01_intro/intro01.py

@@ -21,8 +21,24 @@ class ExerciseValidator:
     def has_todo_markers(self) -> bool:
         """Check if exercise still contains TODO markers"""
         with open(self.exercise_path, 'r') as f:
-            content = f.read()
-        return 'TODO' in content or 'todo!' in content or 'I AM NOT DONE' in content
+            lines = f.readlines()
+
+        # Look for marker patterns in comments, not in docstrings or regular text
+        for line in lines:
+            stripped = line.strip()
+            # Check for standalone marker comments
+            if stripped == '# I AM NOT DONE':
+                return True
+            if stripped == '# todo!':
+                return True
+            # Check for TODO comments (but not in docstrings)
+            if stripped.startswith('# TODO'):
+                return True
+            # Also catch TODO: at start of comment
+            if stripped.startswith('#') and 'TODO:' in stripped:
+                return True
+
+        return False
 
     def check_syntax(self) -> Tuple[bool, Optional[str]]:
         """Check if Python syntax is valid"""
