@@ -1,284 +1,284 @@
 # Cpplings Configuration
 
 [[exercises]]
-name = "intro1"
-path = "exercises/01_intro/intro1.cpp"
+name = "intro01"
+path = "cpplings/exercises/01_intro/intro01.cpp"
 mode = "run"
 hint = "Make the code compile and print Hello, World!"
 
 [[exercises]]
-name = "intro2"
-path = "exercises/01_intro/intro2.cpp"
+name = "intro02"
+path = "cpplings/exercises/01_intro/intro02.cpp"
 mode = "run"
 hint = "Initialize the variable 'x' to 10."
 
 [[exercises]]
-name = "intro3"
-path = "exercises/01_intro/intro3.cpp"
+name = "intro03"
+path = "cpplings/exercises/01_intro/intro03.cpp"
 mode = "run"
 hint = "Calculate sum of a and b."
 
 [[exercises]]
-name = "intro4"
-path = "exercises/01_intro/intro4.cpp"
+name = "intro04"
+path = "cpplings/exercises/01_intro/intro04.cpp"
 mode = "run"
 hint = "Fix the condition."
 
 [[exercises]]
-name = "intro5"
-path = "exercises/01_intro/intro5.cpp"
+name = "intro05"
+path = "cpplings/exercises/01_intro/intro05.cpp"
 mode = "run"
 hint = "Iterate 10 times."
 
 [[exercises]]
-name = "intro6"
-path = "exercises/01_intro/intro6.cpp"
+name = "intro06"
+path = "cpplings/exercises/01_intro/intro06.cpp"
 mode = "run"
 hint = "Loop until condition met."
 
 [[exercises]]
-name = "intro7"
-path = "exercises/01_intro/intro7.cpp"
+name = "intro07"
+path = "cpplings/exercises/01_intro/intro07.cpp"
 mode = "run"
 hint = "Call the function."
 
 [[exercises]]
-name = "intro8"
-path = "exercises/01_intro/intro8.cpp"
+name = "intro08"
+path = "cpplings/exercises/01_intro/intro08.cpp"
 mode = "run"
 hint = "Pass arguments."
 
 [[exercises]]
-name = "intro9"
-path = "exercises/01_intro/intro9.cpp"
+name = "intro09"
+path = "cpplings/exercises/01_intro/intro09.cpp"
 mode = "run"
 hint = "Return the correct value."
 
 [[exercises]]
 name = "intro10"
-path = "exercises/01_intro/intro10.cpp"
+path = "cpplings/exercises/01_intro/intro10.cpp"
 mode = "run"
 hint = "Use a reference to modify variable."
 
 [[exercises]]
 name = "intro11"
-path = "exercises/01_intro/intro11.cpp"
+path = "cpplings/exercises/01_intro/intro11.cpp"
 mode = "run"
 hint = "Use switch/case."
 
 [[exercises]]
 name = "intro12"
-path = "exercises/01_intro/intro12.cpp"
+path = "cpplings/exercises/01_intro/intro12.cpp"
 mode = "run"
 hint = "Use do-while."
 
 [[exercises]]
 name = "intro13"
-path = "exercises/01_intro/intro13.cpp"
+path = "cpplings/exercises/01_intro/intro13.cpp"
 mode = "run"
 hint = "Implement recursive factorial."
 
 [[exercises]]
 name = "intro14"
-path = "exercises/01_intro/intro14.cpp"
+path = "cpplings/exercises/01_intro/intro14.cpp"
 mode = "run"
 hint = "Fix variable scope."
 
 [[exercises]]
 name = "intro15"
-path = "exercises/01_intro/intro15.cpp"
+path = "cpplings/exercises/01_intro/intro15.cpp"
 mode = "run"
 hint = "Use extern or avoid global."
 
 [[exercises]]
 name = "intro16"
-path = "exercises/01_intro/intro16.cpp"
+path = "cpplings/exercises/01_intro/intro16.cpp"
 mode = "run"
 hint = "Use const correctly."
 
 [[exercises]]
 name = "intro17"
-path = "exercises/01_intro/intro17.cpp"
+path = "cpplings/exercises/01_intro/intro17.cpp"
 mode = "run"
 hint = "Use static_cast."
 
 [[exercises]]
 name = "intro18"
-path = "exercises/01_intro/intro18.cpp"
+path = "cpplings/exercises/01_intro/intro18.cpp"
 mode = "run"
 hint = "Use raw arrays."
 
 [[exercises]]
 name = "intro19"
-path = "exercises/01_intro/intro19.cpp"
+path = "cpplings/exercises/01_intro/intro19.cpp"
 mode = "run"
 hint = "Use char* and strlen."
 
 [[exercises]]
 name = "intro20"
-path = "exercises/01_intro/intro20.cpp"
+path = "cpplings/exercises/01_intro/intro20.cpp"
 mode = "run"
 hint = "Read argc/argv."
 
 [[exercises]]
-name = "vec1"
-path = "exercises/02_containers_algorithms/vec1.cpp"
+name = "vec01"
+path = "cpplings/exercises/02_containers_algorithms/vec01.cpp"
 mode = "run"
 hint = "Create a vector and push elements."
 
 [[exercises]]
-name = "vec2"
-path = "exercises/02_containers_algorithms/vec2.cpp"
+name = "vec02"
+path = "cpplings/exercises/02_containers_algorithms/vec02.cpp"
 mode = "run"
 hint = "Access elements."
 
 [[exercises]]
-name = "map1"
-path = "exercises/02_containers_algorithms/map1.cpp"
+name = "map01"
+path = "cpplings/exercises/02_containers_algorithms/map01.cpp"
 mode = "run"
 hint = "Insert into map."
 
 [[exercises]]
-name = "set1"
-path = "exercises/02_containers_algorithms/set1.cpp"
+name = "set01"
+path = "cpplings/exercises/02_containers_algorithms/set01.cpp"
 mode = "run"
 hint = "Insert into set."
 
 [[exercises]]
-name = "algo1"
-path = "exercises/02_containers_algorithms/algo1.cpp"
+name = "algo01"
+path = "cpplings/exercises/02_containers_algorithms/algo01.cpp"
 mode = "run"
 hint = "Sort a vector."
 
 [[exercises]]
-name = "algo2"
-path = "exercises/02_containers_algorithms/algo2.cpp"
+name = "algo02"
+path = "cpplings/exercises/02_containers_algorithms/algo02.cpp"
 mode = "run"
 hint = "Find an element."
 
 [[exercises]]
-name = "algo3"
-path = "exercises/02_containers_algorithms/algo3.cpp"
+name = "algo03"
+path = "cpplings/exercises/02_containers_algorithms/algo03.cpp"
 mode = "run"
 hint = "Use std::transform."
 
 [[exercises]]
-name = "algo4"
-path = "exercises/02_containers_algorithms/algo4.cpp"
+name = "algo04"
+path = "cpplings/exercises/02_containers_algorithms/algo04.cpp"
 mode = "run"
 hint = "Sum elements."
 
 [[exercises]]
-name = "iter1"
-path = "exercises/02_containers_algorithms/iter1.cpp"
+name = "iter01"
+path = "cpplings/exercises/02_containers_algorithms/iter01.cpp"
 mode = "run"
 hint = "Use iterators."
 
 [[exercises]]
-name = "string1"
-path = "exercises/02_containers_algorithms/string1.cpp"
+name = "string01"
+path = "cpplings/exercises/02_containers_algorithms/string01.cpp"
 mode = "run"
 hint = "Concat strings."
 
 [[exercises]]
-name = "deque1"
-path = "exercises/02_containers_algorithms/deque1.cpp"
+name = "deque01"
+path = "cpplings/exercises/02_containers_algorithms/deque01.cpp"
 mode = "run"
 hint = "Use std::deque."
 
 [[exercises]]
-name = "list1"
-path = "exercises/02_containers_algorithms/list1.cpp"
+name = "list01"
+path = "cpplings/exercises/02_containers_algorithms/list01.cpp"
 mode = "run"
 hint = "Use std::list."
 
 [[exercises]]
-name = "forward_list1"
-path = "exercises/02_containers_algorithms/forward_list1.cpp"
+name = "forward_list01"
+path = "cpplings/exercises/02_containers_algorithms/forward_list01.cpp"
 mode = "run"
 hint = "Use std::forward_list."
 
 [[exercises]]
-name = "stack1"
-path = "exercises/02_containers_algorithms/stack1.cpp"
+name = "stack01"
+path = "cpplings/exercises/02_containers_algorithms/stack01.cpp"
 mode = "run"
 hint = "Use std::stack."
 
 [[exercises]]
-name = "queue1"
-path = "exercises/02_containers_algorithms/queue1.cpp"
+name = "queue01"
+path = "cpplings/exercises/02_containers_algorithms/queue01.cpp"
 mode = "run"
 hint = "Use std::queue."
 
 [[exercises]]
-name = "pqueue1"
-path = "exercises/02_containers_algorithms/pqueue1.cpp"
+name = "pqueue01"
+path = "cpplings/exercises/02_containers_algorithms/pqueue01.cpp"
 mode = "run"
 hint = "Use std::priority_queue."
 
 [[exercises]]
-name = "multimap1"
-path = "exercises/02_containers_algorithms/multimap1.cpp"
+name = "multimap01"
+path = "cpplings/exercises/02_containers_algorithms/multimap01.cpp"
 mode = "run"
 hint = "Use std::multimap."
 
 [[exercises]]
-name = "multiset1"
-path = "exercises/02_containers_algorithms/multiset1.cpp"
+name = "multiset01"
+path = "cpplings/exercises/02_containers_algorithms/multiset01.cpp"
 mode = "run"
 hint = "Use std::multiset."
 
 [[exercises]]
-name = "unordered_map1"
-path = "exercises/02_containers_algorithms/unordered_map1.cpp"
+name = "unordered_map01"
+path = "cpplings/exercises/02_containers_algorithms/unordered_map01.cpp"
 mode = "run"
 hint = "Use std::unordered_map."
 
 [[exercises]]
-name = "unordered_set1"
-path = "exercises/02_containers_algorithms/unordered_set1.cpp"
+name = "unordered_set01"
+path = "cpplings/exercises/02_containers_algorithms/unordered_set01.cpp"
 mode = "run"
 hint = "Use std::unordered_set."
 
 [[exercises]]
-name = "auto1"
-path = "exercises/03_cpp11/auto1.cpp"
+name = "auto01"
+path = "cpplings/exercises/03_cpp11/auto01.cpp"
 mode = "run"
 hint = "Use auto."
 
 [[exercises]]
-name = "lambda1"
-path = "exercises/03_cpp11/lambda1.cpp"
+name = "lambda01"
+path = "cpplings/exercises/03_cpp11/lambda01.cpp"
 mode = "run"
 hint = "Create a lambda."
 
 [[exercises]]
-name = "smart1"
-path = "exercises/03_cpp11/smart1.cpp"
+name = "smart01"
+path = "cpplings/exercises/03_cpp11/smart01.cpp"
 mode = "run"
 hint = "Use std::unique_ptr."
 
 [[exercises]]
-name = "smart2"
-path = "exercises/03_cpp11/smart2.cpp"
+name = "smart02"
+path = "cpplings/exercises/03_cpp11/smart02.cpp"
 mode = "run"
 hint = "Use std::shared_ptr."
 
 [[exercises]]
-name = "move1"
-path = "exercises/03_cpp11/move1.cpp"
+name = "move01"
+path = "cpplings/exercises/03_cpp11/move01.cpp"
 mode = "run"
 hint = "Implement move constructor."
 
 [[exercises]]
-name = "enum1"
-path = "exercises/03_cpp11/enum1.cpp"
+name = "enum01"
+path = "cpplings/exercises/03_cpp11/enum01.cpp"
 mode = "run"
 hint = "Use enum class."
 
 [[exercises]]
-name = "nullptr1"
-path = "exercises/03_cpp11/nullptr1.cpp"
+name = "nullptr01"
+path = "cpplings/exercises/03_cpp11/nullptr01.cpp"
 mode = "run"
 hint = "Use nullptr."
 
@@ -289,14 +289,14 @@ mode = "run"
 hint = "Iterate over collection."
 
 [[exercises]]
-name = "constexpr1"
-path = "exercises/03_cpp11/constexpr1.cpp"
+name = "constexpr01"
+path = "cpplings/exercises/03_cpp11/constexpr01.cpp"
 mode = "run"
 hint = "Make function constexpr."
 
 [[exercises]]
-name = "tuple1"
-path = "exercises/03_cpp11/tuple1.cpp"
+name = "tuple01"
+path = "cpplings/exercises/03_cpp11/tuple01.cpp"
 mode = "run"
 hint = "Create and unpack tuple."
 
@@ -601,8 +601,8 @@ mode = "run"
 hint = "std::numeric::gcd."
 
 [[exercises]]
-name = "concepts1"
-path = "exercises/06_cpp20/concepts1.cpp"
+name = "concepts01"
+path = "cpplings/exercises/06_cpp20/concepts01.cpp"
 mode = "run"
 hint = "Define a simple concept."
 
@@ -619,14 +619,14 @@ mode = "run"
 hint = "Use std::span."
 
 [[exercises]]
-name = "ranges1"
-path = "exercises/06_cpp20/ranges1.cpp"
+name = "ranges01"
+path = "cpplings/exercises/06_cpp20/ranges01.cpp"
 mode = "run"
 hint = "Use ranges::sort."
 
 [[exercises]]
-name = "ranges2"
-path = "exercises/06_cpp20/ranges2.cpp"
+name = "ranges02"
+path = "cpplings/exercises/06_cpp20/ranges02.cpp"
 mode = "run"
 hint = "Use views::transform."
 
@@ -961,14 +961,14 @@ mode = "run"
 hint = "Implement Interpreter."
 
 [[exercises]]
-name = "thread1"
-path = "exercises/09_threading/thread1.cpp"
+name = "thread01"
+path = "cpplings/exercises/09_threading/thread01.cpp"
 mode = "run"
 hint = "Start a thread."
 
 [[exercises]]
-name = "mutex1"
-path = "exercises/09_threading/mutex1.cpp"
+name = "mutex01"
+path = "cpplings/exercises/09_threading/mutex01.cpp"
 mode = "run"
 hint = "Protect shared data."
 
@@ -1441,281 +1441,281 @@ mode = "run"
 hint = "std::aligned_storage."
 
 [[exercises]]
-name = "proto1"
-path = "exercises/13_protobuf/proto1.cpp"
+name = "proto01"
+path = "cpplings/exercises/13_protobuf/proto01.cpp"
 mode = "run"
 hint = "Define message."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto10"
-path = "exercises/13_protobuf/proto10.cpp"
+path = "cpplings/exercises/13_protobuf/proto10.cpp"
 mode = "run"
 hint = "Nested message."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto11"
-path = "exercises/13_protobuf/proto11.cpp"
+path = "cpplings/exercises/13_protobuf/proto11.cpp"
 mode = "run"
 hint = "Import other proto."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto12"
-path = "exercises/13_protobuf/proto12.cpp"
+path = "cpplings/exercises/13_protobuf/proto12.cpp"
 mode = "run"
 hint = "Package declaration."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto13"
-path = "exercises/13_protobuf/proto13.cpp"
+path = "cpplings/exercises/13_protobuf/proto13.cpp"
 mode = "run"
 hint = "Field options."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto14"
-path = "exercises/13_protobuf/proto14.cpp"
+path = "cpplings/exercises/13_protobuf/proto14.cpp"
 mode = "run"
 hint = "Well known types."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto15"
-path = "exercises/13_protobuf/proto15.cpp"
+path = "cpplings/exercises/13_protobuf/proto15.cpp"
 mode = "run"
 hint = "Duration type."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto16"
-path = "exercises/13_protobuf/proto16.cpp"
+path = "cpplings/exercises/13_protobuf/proto16.cpp"
 mode = "run"
 hint = "Any type."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto17"
-path = "exercises/13_protobuf/proto17.cpp"
+path = "cpplings/exercises/13_protobuf/proto17.cpp"
 mode = "run"
 hint = "Write to file."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto18"
-path = "exercises/13_protobuf/proto18.cpp"
+path = "cpplings/exercises/13_protobuf/proto18.cpp"
 mode = "run"
 hint = "Read from file."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto19"
-path = "exercises/13_protobuf/proto19.cpp"
+path = "cpplings/exercises/13_protobuf/proto19.cpp"
 mode = "run"
 hint = "JsonToBinary."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto2"
-path = "exercises/13_protobuf/proto2.cpp"
+name = "proto02"
+path = "cpplings/exercises/13_protobuf/proto02.cpp"
 mode = "run"
 hint = "Compile .proto."
 libs = ['-lprotobuf']
 
 [[exercises]]
 name = "proto20"
-path = "exercises/13_protobuf/proto20.cpp"
+path = "cpplings/exercises/13_protobuf/proto20.cpp"
 mode = "run"
 hint = "Use reflection."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto3"
-path = "exercises/13_protobuf/proto3.cpp"
+name = "proto03"
+path = "cpplings/exercises/13_protobuf/proto03.cpp"
 mode = "run"
 hint = "SerializeToString."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto4"
-path = "exercises/13_protobuf/proto4.cpp"
+name = "proto04"
+path = "cpplings/exercises/13_protobuf/proto04.cpp"
 mode = "run"
 hint = "ParseFromString."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto5"
-path = "exercises/13_protobuf/proto5.cpp"
+name = "proto05"
+path = "cpplings/exercises/13_protobuf/proto05.cpp"
 mode = "run"
 hint = "Check initialized."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto6"
-path = "exercises/13_protobuf/proto6.cpp"
+name = "proto06"
+path = "cpplings/exercises/13_protobuf/proto06.cpp"
 mode = "run"
 hint = "Add repeated."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto7"
-path = "exercises/13_protobuf/proto7.cpp"
+name = "proto07"
+path = "cpplings/exercises/13_protobuf/proto07.cpp"
 mode = "run"
 hint = "Map field."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto8"
-path = "exercises/13_protobuf/proto8.cpp"
+name = "proto08"
+path = "cpplings/exercises/13_protobuf/proto08.cpp"
 mode = "run"
 hint = "Oneof field."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "proto9"
-path = "exercises/13_protobuf/proto9.cpp"
+name = "proto09"
+path = "cpplings/exercises/13_protobuf/proto09.cpp"
 mode = "run"
 hint = "Enum field."
 libs = ['-lprotobuf']
 
 [[exercises]]
-name = "grpc1"
-path = "exercises/14_grpc/grpc1.cpp"
+name = "grpc01"
+path = "cpplings/exercises/14_grpc/grpc01.cpp"
 mode = "run"
 hint = "Define service."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc10"
-path = "exercises/14_grpc/grpc10.cpp"
+path = "cpplings/exercises/14_grpc/grpc10.cpp"
 mode = "run"
 hint = "Server streaming."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc11"
-path = "exercises/14_grpc/grpc11.cpp"
+path = "cpplings/exercises/14_grpc/grpc11.cpp"
 mode = "run"
 hint = "Bidirectional."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc12"
-path = "exercises/14_grpc/grpc12.cpp"
+path = "cpplings/exercises/14_grpc/grpc12.cpp"
 mode = "run"
 hint = "Set deadline."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc13"
-path = "exercises/14_grpc/grpc13.cpp"
+path = "cpplings/exercises/14_grpc/grpc13.cpp"
 mode = "run"
 hint = "Send metadata."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc14"
-path = "exercises/14_grpc/grpc14.cpp"
+path = "cpplings/exercises/14_grpc/grpc14.cpp"
 mode = "run"
 hint = "Client interceptor."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc15"
-path = "exercises/14_grpc/grpc15.cpp"
+path = "cpplings/exercises/14_grpc/grpc15.cpp"
 mode = "run"
 hint = "Credentials."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc16"
-path = "exercises/14_grpc/grpc16.cpp"
+path = "cpplings/exercises/14_grpc/grpc16.cpp"
 mode = "run"
 hint = "Handle errors."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc17"
-path = "exercises/14_grpc/grpc17.cpp"
+path = "cpplings/exercises/14_grpc/grpc17.cpp"
 mode = "run"
 hint = "Health service."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc18"
-path = "exercises/14_grpc/grpc18.cpp"
+path = "cpplings/exercises/14_grpc/grpc18.cpp"
 mode = "run"
 hint = "Server reflection."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc19"
-path = "exercises/14_grpc/grpc19.cpp"
+path = "cpplings/exercises/14_grpc/grpc19.cpp"
 mode = "run"
 hint = "Set compression."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc2"
-path = "exercises/14_grpc/grpc2.cpp"
+name = "grpc02"
+path = "cpplings/exercises/14_grpc/grpc02.cpp"
 mode = "run"
 hint = "Create stub."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
 name = "grpc20"
-path = "exercises/14_grpc/grpc20.cpp"
+path = "cpplings/exercises/14_grpc/grpc20.cpp"
 mode = "run"
 hint = "Keepalive params."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc3"
-path = "exercises/14_grpc/grpc3.cpp"
+name = "grpc03"
+path = "cpplings/exercises/14_grpc/grpc03.cpp"
 mode = "run"
 hint = "Unary call."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc4"
-path = "exercises/14_grpc/grpc4.cpp"
+name = "grpc04"
+path = "cpplings/exercises/14_grpc/grpc04.cpp"
 mode = "run"
 hint = "Async call."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc5"
-path = "exercises/14_grpc/grpc5.cpp"
+name = "grpc05"
+path = "cpplings/exercises/14_grpc/grpc05.cpp"
 mode = "run"
 hint = "Start server."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc6"
-path = "exercises/14_grpc/grpc6.cpp"
+name = "grpc06"
+path = "cpplings/exercises/14_grpc/grpc06.cpp"
 mode = "run"
 hint = "Implement service."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc7"
-path = "exercises/14_grpc/grpc7.cpp"
+name = "grpc07"
+path = "cpplings/exercises/14_grpc/grpc07.cpp"
 mode = "run"
 hint = "Return status."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc8"
-path = "exercises/14_grpc/grpc8.cpp"
+name = "grpc08"
+path = "cpplings/exercises/14_grpc/grpc08.cpp"
 mode = "run"
 hint = "Client context."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
 [[exercises]]
-name = "grpc9"
-path = "exercises/14_grpc/grpc9.cpp"
+name = "grpc09"
+path = "cpplings/exercises/14_grpc/grpc09.cpp"
 mode = "run"
 hint = "Client streaming."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']

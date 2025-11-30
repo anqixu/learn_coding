@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+"""
+Cpplings - Interactive C++ Learning Framework
+
+Usage:
+    cpplings                    Run next exercise in watch mode
+    cpplings watch              Run next exercise in watch mode
+    cpplings run <name>         Run a specific exercise
+    cpplings list               List all exercises
+    cpplings verify             Verify all exercises
+    cpplings --help             Show this help message
+"""
+
+import sys
+from pathlib import Path
+
+# Add src to path (script is already in cpplings directory)
+sys.path.insert(0, str(Path(__file__).parent / "src"))
+
+# Import and run the main cpplings module
+from cpplings import main
+
+if __name__ == '__main__':
+    main()
