@@ -2,8 +2,11 @@
 #include <thread>
 #include <mutex>
 
-// std::scoped_lock - lock multiple mutexes without deadlock
-// Replace manual locking with scoped_lock
+// std::scoped_lock - Deadlock-Free Multi-Mutex Locking
+// Fix potential deadlock by using scoped_lock
+// Expected output:
+//   Account A: 500, Account B: 500
+//   Total: 1000 (should always be 1000)
 
 std::mutex mtx1;
 std::mutex mtx2;
@@ -48,9 +51,8 @@ int main() {
     t1.join();
     t2.join();
 
-    std::cout << "Resource1: " << resource1 << std::endl;
-    std::cout << "Resource2: " << resource2 << std::endl;
-    std::cout << "Total: " << (resource1 + resource2) << std::endl;
+    std::cout << "Account A: " << resource1 << ", Account B: " << resource2 << std::endl;
+    std::cout << "Total: " << (resource1 + resource2) << " (should always be 2000)" << std::endl;
 
     return 0;
 }
