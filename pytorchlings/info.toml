@@ -519,3 +519,68 @@ mode = "run"
 hint = """
 AMP benefits: 2-3x faster on GPU with Tensor Cores, ~50% less memory.
 Most beneficial for large models on V100, A100, RTX GPUs."""
+
+# Advanced Transformers (expanded)
+[[exercises]]
+name = "transformers03"
+path = "exercises/12_transformers/transformers03.py"
+mode = "run"
+requires = ["torch"]
+hint = """
+Implement sinusoidal positional encoding from scratch.
+Use sin for even indices, cos for odd indices.
+Formula: PE(pos, 2i) = sin(pos / 10000^(2i/d_model))
+Register as buffer, not parameter."""
+
+[[exercises]]
+name = "transformers04"
+path = "exercises/12_transformers/transformers04.py"
+mode = "run"
+requires = ["torch"]
+hint = """
+Implement multi-head attention without using nn.MultiheadAttention.
+Create Q, K, V projections, split into heads, apply scaled dot-product.
+Don't forget to scale by sqrt(d_k) and handle masking.
+Concatenate heads and project back to d_model."""
+
+# Reinforcement Learning
+[[exercises]]
+name = "rl01"
+path = "exercises/21_reinforcement/rl01.py"
+mode = "run"
+hint = """
+Implement a simple GridWorld environment from scratch.
+Define state/action spaces, step function, and reward structure.
+Compute both undiscounted and discounted returns.
+Understand the difference between return and reward."""
+
+[[exercises]]
+name = "rl02"
+path = "exercises/21_reinforcement/rl02.py"
+mode = "run"
+hint = """
+Implement Q-learning with epsilon-greedy exploration.
+Initialize Q-table as (n_states, n_actions) tensor.
+Update rule: Q(s,a) ← Q(s,a) + α[r + γ max Q(s',a') - Q(s,a)]
+Decay epsilon over time to shift from exploration to exploitation."""
+
+[[exercises]]
+name = "rl03"
+path = "exercises/21_reinforcement/rl03.py"
+mode = "run"
+hint = """
+Implement Deep Q-Network (DQN) with experience replay.
+Create Q-network, target network, and replay buffer.
+Sample random batches to break correlation.
+Update target network periodically for stability."""
+
+[[exercises]]
+name = "rl04"
+path = "exercises/21_reinforcement/rl04.py"
+mode = "run"
+hint = """
+Implement REINFORCE (policy gradient) algorithm.
+Policy network outputs action probabilities (softmax).
+Sample actions from Categorical distribution.
+Update using policy gradient: ∇J = E[∇ log π(a|s) * G_t]
+Normalize returns as simple baseline to reduce variance."""
