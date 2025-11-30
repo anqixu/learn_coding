@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+"""
+PyTorchlings - Interactive PyTorch Learning Framework
+
+Usage:
+    pytorchlings                    Run next exercise in watch mode
+    pytorchlings watch              Run next exercise in watch mode
+    pytorchlings run <name>         Run a specific exercise
+    pytorchlings hint               Show hint for next exercise
+    pytorchlings list               List all exercises
+    pytorchlings libraries          Check which libraries are installed
+    pytorchlings verify             Verify all exercises
+    pytorchlings reset              Reset progress
+    pytorchlings --help             Show this help message
+"""
+
+import sys
+from pathlib import Path
+
+# Add src to path
+sys.path.insert(0, str(Path(__file__).parent))
+
+from src.runner import ExerciseRunner
+
+
+def print_banner():
+    """Print welcome banner"""
+    banner = """
+    ╔═══════════════════════════════════════════════════════╗
+    ║                                                       ║
+    ║          🔥 PyTorchlings 🔥                           ║
+    ║                                                       ║
+    ║     Interactive PyTorch Learning Framework            ║
+    ║                                                       ║
+    ╚═══════════════════════════════════════════════════════╝
+    """
+    print(banner)
+
+
+def print_help():
+    """Print help message"""
+    print(__doc__)
+
+
+def main():
+    """Main entry point"""
+    args = sys.argv[1:]
+
+    # Handle help
+    if '--help' in args or '-h' in args:
+        print_help()
+        return
+
+    # Initialize runner
+    runner = ExerciseRunner()
+
+    # No arguments: default to watch mode
+    if not args:
+        print_banner()
+        runner.watch_mode()
+        return
+
+    command = args[0]
+
+    if command == 'watch':
+        print_banner()
+        runner.watch_mode()
+
+    elif command == 'run':
+        if len(args) < 2:
+            print("Error: 'run' requires an exercise name")
+            print("Usage: pytorchlings run <exercise_name>")
+            sys.exit(1)
+        runner.run_single(args[1])
+
+    elif command == 'hint':
+        next_ex = runner.find_next_exercise()
+        if next_ex:
+            print(f"Next exercise: {next_ex.name}")
+            runner.show_hint(next_ex)
+        else:
+            print("All exercises completed!")
+
+    elif command == 'list':
+        runner.list_exercises()
+
+    elif command == 'verify':
+        runner.verify_all()
+
+    elif command == 'reset':
+        confirm = input("Are you sure you want to reset all progress? (y/N): ")
+        if confirm.lower() == 'y':
+            runner.reset_progress()
+        else:
+            print("Reset cancelled.")
+
+    elif command == 'libraries' or command == 'libs':
+        from src.library_check import print_library_status
+        print_library_status()
+
+    else:
+        print(f"Unknown command: {command}")
+        print_help()
+        sys.exit(1)
+
+
+if __name__ == '__main__':
+    main()

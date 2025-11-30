@@ -1,0 +1,110 @@
+# PyTorchlings Requirements
+# ============================================
+# This file supports multiple installation profiles
+# ============================================
+
+# Minimal core - REQUIRED
+# Only needed to run the framework and browse exercises
+toml>=0.10.2
+
+# ============================================
+# PyTorch - OPTIONAL but recommended
+# ============================================
+# Needed for: 90% of exercises (categories 01-25)
+# Termux compatible: YES
+# Uncomment to enable:
+# torch>=2.0.0
+# torchvision>=0.15.0
+# Pillow>=9.0.0
+
+# ============================================
+# Optional Features
+# ============================================
+
+# Watch mode - Auto-reload exercises when you save
+# Termux compatible: YES
+# Needed for: ./pytorchlings watch
+# watchdog>=2.1.0
+
+# ============================================
+# Optional Libraries (may not work on Termux/Android)
+# ============================================
+
+# TorchAudio - Audio processing
+# Termux compatible: PARTIAL (installation may fail)
+# Needed for: exercises/11_audio/*
+# Alternative: Skip audio exercises on Termux
+# torchaudio>=2.0.0
+
+# PyTorch Lightning - High-level training framework
+# Termux compatible: PARTIAL (many dependencies)
+# Needed for: exercises/09_lightning/*
+# Alternative: These exercises are conceptual on Termux
+# pytorch-lightning>=2.0.0
+
+# Transformers - NLP models (large downloads)
+# Termux compatible: YES (but requires storage)
+# Needed for: exercises/12_transformers/*, exercises/13_huggingface/*
+# Note: Pretrained models are large (>500MB)
+# transformers>=4.30.0
+# datasets>=2.10.0
+
+# PyTorch Geometric - Graph Neural Networks
+# Termux compatible: NO (complex build dependencies)
+# Needed for: exercises/28_gnn/*
+# Alternative: Skip GNN exercises on Termux
+# torch-geometric>=2.3.0
+
+# ============================================
+# Installation Profiles
+# ============================================
+
+# Profile 1: Minimal (browse exercises only)
+#   pip install toml
+#   Use: Browse code, understand concepts
+#   Limitations: Can't run exercises
+
+# Profile 2: Basic (recommended for Termux)
+#   pip install toml torch torchvision Pillow
+#   Use: Run ~90% of exercises
+#   Limitations: Skip audio, lightning, GNN exercises
+
+# Profile 3: Standard (recommended for desktop)
+#   pip install toml torch torchvision Pillow watchdog
+#   Use: Run core exercises with watch mode
+#   Limitations: Skip optional library exercises
+
+# Profile 4: Full (desktop only, large download)
+#   pip install toml torch torchvision Pillow torchaudio pytorch-lightning transformers datasets watchdog
+#   Use: Run all exercises
+#   Limitations: Large download, not for Termux
+
+# ============================================
+# Termux-Specific Installation
+# ============================================
+
+# For Termux on Android:
+# 1. Install basic tools:
+#    pkg install python git
+#
+# 2. Install PyTorchlings (basic profile):
+#    pip install toml
+#    pip install torch torchvision
+#    pip install Pillow
+#
+# 3. SKIP these (won't work on Termux):
+#    - torchaudio (build issues)
+#    - pytorch-lightning (too many dependencies)
+#    - torch-geometric (C++ compilation needed)
+#
+# 4. Optional (if you have storage):
+#    pip install watchdog  # For watch mode
+#
+# The framework will automatically skip exercises
+# requiring unavailable libraries.
+
+# ============================================
+# Development/Testing
+# ============================================
+# Uses built-in unittest - no pytest needed
+# No additional dependencies required

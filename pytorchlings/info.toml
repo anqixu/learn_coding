@@ -1,0 +1,521 @@
+# Exercise metadata for pytorchlings
+
+[[exercises]]
+name = "intro01"
+path = "exercises/01_intro/intro01.py"
+mode = "run"
+hint = """
+This is your first exercise! Just remove the 'I AM NOT DONE' line and run it.
+The exercise will pass once you remove that marker."""
+
+[[exercises]]
+name = "intro02"
+path = "exercises/01_intro/intro02.py"
+mode = "run"
+hint = """
+Check if PyTorch is installed correctly by importing torch and printing its version.
+Use torch.__version__ to get the version string."""
+
+# Tensor Basics
+[[exercises]]
+name = "tensors01"
+path = "exercises/02_tensors/tensors01.py"
+mode = "run"
+hint = """
+Create tensors using torch.tensor(). You can pass Python lists or nested lists.
+Try: torch.tensor([1, 2, 3]) or torch.tensor([[1, 2], [3, 4]])"""
+
+[[exercises]]
+name = "tensors02"
+path = "exercises/02_tensors/tensors02.py"
+mode = "run"
+hint = """
+Use torch.zeros(), torch.ones(), torch.rand(), and torch.randn() to create tensors.
+The shape is passed as arguments: torch.zeros(3, 4) creates a 3x4 tensor."""
+
+[[exercises]]
+name = "tensors03"
+path = "exercises/02_tensors/tensors03.py"
+mode = "run"
+hint = """
+Tensor operations: add (+), subtract (-), multiply (*), divide (/).
+You can also use torch.add(), torch.mul(), etc.
+Matrix multiplication uses @ or torch.matmul()."""
+
+[[exercises]]
+name = "tensors04"
+path = "exercises/02_tensors/tensors04.py"
+mode = "run"
+hint = """
+Reshape tensors using .view() or .reshape().
+.view() requires contiguous memory, .reshape() is more flexible.
+Use -1 to infer a dimension: tensor.view(-1, 4)"""
+
+[[exercises]]
+name = "tensors05"
+path = "exercises/02_tensors/tensors05.py"
+mode = "run"
+hint = """
+Indexing and slicing work like NumPy: tensor[0], tensor[:, 1], tensor[0:2, 1:3].
+Use .item() to get a Python scalar from a single-element tensor."""
+
+# Autograd
+[[exercises]]
+name = "autograd01"
+path = "exercises/03_autograd/autograd01.py"
+mode = "run"
+hint = """
+Set requires_grad=True when creating a tensor to track computations.
+Call .backward() on the result to compute gradients.
+Access gradients with .grad attribute."""
+
+[[exercises]]
+name = "autograd02"
+path = "exercises/03_autograd/autograd02.py"
+mode = "run"
+hint = """
+Gradients accumulate by default. Use .zero_() to clear them.
+This is important in training loops where you compute gradients multiple times."""
+
+[[exercises]]
+name = "autograd03"
+path = "exercises/03_autograd/autograd03.py"
+mode = "run"
+hint = """
+Use torch.no_grad() context manager to disable gradient tracking.
+This is useful during inference to save memory and computation."""
+
+[[exercises]]
+name = "autograd04"
+path = "exercises/03_autograd/autograd04.py"
+mode = "run"
+hint = """
+The computational graph tracks all operations.
+You can only call .backward() once on a graph unless you set retain_graph=True."""
+
+# Neural Networks (torch.nn)
+[[exercises]]
+name = "nn01"
+path = "exercises/04_nn/nn01.py"
+mode = "run"
+hint = """
+Create a simple neural network by subclassing nn.Module.
+Define layers in __init__ and implement forward() method."""
+
+[[exercises]]
+name = "nn02"
+path = "exercises/04_nn/nn02.py"
+mode = "run"
+hint = """
+Common layers: nn.Linear(in_features, out_features), nn.Conv2d(), nn.BatchNorm2d().
+Activation functions: nn.ReLU(), nn.Sigmoid(), nn.Tanh()."""
+
+[[exercises]]
+name = "nn03"
+path = "exercises/04_nn/nn03.py"
+mode = "run"
+hint = """
+Use nn.Sequential to chain layers together.
+This is convenient for simple feed-forward architectures."""
+
+[[exercises]]
+name = "nn04"
+path = "exercises/04_nn/nn04.py"
+mode = "run"
+hint = """
+Loss functions: nn.MSELoss(), nn.CrossEntropyLoss(), nn.BCELoss().
+Pass predictions and targets to compute loss."""
+
+# Optimizers
+[[exercises]]
+name = "optim01"
+path = "exercises/05_optimizers/optim01.py"
+mode = "run"
+hint = """
+Create an optimizer with optim.SGD(model.parameters(), lr=0.01).
+Call optimizer.zero_grad() before backward, then optimizer.step() after."""
+
+[[exercises]]
+name = "optim02"
+path = "exercises/05_optimizers/optim02.py"
+mode = "run"
+hint = """
+Popular optimizers: optim.Adam, optim.AdamW, optim.RMSprop.
+Adam is a good default choice with learning rate around 1e-3."""
+
+[[exercises]]
+name = "optim03"
+path = "exercises/05_optimizers/optim03.py"
+mode = "run"
+hint = """
+Learning rate schedulers: optim.lr_scheduler.StepLR, ReduceLROnPlateau.
+Call scheduler.step() after each epoch (or batch for some schedulers)."""
+
+# Data Loading
+[[exercises]]
+name = "data01"
+path = "exercises/06_data/data01.py"
+mode = "run"
+hint = """
+Create a custom Dataset by subclassing torch.utils.data.Dataset.
+Implement __len__() and __getitem__() methods."""
+
+[[exercises]]
+name = "data02"
+path = "exercises/06_data/data02.py"
+mode = "run"
+hint = """
+Use DataLoader to batch and shuffle data: DataLoader(dataset, batch_size=32, shuffle=True).
+Iterate over the DataLoader to get batches."""
+
+[[exercises]]
+name = "data03"
+path = "exercises/06_data/data03.py"
+mode = "run"
+hint = """
+Use TensorDataset for simple cases: TensorDataset(features, labels).
+It wraps tensors into a dataset."""
+
+# Data Augmentation
+[[exercises]]
+name = "augment01"
+path = "exercises/07_augmentation/augment01.py"
+mode = "run"
+hint = """
+Use torchvision.transforms for data augmentation.
+Common transforms: RandomHorizontalFlip, RandomCrop, RandomRotation."""
+
+[[exercises]]
+name = "augment02"
+path = "exercises/07_augmentation/augment02.py"
+mode = "run"
+hint = """
+Chain transforms with transforms.Compose([transform1, transform2, ...]).
+Apply to PIL images or tensors depending on the transform."""
+
+# CNN
+[[exercises]]
+name = "cnn01"
+path = "exercises/08_cnn/cnn01.py"
+mode = "run"
+hint = """
+nn.Conv2d(in_channels, out_channels, kernel_size).
+Common pattern: Conv -> BatchNorm -> ReLU -> Pool."""
+
+[[exercises]]
+name = "cnn02"
+path = "exercises/08_cnn/cnn02.py"
+mode = "run"
+hint = """
+Pooling layers: nn.MaxPool2d(kernel_size), nn.AvgPool2d().
+Use to reduce spatial dimensions."""
+
+[[exercises]]
+name = "cnn03"
+path = "exercises/08_cnn/cnn03.py"
+mode = "run"
+hint = """
+Build a complete CNN for image classification.
+Flatten before fully connected layers: x.view(x.size(0), -1)."""
+
+# PyTorch Lightning
+[[exercises]]
+name = "lightning01"
+path = "exercises/09_lightning/lightning01.py"
+mode = "run"
+requires = ["torch", "pytorch_lightning"]
+hint = """
+Create a LightningModule by subclassing pl.LightningModule.
+Implement training_step, configure_optimizers, and optionally validation_step."""
+
+[[exercises]]
+name = "lightning02"
+path = "exercises/09_lightning/lightning02.py"
+mode = "run"
+requires = ["torch", "pytorch_lightning"]
+hint = """
+Use pl.Trainer to train models: Trainer(max_epochs=10).fit(model, dataloader).
+Lightning handles device placement, logging, and checkpointing."""
+
+# TorchVision
+[[exercises]]
+name = "vision01"
+path = "exercises/10_vision/vision01.py"
+mode = "run"
+hint = """
+Load pretrained models: torchvision.models.resnet50(pretrained=True).
+For newer versions, use weights parameter instead of pretrained."""
+
+[[exercises]]
+name = "vision02"
+path = "exercises/10_vision/vision02.py"
+mode = "run"
+hint = """
+Use torchvision.datasets for common datasets: MNIST, CIFAR10, ImageNet.
+Combine with transforms and DataLoader."""
+
+# TorchAudio
+[[exercises]]
+name = "audio01"
+path = "exercises/11_audio/audio01.py"
+mode = "run"
+requires = ["torch", "torchaudio"]
+hint = """
+Load audio with torchaudio.load(filepath).
+Returns waveform tensor and sample rate."""
+
+[[exercises]]
+name = "audio02"
+path = "exercises/11_audio/audio02.py"
+mode = "run"
+requires = ["torch", "torchaudio"]
+hint = """
+Use torchaudio.transforms for audio processing.
+Common: Resample, MelSpectrogram, MFCC."""
+
+# Transformers
+[[exercises]]
+name = "transformers01"
+path = "exercises/12_transformers/transformers01.py"
+mode = "run"
+requires = ["torch", "transformers"]
+hint = """
+Use transformers library from Hugging Face.
+Load models with AutoModel.from_pretrained(model_name)."""
+
+[[exercises]]
+name = "transformers02"
+path = "exercises/12_transformers/transformers02.py"
+mode = "run"
+requires = ["torch", "transformers"]
+hint = """
+Tokenizers: AutoTokenizer.from_pretrained(model_name).
+Encode text with tokenizer(text, return_tensors='pt')."""
+
+# Hugging Face
+[[exercises]]
+name = "huggingface01"
+path = "exercises/13_huggingface/huggingface01.py"
+mode = "run"
+requires = ["torch", "transformers"]
+hint = """
+Use pipeline() for quick inference: pipeline('sentiment-analysis').
+Available tasks: text-generation, question-answering, etc."""
+
+[[exercises]]
+name = "huggingface02"
+path = "exercises/13_huggingface/huggingface02.py"
+mode = "run"
+requires = ["torch", "transformers", "datasets"]
+hint = """
+Use datasets library to load datasets: load_dataset('imdb').
+Integrates well with transformers and PyTorch."""
+
+# Advanced Topics
+[[exercises]]
+name = "advanced01"
+path = "exercises/14_advanced/advanced01.py"
+mode = "run"
+hint = """
+Model quantization reduces model size and speeds up inference.
+Use torch.quantization for static/dynamic quantization."""
+
+[[exercises]]
+name = "advanced02"
+path = "exercises/14_advanced/advanced02.py"
+mode = "run"
+hint = """
+Pruning removes less important weights.
+Use torch.nn.utils.prune for structured/unstructured pruning."""
+
+[[exercises]]
+name = "advanced03"
+path = "exercises/14_advanced/advanced03.py"
+mode = "run"
+hint = """
+Export models to ONNX for deployment: torch.onnx.export().
+ONNX models can run on various platforms and frameworks."""
+
+# Further sections (placeholders)
+[[exercises]]
+name = "further01"
+path = "exercises/15_further/further01.py"
+mode = "run"
+hint = """
+This section is for future advanced topics.
+Topics could include: distributed training, mixed precision, custom CUDA kernels, etc."""
+
+# Debugging
+[[exercises]]
+name = "debug01"
+path = "exercises/16_debugging/debug01.py"
+mode = "run"
+hint = """
+Tensor dimension mismatches are common! Use .shape to debug.
+Input to Linear(10, 20) must have last dimension 10."""
+
+[[exercises]]
+name = "debug02"
+path = "exercises/16_debugging/debug02.py"
+mode = "run"
+hint = """
+Vectorize operations! Loops are slow in Python.
+Use built-in tensor operations instead."""
+
+[[exercises]]
+name = "debug03"
+path = "exercises/16_debugging/debug03.py"
+mode = "run"
+hint = """
+Print shapes at each step to track dimensions.
+Use hooks for deeper inspection of layer outputs."""
+
+# Model Distillation
+[[exercises]]
+name = "distill01"
+path = "exercises/17_distillation/distill01.py"
+mode = "run"
+hint = """
+Distillation uses soft targets from teacher model.
+Temperature controls softness of probability distributions."""
+
+[[exercises]]
+name = "distill02"
+path = "exercises/17_distillation/distill02.py"
+mode = "run"
+hint = """
+Combine hard loss (true labels) with soft loss (teacher predictions).
+Alpha parameter balances the two losses."""
+
+# Recurrent Neural Networks
+[[exercises]]
+name = "rnn01"
+path = "exercises/18_rnn/rnn01.py"
+mode = "run"
+hint = """
+RNN layer processes sequences. Input shape: (seq_len, batch, input_size).
+Hidden state shape: (num_layers, batch, hidden_size)."""
+
+[[exercises]]
+name = "rnn02"
+path = "exercises/18_rnn/rnn02.py"
+mode = "run"
+hint = """
+LSTM has both hidden state (h) and cell state (c).
+Cell state acts as long-term memory, hidden state as short-term."""
+
+[[exercises]]
+name = "rnn03"
+path = "exercises/18_rnn/rnn03.py"
+mode = "run"
+hint = """
+GRU has fewer parameters than LSTM (no separate cell state).
+Often performs similarly to LSTM with faster training."""
+
+[[exercises]]
+name = "rnn04"
+path = "exercises/18_rnn/rnn04.py"
+mode = "run"
+hint = """
+Bidirectional RNN processes sequence in both directions.
+Set bidirectional=True. Output size doubles (concatenation)."""
+
+[[exercises]]
+name = "rnn05"
+path = "exercises/18_rnn/rnn05.py"
+mode = "run"
+hint = """
+Seq2Seq has encoder and decoder. Encoder's final state becomes
+decoder's initial state (the "thought vector")."""
+
+# Attention Mechanisms
+[[exercises]]
+name = "attention01"
+path = "exercises/19_attention/attention01.py"
+mode = "run"
+hint = """
+Attention computes weighted sum: scores = Q·K, weights = softmax(scores),
+output = weights·V. Allows dynamic focus on relevant parts."""
+
+[[exercises]]
+name = "attention02"
+path = "exercises/19_attention/attention02.py"
+mode = "run"
+hint = """
+Multi-head attention: nn.MultiheadAttention(embed_dim, num_heads).
+Each head attends to different aspects of the input."""
+
+[[exercises]]
+name = "attention03"
+path = "exercises/19_attention/attention03.py"
+mode = "run"
+hint = """
+Self-attention: Q, K, V all come from same sequence.
+Scale by √d_model to prevent softmax saturation."""
+
+[[exercises]]
+name = "attention04"
+path = "exercises/19_attention/attention04.py"
+mode = "run"
+hint = """
+Scaled dot-product: scores = Q·K^T / √d_k, then softmax.
+Mask prevents attending to certain positions (e.g., future tokens)."""
+
+# Transfer Learning
+[[exercises]]
+name = "transfer01"
+path = "exercises/20_transfer/transfer01.py"
+mode = "run"
+hint = """
+Load pretrained: models.resnet18(weights='DEFAULT').
+Freeze parameters: param.requires_grad = False.
+Replace final layer for your task."""
+
+[[exercises]]
+name = "transfer02"
+path = "exercises/20_transfer/transfer02.py"
+mode = "run"
+hint = """
+Progressive fine-tuning: Start with frozen weights, gradually unfreeze.
+Unfreeze later layers first (they're more task-specific)."""
+
+[[exercises]]
+name = "transfer03"
+path = "exercises/20_transfer/transfer03.py"
+mode = "run"
+hint = """
+Discriminative learning rates: Lower LR for pretrained layers,
+higher LR for new layers. Create parameter groups in optimizer."""
+
+[[exercises]]
+name = "transfer04"
+path = "exercises/20_transfer/transfer04.py"
+mode = "run"
+hint = """
+Domain adaptation: Modify input layer for different modality.
+Average RGB weights for grayscale: weight.mean(dim=1, keepdim=True)."""
+
+# Mixed Precision Training
+[[exercises]]
+name = "amp01"
+path = "exercises/25_mixedprec/amp01.py"
+mode = "run"
+hint = """
+Use torch.cuda.amp.autocast() for forward pass.
+GradScaler handles gradient scaling: scale, backward, step, update."""
+
+[[exercises]]
+name = "amp02"
+path = "exercises/25_mixedprec/amp02.py"
+mode = "run"
+hint = """
+GradScaler multiplies gradients by scale factor to prevent underflow.
+Scale adjusts dynamically based on inf/NaN detection."""
+
+[[exercises]]
+name = "amp03"
+path = "exercises/25_mixedprec/amp03.py"
+mode = "run"
+hint = """
+AMP benefits: 2-3x faster on GPU with Tensor Cores, ~50% less memory.
+Most beneficial for large models on V100, A100, RTX GPUs."""
