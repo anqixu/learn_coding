@@ -7,8 +7,10 @@ import argparse
 import tomllib
 import shutil
 import re
+from pathlib import Path
 
-CONFIG_FILE = "config.toml"
+# Config file is in the cpplings directory (parent of src/)
+CONFIG_FILE = str(Path(__file__).parent.parent / "config.toml")
 
 # Auto-detect C++ compiler
 def detect_compiler():
