@@ -1,43 +1,74 @@
 #include <iostream>
+#include <string>
 
-// Fold Expressions - reduce parameter pack with operator
-// Simplify variadic template operations
+// Fold Expressions - Variadic Operations
+// Replace manual recursion with fold expressions
+// Expected output:
+//   Sum: 15
+//   Product: 120
+//   All positive: true
+//   Concat: Hello World!
+//   Max: 9
 
-// TODO: Use fold expression instead of recursion
-template<typename... Args>
-auto sum_recursive(Args... args) {
-    // Recursive approach
-    return (args + ...);  // Use fold expression!
-}
-
-// Manual recursive version
+// Manual recursive sum (OLD WAY)
 template<typename T>
-T sum_manual(T value) {
-    return value;
-}
+T sum_recursive(T val) { return val; }
 
 template<typename T, typename... Args>
-T sum_manual(T first, Args... rest) {
-    return first + sum_manual(rest...);
+T sum_recursive(T first, Args... rest) {
+    return first + sum_recursive(rest...);
 }
 
-// TODO: Implement print_all using fold expression
+// TODO: Implement sum using fold expression
+// Use: (args + ...)
 template<typename... Args>
-void print_all(Args... args) {
-    // TODO: Use (std::cout << ... << args);
-    int dummy[] = {(std::cout << args << " ", 0)...};
-    (void)dummy;
-    std::cout << std::endl;
+auto sum(Args... args) {
+    // TODO: return (args + ...);
+    return sum_recursive(args...);  // Replace this!
+}
+
+// TODO: Implement product using fold expression
+// Use: (args * ...)
+template<typename... Args>
+auto product(Args... args) {
+    // TODO: return (args * ...);
+    return 0;
+}
+
+// TODO: Implement all_positive using fold expression
+// Use: (args && ...) to check all > 0
+template<typename... Args>
+bool all_positive(Args... args) {
+    // TODO: return ((args > 0) && ...);
+    return false;
+}
+
+// TODO: Implement concat using fold expression
+// Use: (args + ...) for strings
+template<typename... Args>
+std::string concat(Args... args) {
+    // TODO: return (args + ...);
+    return "";
+}
+
+// TODO: Implement max_value using fold expression
+// Use: ((a > b ? a : b), ...) pattern
+template<typename T, typename... Args>
+T max_value(T first, Args... rest) {
+    // TODO: Use fold with ternary operator
+    // return (first >... > rest);
+    return first;
 }
 
 int main() {
-    std::cout << "Sum: " << sum_manual(1, 2, 3, 4, 5) << std::endl;
+    std::cout << "Sum: " << sum(1, 2, 3, 4, 5) << std::endl;
+    std::cout << "Product: " << product(1, 2, 3, 4, 5) << std::endl;
+    std::cout << "All positive: " << (all_positive(1, 2, 3) ? "true" : "false") << std::endl;
 
-    // TODO: Use fold expression version
-    // std::cout << "Sum (fold): " << sum_fold(1, 2, 3, 4, 5) << std::endl;
+    using namespace std::string_literals;
+    std::cout << "Concat: " << concat("Hello"s, " "s, "World"s, "!"s) << std::endl;
 
-    print_all(1, 2, 3, 4, 5);
-    print_all("Hello", " ", "World", "!");
+    std::cout << "Max: " << max_value(3, 7, 2, 9, 1) << std::endl;
 
     return 0;
 }
