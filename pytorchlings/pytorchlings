@@ -8,6 +8,7 @@ Usage:
     pytorchlings run <name>         Run a specific exercise
     pytorchlings hint               Show hint for next exercise
     pytorchlings list               List all exercises
+    pytorchlings stats              Show completion stats by category
     pytorchlings libraries          Check which libraries are installed
     pytorchlings verify             Verify all exercises
     pytorchlings reset              Reset progress
@@ -93,6 +94,9 @@ def main():
             runner.reset_progress()
         else:
             print("Reset cancelled.")
+
+    elif command == 'stats':
+        runner.show_stats()
 
     elif command == 'libraries' or command == 'libs':
         from src.library_check import print_library_status

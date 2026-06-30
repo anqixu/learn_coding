@@ -1720,3 +1720,55 @@ mode = "run"
 hint = "Client streaming."
 libs = ['-lgrpc++', '-lgrpc', '-lprotobuf']
 
+
+# ── Section 15: OOP ─────────────────────────────────────────────────────────
+
+[[exercises]]
+name = "oop01"
+path = "exercises/15_oop/oop01.cpp"
+mode = "run"
+hint = """Make the two member fields private (move them under 'private:').
+Initialize 'balance' to 0.0 in the constructor body (or member initializer list).
+After your fix, the line 'acc.balance = 99999;' should not compile."""
+
+[[exercises]]
+name = "oop02"
+path = "exercises/15_oop/oop02.cpp"
+mode = "run"
+hint = """Two bugs to fix:
+1. Add 'virtual' to the base-class destructor so ~Circle() runs when deleting via Shape*.
+2. Fix the typo 'areaa()' → 'area()' so Circle overrides Shape::area() instead of hiding it.
+   After the fix, 'make_unique<Circle>' will stop being rejected as abstract."""
+
+[[exercises]]
+name = "oop03"
+path = "exercises/15_oop/oop03.cpp"
+mode = "run"
+hint = """Add three missing operators to Vec2:
+  Vec2 operator+(const Vec2& other) const { return {x + other.x, y + other.y}; }
+  Vec2 operator*(double s)          const { return {x * s, y * s}; }
+  bool operator==(const Vec2& o)    const { return x == o.x && y == o.y; }
+And the free function: std::ostream& operator<<(std::ostream& os, const Vec2& v)
+  { return os << '(' << v.x << ", " << v.y << ')'; }"""
+
+[[exercises]]
+name = "oop04"
+path = "exercises/15_oop/oop04.cpp"
+mode = "run"
+hint = """Add a destructor that closes the file and prints the teardown message:
+  ~Logger() {
+      if (file.is_open()) file.close();
+      std::cout << "Logger closed (file handle released)" << std::endl;
+  }
+Also guard the constructor: if (!file.is_open()) throw std::runtime_error(\"cannot open \" + path);"""
+
+[[exercises]]
+name = "oop05"
+path = "exercises/15_oop/oop05.cpp"
+mode = "run"
+hint = """Implement JsonSerializer::serialize():
+  return "{\"name\":\"" + r.name + "\",\"score\":" + std::to_string(r.score) + "}";
+Implement CsvSerializer::header():
+  return "name,score";
+Implement CsvSerializer::serialize():
+  return r.name + "," + std::to_string(r.score);"""

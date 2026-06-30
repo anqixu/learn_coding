@@ -47,6 +47,7 @@ Each exercise has broken or incomplete C++ code. Fix it, then remove `// I AM NO
 | 12 | advanced | Systems programming | ⚠️ 4/20 |
 | 13 | protobuf | Data serialization (requires libprotobuf) | ⚠️ placeholders |
 | 14 | grpc | RPC framework (requires libgrpc++) | ⚠️ placeholders |
+| 15 | oop | Classes, inheritance, operators, RAII, interfaces | ✅ 5/5 |
 
 ## TODO
 

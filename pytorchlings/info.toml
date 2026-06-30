@@ -584,3 +584,118 @@ Policy network outputs action probabilities (softmax).
 Sample actions from Categorical distribution.
 Update using policy gradient: ∇J = E[∇ log π(a|s) * G_t]
 Normalize returns as simple baseline to reduce variance."""
+
+# ── Section 22: Time Series ──────────────────────────────────────────────────
+
+[[exercises]]
+name = "ts01"
+path = "exercises/22_timeseries/ts01.py"
+mode = "run"
+hint = """
+SlidingWindowDataset wraps a 1D tensor and generates overlapping windows.
+
+__len__: return len(self.series) - self.window_size
+  (each window shifts by one step, last window ends at series[-2])
+
+__getitem__(idx):
+  x = self.series[idx : idx + self.window_size]   # shape [window_size]
+  y = self.series[idx + self.window_size]          # scalar tensor
+  return x, y"""
+
+[[exercises]]
+name = "ts02"
+path = "exercises/22_timeseries/ts02.py"
+mode = "run"
+hint = """
+LSTMForecaster.forward(x):
+  x = x.unsqueeze(-1)          # [batch, window, 1]
+  out, _ = self.lstm(x)        # out: [batch, window, hidden]
+  last = out[:, -1, :]         # final time step: [batch, hidden]
+  return self.fc(last).squeeze(-1)  # [batch]
+
+Training loop (inside the for epoch loop):
+  optimizer.zero_grad()
+  preds = model(X_train)
+  loss  = loss_fn(preds, y_train)
+  loss.backward()
+  optimizer.step()"""
+
+[[exercises]]
+name = "ts03"
+path = "exercises/22_timeseries/ts03.py"
+mode = "run"
+hint = """
+MAE:  torch.abs(predictions - targets).mean().item()
+RMSE: torch.sqrt(((predictions - targets) ** 2).mean()).item()
+MAPE: (torch.abs(predictions - targets) / (torch.abs(targets) + eps)).mean().item() * 100
+
+Remember: all three functions return a plain Python float, not a tensor.
+Add .item() at the end of each expression."""
+
+# ── Section 23: Training Tricks ──────────────────────────────────────────────
+
+[[exercises]]
+name = "trick01"
+path = "exercises/23_training_tricks/trick01.py"
+mode = "run"
+hint = """
+Add one line AFTER loss.backward() and BEFORE optimizer.step():
+
+  torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
+
+This rescales all parameter gradients so their combined L2 norm ≤ max_norm,
+preventing a single bad batch from exploding the weights."""
+
+[[exercises]]
+name = "trick02"
+path = "exercises/23_training_tricks/trick02.py"
+mode = "run"
+hint = """
+Warmup phase (epoch < warmup_epochs):
+  return base_lr * (epoch + 1) / warmup_epochs
+
+Cosine decay phase (epoch >= warmup_epochs):
+  progress = (epoch - warmup_epochs) / (total_epochs - warmup_epochs)
+  return base_lr * 0.5 * (1 + math.cos(math.pi * progress))
+
+Both branches must use the correct formula — check boundary values:
+epoch=0 → base_lr/warmup, epoch=warmup-1 → base_lr, final epoch → ~0."""
+
+[[exercises]]
+name = "trick03"
+path = "exercises/23_training_tricks/trick03.py"
+mode = "run"
+hint = """
+save_checkpoint:
+  checkpoint = {
+      'model_state':     model.state_dict(),
+      'optimizer_state': optimizer.state_dict(),
+      'epoch':           epoch,
+      'val_loss':        val_loss,
+  }
+  torch.save(checkpoint, path)
+
+load_checkpoint:
+  checkpoint = torch.load(path, weights_only=True)
+  model.load_state_dict(checkpoint['model_state'])
+  optimizer.load_state_dict(checkpoint['optimizer_state'])
+  return checkpoint['epoch'], checkpoint['val_loss']"""
+
+[[exercises]]
+name = "trick04"
+path = "exercises/23_training_tricks/trick04.py"
+mode = "run"
+hint = """
+Gradient accumulation pattern — replace the 'pass' block:
+
+  if step % ACCUM_STEPS == 0:
+      opt.zero_grad()
+
+  loss = loss_fn(model(xb), yb) / ACCUM_STEPS   # scale to match full-batch magnitude
+  loss.backward()                                 # gradients accumulate in .grad
+
+  if (step + 1) % ACCUM_STEPS == 0 or (start + MICRO_BATCH) >= N:
+      opt.step()
+
+The /ACCUM_STEPS scaling is critical: without it each micro-batch update is
+ACCUM_STEPS× larger than a real large-batch gradient."""

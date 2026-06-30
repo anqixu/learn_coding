@@ -243,3 +243,41 @@ class ExerciseRunner:
         """Reset all progress"""
         self.progress.reset()
         print("Progress reset. All exercises marked as incomplete.")
+
+    def show_stats(self):
+        """Show completion statistics broken down by category"""
+        total = len(self.exercises)
+        completed_names = set(self.progress.completed)
+        completed = sum(1 for e in self.exercises if e.name in completed_names)
+        pct = completed / total * 100 if total else 0.0
+
+        # Group by category prefix (e.g. "tensors" from "tensors01")
+        from collections import defaultdict
+        import re
+        categories: dict = defaultdict(lambda: {"total": 0, "done": 0})
+        for ex in self.exercises:
+            cat = re.sub(r'\d+$', '', ex.name)  # strip trailing digits
+            categories[cat]["total"] += 1
+            if ex.name in completed_names:
+                categories[cat]["done"] += 1
+
+        print(f"\nPyTorchlings Progress — {completed}/{total} exercises ({pct:.1f}%)\n")
+        bar_width = 30
+        filled = int(bar_width * pct / 100)
+        bar = "█" * filled + "░" * (bar_width - filled)
+        print(f"  [{bar}] {pct:.0f}%\n")
+
+        print(f"  {'Category':<22} {'Done':>4} / {'Total':>5}  Bar")
+        print("  " + "-" * 50)
+        for cat, counts in sorted(categories.items()):
+            d, t = counts["done"], counts["total"]
+            cat_pct = d / t * 100 if t else 0
+            mini_filled = int(12 * cat_pct / 100)
+            mini_bar = "█" * mini_filled + "░" * (12 - mini_filled)
+            print(f"  {cat:<22} {d:>4} / {t:>5}  [{mini_bar}]")
+
+        remaining = total - completed
+        if remaining == 0:
+            print("\n🎉 All exercises complete!")
+        else:
+            print(f"\n  {remaining} exercise(s) remaining.")

@@ -15,6 +15,7 @@ pip install -r requirements.txt
 chmod +x pytorchlings
 ./pytorchlings          # watch mode (recommended — auto-reruns on save)
 ./pytorchlings list     # list all exercises with status
+./pytorchlings stats    # completion breakdown by category
 ./pytorchlings run <name>
 ./pytorchlings hint
 ./pytorchlings verify
@@ -76,6 +77,9 @@ Progress persists at `~/.pytorchlings_progress.json`.
 | 18 | RNNs (basic, LSTM, GRU, bidirectional, seq2seq) | 5 | ✅ |
 | 19 | Attention (basic, multi-head, self, scaled dot-product) | 4 | ✅ |
 | 20 | Transfer Learning | 4 | ✅ |
+| 21 | Reinforcement Learning (Q-learning, DQN, policy gradients) | 4 | ✅ |
+| 22 | Time Series (sliding window, LSTM forecasting, metrics) | 3 | ✅ |
+| 23 | Training Tricks (grad clip, LR warmup, checkpointing, grad accum) | 4 | ✅ |
 | 25 | Mixed Precision | 3 | ✅ |
 
 ## Contributing
