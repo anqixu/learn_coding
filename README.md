@@ -6,7 +6,7 @@ Interactive coding exercise runners modeled after [Rustlings](https://github.com
 
 | Project | Language | Exercises | Status |
 |---------|----------|-----------|--------|
-| [cpplings](cpplings/) | C++ (11 through 23) | 285 | ~42% high-quality + new 15_oop section |
-| [pytorchlings](pytorchlings/) | Python / PyTorch | 96 | 100% implemented |
+| [cpplings](cpplings/) | C++ (11 through 23) | 270 | consolidated overlap; protobuf/grpc still placeholder-heavy |
+| [pytorchlings](pytorchlings/) | Python / PyTorch | 74 | implemented base set; ML/AI engineering expansion roadmap added |
 
 See each project's `README.md` for build/run instructions and a full TODO list.
